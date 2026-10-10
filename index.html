@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0b1010" />
+    <meta name="description" content="AI WAR GAME — интерактивный прототип стратегии с процедурным 3D-полем боя и симуляцией повреждений." />
+    <title>AI WAR GAME — тактический симулятор</title>
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div class="brand-lockup">
+          <div class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></div>
+          <div class="brand-name"><strong>AI WAR</strong><span>GAME / FIELD SIMULATOR</span></div>
+        </div>
+        <div class="header-divider"></div>
+        <div class="header-operation">
+          <span class="eyebrow">УЧЕБНЫЙ ПОЛИГОН <i class="status-dot"></i></span>
+          <strong>СЕВЕРНЫЙ РУБЕЖ</strong>
+        </div>
+        <div class="topbar-spacer"></div>
+        <div class="session-chip"><span class="chip-dot"></span> СИМУЛЯЦИЯ АКТИВНА</div>
+        <div class="header-date"><span>ДЕНЬ 04</span><strong>06:40 <small>МСК</small></strong></div>
+        <button class="icon-button" id="help-button" aria-label="О проекте" title="О проекте">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.6 9a2.5 2.5 0 0 1 4.8.8c0 1.7-2.4 2.1-2.4 3.7M12 17h.01"/></svg>
+        </button>
+      </header>
+
+      <main class="workspace">
+        <aside class="panel left-panel">
+          <div class="panel-heading">
+            <div><span class="eyebrow">КОНТУР УПРАВЛЕНИЯ</span><h1>Операция</h1></div>
+            <span class="heading-index">01 / 04</span>
+          </div>
+
+          <div class="operation-card">
+            <div class="operation-card-top"><span class="tag tag-live"><i></i> ПОЛИГОН</span><span class="card-code">N-04</span></div>
+            <h2>Северный<br />рубеж</h2>
+            <p>Учебный сценарий · лесной сектор</p>
+            <div class="card-rule"></div>
+            <div class="operation-meta"><span>ПОГОДА</span><strong>Пасмурно <b>·</b> 8°C</strong></div>
+            <div class="operation-meta"><span>ВИДИМОСТЬ</span><strong>Хорошая <b>·</b> 4.2 км</strong></div>
+            <div class="operation-meta"><span>ВЕТЕР</span><strong id="wind-readout">СЗ · 12 км/ч</strong></div>
+          </div>
+
+          <div class="section-title-row"><span class="eyebrow">СИЛЫ В СЕКТОРЕ</span><span class="tiny-count" id="unit-count">08</span></div>
+          <div class="force-card force-russia">
+            <div class="force-emblem emblem-russia"><span>★</span></div>
+            <div class="force-info"><strong>Россия</strong><span>Западная группа</span></div>
+            <div class="force-count"><strong id="russia-count">04</strong><span>ед.</span></div>
+            <i class="force-line"></i>
+          </div>
+          <div class="force-card force-usa">
+            <div class="force-emblem emblem-usa"><span>✦</span></div>
+            <div class="force-info"><strong>США</strong><span>Восточная группа</span></div>
+            <div class="force-count"><strong id="usa-count">04</strong><span>ед.</span></div>
+            <i class="force-line"></i>
+          </div>
+
+          <div class="section-title-row units-title"><span class="eyebrow">ПОДРАЗДЕЛЕНИЯ</span><button class="text-button" id="clear-selection">СБРОСИТЬ</button></div>
+          <div class="unit-list" id="unit-list"></div>
+
+          <div class="left-bottom-note"><span class="pulse-ring"><i></i></span><span>СИСТЕМА ГОТОВА К КОМАНДАМ</span></div>
+        </aside>
+
+        <section class="stage-column" aria-label="3D карта поля боя">
+          <div class="stage-toolbar">
+            <div class="stage-location"><span class="location-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.1 7-12a7 7 0 1 0-14 0c0 5.9 7 12 7 12Z"/><circle cx="12" cy="9" r="2.2"/></svg></span><div><span class="eyebrow">ОПЕРАТИВНАЯ КАРТА <b>•</b> СЕКТОР 04</span><strong>ЛЕСНОЕ <span>/</span> 56°14′ N, 37°38′ E</strong></div></div>
+            <div class="map-toolbar-actions">
+              <span class="coord-readout" id="coord-readout">X: 000 · Z: 000</span>
+              <button class="map-tool-button" id="center-map" title="Центрировать карту" aria-label="Центрировать карту"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="7"/><path d="M12 2v4m0 12v4M2 12h4m12 0h4"/></svg></button>
+              <button class="map-tool-button" id="toggle-labels" title="Скрыть подписи" aria-label="Скрыть подписи"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H9l-5 4V5Z"/><path d="M8 9h8m-8 3h5"/></svg></button>
+            </div>
+          </div>
+
+          <div class="scene-frame" id="scene-frame">
+            <canvas id="battlefield" aria-label="Интерактивная трёхмерная карта"></canvas>
+            <div class="scene-vignette"></div>
+            <div class="scene-grid-overlay"></div>
+            <div class="scene-corner corner-tl"><span>ОБЗОР СЕКТОРА</span><i></i></div>
+            <div class="scene-corner corner-tr"><span id="render-status">ENGINE / INITIALIZING</span><i></i></div>
+            <div class="scene-telemetry"><span class="telemetry-item"><i class="legend-dot terrain-dot"></i>РЕЛЬЕФ</span><span class="telemetry-item"><i class="legend-dot force-ru-dot"></i>РОССИЯ</span><span class="telemetry-item"><i class="legend-dot force-us-dot"></i>США</span><span class="telemetry-item"><i class="legend-dot fire-dot"></i>ПОЖАР / ДЫМ</span></div>
+            <div class="minimap-card">
+              <div class="minimap-head"><span>МИНИ-КАРТА</span><span class="minimap-live"><i></i> LIVE</span></div>
+              <canvas id="minimap" width="224" height="150" aria-label="Мини-карта. Нажмите, чтобы переместить обзор"></canvas>
+              <div class="minimap-scale"><span>0</span><span>3 км</span><span>6 км</span></div>
+            </div>
+            <div class="compass" aria-label="Север"><span>N</span><i></i><b></b></div>
+            <div class="map-toast" id="map-toast" aria-live="polite"></div>
+            <div class="scene-hint" id="scene-hint"><span class="desktop-hints"><span class="hint-key">ЛКМ</span> выбрать <span class="hint-sep">/</span> <span class="hint-key">ПКМ</span> приказать движение <span class="hint-sep">/</span> колесо — масштаб</span><span class="touch-hints"><span class="hint-key">ТАП</span> выбор <span class="hint-sep">/</span> отряд выбран — тап по карте для движения</span></div>
+          </div>
+
+          <div class="command-bar">
+            <div class="command-selection"><span class="selection-mark"></span><div><span class="eyebrow">ВЫБРАННЫЙ ОБЪЕКТ</span><strong id="selection-name">НЕТ ВЫБОРА <small>— щёлкните по подразделению</small></strong></div></div>
+            <div class="command-divider"></div>
+            <div class="command-status"><span class="eyebrow">ТАКТИЧЕСКИЙ РЕЖИМ</span><strong><i class="status-dot"></i> СВОБОДНЫЙ ПРИКАЗ</strong></div>
+            <div class="command-spacer"></div>
+            <button class="run-button" id="pause-button"><span class="run-icon">Ⅱ</span><span id="pause-label">ПАУЗА</span></button>
+          </div>
+        </section>
+
+        <aside class="panel right-panel">
+          <div class="panel-heading right-heading">
+            <div><span class="eyebrow">ПАРАМЕТРЫ СЦЕНАРИЯ</span><h2>Симуляция</h2></div>
+            <button class="icon-button small-icon" id="reset-button" aria-label="Сбросить сценарий" title="Сбросить сценарий"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 9A8 8 0 1 1 4 14"/><path d="M4 4v5h5"/></svg></button>
+          </div>
+
+          <div class="incident-card">
+            <div class="incident-header"><div class="incident-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.8 2.5c.6 4.2-2.9 5.3-1.8 8.3.7 1.7 2 2.2 2 4.1a3 3 0 0 1-6 0c0-2.3 1.1-3.5 2.6-5.3C11.2 5.7 9.4 3.9 9.4 3.9s6.6 2.4 7.3 8.8c1.2-1.1 1.7-2.3 1.6-3.5 2 2.4 2.7 4.4 2.7 6.2a8.3 8.3 0 1 1-16.6 0c0-4 2.7-7.9 8.4-12.9Z"/></svg></div><div><span class="eyebrow">ТЕКУЩИЙ ИНЦИДЕНТ</span><strong id="incident-title">Возгорание на складе</strong></div></div>
+            <div class="incident-state"><span><i class="live-flame"></i> <b id="fire-state">ПОЖАР АКТИВЕН</b></span><span id="damage-readout">УРОН 24%</span></div>
+            <div class="damage-track"><span id="damage-bar"></span></div>
+            <div class="incident-location"><span>ОБЪЕКТ</span><strong id="incident-object">Склад · сектор R-3</strong></div>
+          </div>
+
+          <div class="control-section">
+            <div class="section-title-row"><span class="eyebrow">ВОЗДЕЙСТВИЕ</span><span class="tiny-subtitle">ДЕМО СИСТЕМЫ УРОНА</span></div>
+            <label class="range-label" for="impact-strength"><span>Сила воздействия</span><strong id="impact-value">42%</strong></label>
+            <input id="impact-strength" class="range-input" type="range" min="10" max="100" value="42" />
+            <button class="impact-button" id="impact-button"><span class="impact-button-icon">↗</span><span>СИМУЛИРОВАТЬ ПОПАДАНИЕ</span><span class="impact-button-arrow">→</span></button>
+            <p class="control-hint">Визуальный тест повреждений здания. Эффект не влияет на подразделения.</p>
+          </div>
+
+          <div class="control-section effects-section">
+            <div class="section-title-row"><span class="eyebrow">СИСТЕМА ЭФФЕКТОВ</span><span class="effects-online"><i></i> ONLINE</span></div>
+            <label class="toggle-row"><span class="toggle-icon smoke-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 18a4 4 0 1 1 .7-7.9A5.2 5.2 0 0 1 17.8 12a3.1 3.1 0 0 1-.4 6H7Z"/><path d="M10 9c-1-1.8-.2-3.2.8-4.2m3.5 4c-.6-1.7.3-3 1.1-3.8"/></svg></span><span class="toggle-copy"><strong>Дым и частицы</strong><small>Динамический шлейф, ветер</small></span><input type="checkbox" id="smoke-toggle" checked /><i class="toggle-ui"></i></label>
+            <label class="toggle-row"><span class="toggle-icon fire-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13 2.8c.6 4.4-3.4 5.1-2.2 8.4.6 1.6 2 2 2 4a2.8 2.8 0 0 1-5.6 0c0-2.2 1.1-3.7 2.4-5.3C12.1 6.8 10.6 4 10.6 4S17 7.1 17 13c1-.8 1.4-1.9 1.4-3 1.6 2 2.1 3.6 2.1 5.3a7.5 7.5 0 1 1-15 0C5.5 11.3 9 6.9 13 2.8Z"/></svg></span><span class="toggle-copy"><strong>Огонь и свечение</strong><small>Очаги горения, искры</small></span><input type="checkbox" id="fire-toggle" checked /><i class="toggle-ui"></i></label>
+            <div class="wind-control"><div class="wind-heading"><span>Боковой ветер</span><strong id="wind-value">12 км/ч</strong></div><input id="wind-strength" class="range-input wind-range" type="range" min="0" max="32" value="12" /><div class="wind-scale"><span>ШТИЛЬ</span><span>32 КМ/Ч</span></div></div>
+          </div>
+
+          <div class="selected-card" id="selected-card">
+            <div class="selected-card-head"><span class="eyebrow">КАРТОЧКА ПОДРАЗДЕЛЕНИЯ</span><span class="unit-status"><i></i> ГОТОВ</span></div>
+            <div class="empty-unit" id="empty-unit"><div class="empty-reticle"><span></span></div><div><strong>Подразделение не выбрано</strong><small>Выберите технику на карте или в списке.</small></div></div>
+            <div class="selected-unit-info is-hidden" id="selected-unit-info">
+              <div class="selected-unit-main"><div class="selected-unit-avatar" id="selected-avatar">T</div><div><strong id="selected-unit-name">Т-90М</strong><span id="selected-unit-side">РОССИЯ / БРОНЕТЕХНИКА</span></div></div>
+              <div class="unit-stats"><div><span>КОРПУС</span><strong id="selected-unit-health">100%</strong></div><div><span>СКОРОСТЬ</span><strong id="selected-unit-speed">32 км/ч</strong></div></div>
+              <div class="component-list">
+                <div class="component-row"><span>ДВИГАТЕЛЬ</span><div class="component-track"><i id="engine-bar"></i></div><strong id="engine-value">100%</strong></div>
+                <div class="component-row"><span>ХОДОВАЯ</span><div class="component-track"><i id="mobility-bar"></i></div><strong id="mobility-value">100%</strong></div>
+                <div class="component-row"><span>ВООРУЖЕНИЕ</span><div class="component-track"><i id="weapon-bar"></i></div><strong id="weapon-value">100%</strong></div>
+                <div class="ammo-fuel-row"><span>БК <strong id="ammo-readout">42 / 42</strong></span><span>ТОПЛИВО <strong id="fuel-readout">100%</strong></span></div>
+              </div>
+              <div class="vehicle-test-controls">
+                <select id="vehicle-component" aria-label="Узел техники для проверки">
+                  <option value="engine">Двигатель</option><option value="mobility">Ходовая</option><option value="weapon">Вооружение</option><option value="ammo">Боекомплект</option><option value="hull">Корпус</option><option value="fuelSystem">Топливная система</option>
+                </select>
+                <button class="vehicle-damage-button" id="vehicle-damage-button">СИМУЛИРОВАТЬ ПОВРЕЖДЕНИЕ</button>
+              </div>
+              <button class="ammo-fire-button" id="ammo-fire-button">ТЕСТОВЫЙ ВЫСТРЕЛ · РАСХОД БК</button>
+              <button class="export-button" id="export-button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0 4-4m-4 4-4-4M5 18v3h14v-3"/></svg> ЭКСПОРТ ТЕХНИКИ В GLB</button>
+            </div>
+          </div>
+
+          <div class="log-section">
+            <div class="section-title-row"><span class="eyebrow">ЖУРНАЛ СОБЫТИЙ</span><span class="tiny-subtitle">ПОСЛЕДНИЕ</span></div>
+            <div class="event-log" id="event-log" aria-live="polite"></div>
+          </div>
+        </aside>
+      </main>
+      <div class="mobile-notice"><strong>AI WAR GAME</strong> — для полного обзора откройте симулятор на большом экране.</div>
+      <div class="toast-region" id="toast-region" aria-live="polite"></div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
