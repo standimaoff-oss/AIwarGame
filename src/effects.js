@@ -111,7 +111,7 @@ export class EffectsSystem {
     sprite.position.copy(position);
     const scale = options.scale ?? 1;
     sprite.scale.set(scale, scale, 1);
-    sprite.rotation = options.rotation ?? randomBetween(-Math.PI, Math.PI);
+    sprite.material.rotation = options.rotation ?? randomBetween(-Math.PI, Math.PI);
     sprite.renderOrder = kind === 'smoke' || kind === 'dust' ? 11 : 13;
     this.root.add(sprite);
     this.particles.push({
@@ -443,7 +443,7 @@ export class EffectsSystem {
       const scale = THREE.MathUtils.lerp(particle.startScale, particle.endScale, Math.pow(progress, 0.84));
       particle.sprite.scale.set(scale, scale, 1);
       particle.sprite.material.opacity = particle.opacity * Math.pow(Math.max(0, 1 - progress), particle.fadePower);
-      particle.sprite.rotation += particle.rotationSpeed * delta;
+      particle.sprite.material.rotation += particle.rotationSpeed * delta;
       if (particle.kind === 'smoke') {
         const lift = 0.08 + progress * 0.14;
         particle.sprite.material.color.setRGB(0.82 + lift, 0.84 + lift, 0.82 + lift);

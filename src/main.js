@@ -5,6 +5,7 @@ import { EffectsSystem } from './effects.js';
 import './styles.css';
 
 const $ = (selector) => document.querySelector(selector);
+const clamp = (value, min, max) => Math.max(min, Math.min(max, value));
 const canvas = $('#battlefield');
 const minimap = $('#minimap');
 const minimapContext = minimap.getContext('2d');
