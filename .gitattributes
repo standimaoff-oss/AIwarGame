@@ -1,0 +1,9 @@
+# Skill-репозиторий: только нормализация текста.
+# Полный шаблон .gitattributes с Git LFS для репозитория ассетов:
+# references/templates/gitattributes
+* text=auto eol=lf
+*.md text eol=lf
+*.py text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf

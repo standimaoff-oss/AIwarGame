@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "description": "Пример конфигурации аудита для персонажа. Имена, рост, кадры и лучи замените на фактические.",
+  "targets": [
+    {
+      "id": "body_height",
+      "frame": 1,
+      "objects": ["SK_Char_Body"],
+      "finite_transforms": true,
+      "dimensions_mm": {"expected": [560, 300, 1750], "tolerance_mm": [40, 40, 15]},
+      "topology": {
+        "base": {"max_boundary_edges": 0, "max_wire_edges": 0, "max_loose_vertices": 0},
+        "evaluated": {"max_nonmanifold_edges": 0, "max_zero_area_faces": 0}
+      }
+    },
+    {
+      "id": "head_size",
+      "frame": 1,
+      "objects": ["SK_Char_Head"],
+      "dimensions_mm": {"expected": [155, 200, 230], "tolerance_mm": 12}
+    },
+    {
+      "id": "foot_length",
+      "frame": 1,
+      "collections": ["Char_Feet"],
+      "dimensions_mm": {"expected": [100, 265, 75], "tolerance_mm": [15, 12, 15]}
+    }
+  ],
+  "poses": [
+    {
+      "id": "arm_raised",
+      "frame": 40,
+      "collections": ["Char_Rig", "SK_Char_Body", "Char_Jacket"],
+      "camera": "ProofCamera",
+      "criteria": [
+        {"object": "SK_Char_Body", "visible": true, "finite_transform": true},
+        {"object": "Char_Jacket", "visible": true, "finite_transform": true}
+      ]
+    },
+    {
+      "id": "seated",
+      "frame": 80,
+      "collections": ["Char_Rig", "SK_Char_Body"],
+      "criteria": [{"object": "SK_Char_Body", "visible": true, "finite_transform": true}]
+    }
+  ],
+  "passages": [
+    {
+      "id": "sleeve_opening_clear",
+      "frame": 1,
+      "objects": ["Char_Jacket_Sleeve_L"],
+      "unit": "mm",
+      "samples": [
+        {"start": [520, 0, 1050], "end": [640, 0, 1050]},
+        {"start": [520, 20, 1050], "end": [640, 20, 1050]},
+        {"start": [520, -20, 1050], "end": [640, -20, 1050]}
+      ],
+      "max_hits": 0
+    }
+  ]
+}

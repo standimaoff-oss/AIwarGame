@@ -1,0 +1,80 @@
+{
+  "schema_version": 2,
+  "generated_by": "scripts/make_manifest.py + manual task fields",
+  "source_file": "assets/village-house/source/village-house.blend",
+  "identity": {
+    "slug": "village-house",
+    "name": "Деревенский дом, сруб с кирпичным цоколем",
+    "archetype": "architecture",
+    "variant": "среднерусский сруб 6×8 м, четырёхскатная кровля, жилое состояние",
+    "version": "v005_textured",
+    "status": "review",
+    "task_issue": 12,
+    "branch": "asset/village-house-textures"
+  },
+  "units": {"unit": "m", "scale_length": 1.0, "up_axis": "Z", "export_up_axis": "Y", "unit_system": "metric"},
+  "dimensions_mm": {
+    "bbox": [8240.0, 6120.0, 5310.0],
+    "frame": 1,
+    "includes": "кровля и свесы; крыльцо и труба включены; фигура-линейка исключена",
+    "scope": "collections: House"
+  },
+  "budget": {
+    "triangles": 184320,
+    "triangles_limit": 250000,
+    "vertices": 121900,
+    "objects": 87,
+    "material_sets": 9,
+    "texture_resolution": "4K",
+    "lods": 0,
+    "udim_tiles": 0
+  },
+  "collections": [
+    {"name": "House", "objects": 87, "triangles": 184320, "role": "root"},
+    {"name": "House_Walls", "objects": 14, "triangles": 42100, "role": "structure"},
+    {"name": "House_Roof", "objects": 22, "triangles": 63800, "role": "structure"},
+    {"name": "House_Interior", "objects": 31, "triangles": 58200, "role": "interior"},
+    {"name": "House_DoorFront", "objects": 4, "triangles": 3100, "role": "movable", "movable": true, "pivot": [3120.0, 60.0, 1050.0]},
+    {"name": "ScaleRef", "objects": 1, "triangles": 4200, "role": "helper", "children": ["ScaleRef_Human"]}
+  ],
+  "materials": [
+    {"name": "M_House_Log", "slots": 6, "procedural": false, "images": ["T_House_Log_BaseColor_4k.png", "T_House_Log_Normal_4k.png", "T_House_Log_Roughness_4k.png"], "packed": false, "notes": "сруб, направление волокон по бревну"},
+    {"name": "M_House_RoofTile", "slots": 3, "procedural": false, "images": ["T_House_Roof_BaseColor_4k.png", "T_House_Roof_Normal_4k.png"], "packed": false, "notes": "черепица карточками"},
+    {"name": "M_House_Glass", "slots": 4, "procedural": true, "images": [], "notes": "стекло окон, IOR 1.5"}
+  ],
+  "textures": [
+    {"path": "assets/village-house/textures/T_House_Log_BaseColor_4k.png", "map": "BaseColor", "set": "Log", "width": 4096, "height": 4096, "colorspace": "sRGB", "packed": false, "tilable": true, "provenance": "собственная съёмка/CC0"},
+    {"path": "assets/village-house/textures/T_House_Log_Normal_4k.png", "map": "Normal", "set": "Log", "width": 4096, "height": 4096, "colorspace": "Non-Color", "packed": false, "tilable": true},
+    {"path": "assets/village-house/textures/T_House_Log_Roughness_4k.png", "map": "Roughness", "set": "Log", "width": 4096, "height": 4096, "colorspace": "Non-Color", "packed": false, "tilable": true}
+  ],
+  "rig": {
+    "type": "pivots",
+    "controls": ["ctrl_door_front_open 0..1"],
+    "frame_start": 1,
+    "frame_end": 1,
+    "animation_kind": "none",
+    "notes": "дверь и ставни имеют pivot и ограничения угла; анимация не заказана"
+  },
+  "exports": [],
+  "proofs": [
+    {"path": "assets/village-house/renders/silhouette_front.png", "criterion": "пропорции фасада против референса", "kind": "silhouette", "engine": "BLENDER_EEVEE_NEXT"},
+    {"path": "assets/village-house/renders/interior_top_roof_off.png", "criterion": "интерьер и перекрытия существуют", "kind": "interior", "engine": "CYCLES"},
+    {"path": "assets/village-house/renders/macro_brick_seam.png", "criterion": "кладка и шов 10 мм", "kind": "macro", "engine": "CYCLES"},
+    {"path": "assets/village-house/renders/scale_ref.png", "criterion": "высота этажа 2.7 м при фигуре 1.75 м", "kind": "scale_ref", "engine": "BLENDER_EEVEE_NEXT"}
+  ],
+  "audit": {
+    "config": "assets/village-house/audit/audit-config.json",
+    "report": "assets/village-house/audit/audit-report.json",
+    "status": "PASS",
+    "checks_total": 18,
+    "checks_failed": 0
+  },
+  "provenance": [
+    {"source": "Poly Haven HDRI 'kloofendal_48d_partly_cloudy'", "url": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy", "license": "CC0", "used_for": "освещение доказательств"},
+    {"source": "ambientCG Wood047", "url": "https://ambientcg.com/view?id=Wood047", "license": "CC0", "used_for": "база материала сруба, переработана"}
+  ],
+  "open_items": [
+    "LOD и collision не заказаны — не выполнялись",
+    "высота конька принята как оценка (референс не даёт размера)"
+  ]
+}

@@ -1,6 +1,6 @@
 interface:
-  display_name: "Blender: 3D-ассеты"
-  short_description: "High-poly 3D-ассеты: сквозные проходы, внутренности, bevel и текстурные слои"
-  default_prompt: "Используй $blender-asset-workflow для этой модели: уточни отдельные навесные ассеты, сверь референсы, построй сквозные проходы и внутренности, проверь bevel и подготовь слои Blender/Krita без game-ready оптимизации."
+  display_name: "3D-студия: реалистичные ассеты из GitHub"
+  short_description: "Дома, люди, оружие, пропсы, транспорт и окружение: high-poly модель, PBR-текстуры, доказательства и pull request"
+  default_prompt: "Используй $realistic-3d-assets: прочитай задачу и референсы в репозитории, заполни TASK.md, построй реалистичную high-poly модель в Blender (форма → детали → UV → PBR-текстуры), отрендери доказательства, обнови manifest и аудит и верни результат веткой и pull request. Game-ready экспорт — только если он явно заказан."
 policy:
   allow_implicit_invocation: true

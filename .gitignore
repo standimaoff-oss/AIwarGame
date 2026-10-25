@@ -1,0 +1,16 @@
+# Рабочие и временные файлы ассетов
+__pycache__/
+*.py[cod]
+*.blend[0-9]
+*.blend1
+*.kra~
+*.psd.tmp
+.DS_Store
+Thumbs.db
+
+# Локальные рабочие каталоги задач (не для skill-репозитория)
+work/
+tmp/
+*.log
+
+# Крупные бинарные ассеты ведутся через Git LFS (см. .gitattributes)
