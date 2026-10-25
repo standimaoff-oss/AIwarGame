@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "description": "Demonstration only: replace names, measurements, frames and ray samples for the current visual asset.",
+  "targets": [
+    {
+      "id": "closed_housing",
+      "frame": 1,
+      "objects": ["Housing"],
+      "finite_transforms": true,
+      "dimensions_mm": {"expected": [60, 30, 40], "tolerance_mm": 0.05},
+      "topology": {
+        "evaluated": {
+          "max_nonmanifold_edges": 0,
+          "max_zero_area_faces": 0,
+          "zero_area_epsilon_mm2": 1e-10
+        }
+      }
+    },
+    {
+      "id": "intentional_open_trim",
+      "objects": ["OpenDecorativeSurface"],
+      "topology": {"evaluated": {"max_overfull_edges": 0, "max_zero_area_faces": 0}}
+    }
+  ],
+  "poses": [
+    {
+      "id": "lid_open",
+      "frame": 60,
+      "objects": ["Lid"],
+      "camera": "InspectionCamera",
+      "criteria": [{"object": "Lid", "visible": true, "finite_transform": true}]
+    }
+  ],
+  "passages": [
+    {
+      "id": "sampled_housing_opening",
+      "frame": 1,
+      "objects": ["Housing"],
+      "unit": "mm",
+      "samples": [
+        {"start": [-40, -5, 0], "end": [40, -5, 0]},
+        {"start": [-40, 0, 0], "end": [40, 0, 0]},
+        {"start": [-40, 5, 0], "end": [40, 5, 0]}
+      ],
+      "max_hits": 0
+    }
+  ]
+}

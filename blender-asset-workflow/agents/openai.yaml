@@ -1,0 +1,6 @@
+interface:
+  display_name: "Blender: 3D-ассеты"
+  short_description: "High-poly 3D-ассеты: сквозные проходы, внутренности, bevel и текстурные слои"
+  default_prompt: "Используй $blender-asset-workflow для этой модели: уточни отдельные навесные ассеты, сверь референсы, построй сквозные проходы и внутренности, проверь bevel и подготовь слои Blender/Krita без game-ready оптимизации."
+policy:
+  allow_implicit_invocation: true
