@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "description": "Визуальный аудит mosin-m91-30: габариты, конечные трансформации, невырожденные вершины/рёбра и многолучевые проверки полостей. Нулевые грани от Bevel/Text не являются критерием приёмки.",
+  "targets": [
+    {
+      "id": "overall_model",
+      "description": "Полный габарит модели; X сверен с исторической длиной, Y/Z — оценка по построенной геометрии.",
+      "frame": 1,
+      "collections": [
+        "mosin-m91-30_Model"
+      ],
+      "finite_transforms": true,
+      "dimensions_mm": {
+        "expected": [
+          1232.0,
+          68.306,
+          98.812
+        ],
+        "tolerance_mm": [
+          2.0,
+          3.0,
+          3.0
+        ]
+      },
+      "topology": {
+        "evaluated": {
+          "max_nonfinite_vertices": 0,
+          "max_wire_edges": 0,
+          "max_loose_vertices": 0
+        }
+      }
+    },
+    {
+      "id": "barrel_length",
+      "description": "Длина ствола от казённого среза до дульного среза по оси X.",
+      "frame": 1,
+      "objects": [
+        "SM_Mosin_Barrel_TrueBore"
+      ],
+      "dimensions_mm": {
+        "expected": [
+          730.0,
+          0.0,
+          0.0
+        ],
+        "tolerance_mm": [
+          3.0,
+          100.0,
+          100.0
+        ]
+      }
+    }
+  ],
+  "poses": [],
+  "passages": [
+    {
+      "id": "barrel_bore_clear",
+      "description": "Пять лучей внутри канала ствола не встречают стенок: отверстие настоящее, а не чёрный диск.",
+      "frame": 1,
+      "objects": [
+        "SM_Mosin_Barrel_TrueBore",
+        "SM_Mosin_MuzzleCrown",
+        "SM_Mosin_BoreLiner"
+      ],
+      "unit": "mm",
+      "samples": [
+        {
+          "start": [
+            -12.0,
+            0.0,
+            0.0
+          ],
+          "end": [
+            738.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "start": [
+            -12.0,
+            2.0,
+            0.0
+          ],
+          "end": [
+            738.0,
+            2.0,
+            0.0
+          ]
+        },
+        {
+          "start": [
+            -12.0,
+            0.0,
+            2.0
+          ],
+          "end": [
+            738.0,
+            0.0,
+            2.0
+          ]
+        },
+        {
+          "start": [
+            -12.0,
+            -2.0,
+            0.0
+          ],
+          "end": [
+            738.0,
+            -2.0,
+            0.0
+          ]
+        },
+        {
+          "start": [
+            -12.0,
+            0.0,
+            -2.0
+          ],
+          "end": [
+            738.0,
+            0.0,
+            -2.0
+          ]
+        }
+      ],
+      "max_hits": 0
+    },
+    {
+      "id": "magazine_well_clear",
+      "description": "Вертикальные лучи проходят через открытую шахту внутреннего магазина.",
+      "frame": 1,
+      "objects": [
+        "SM_Mosin_Magazine_Wall_L",
+        "SM_Mosin_Magazine_Wall_R",
+        "SM_Mosin_Magazine_Wall_F",
+        "SM_Mosin_Magazine_Wall_B"
+      ],
+      "unit": "mm",
+      "samples": [
+        {
+          "start": [
+            -19943.3422,
+            -8.0,
+            -62.0
+          ],
+          "end": [
+            -19943.3422,
+            -8.0,
+            -8.0
+          ]
+        },
+        {
+          "start": [
+            -19943.3422,
+            0.0,
+            -62.0
+          ],
+          "end": [
+            -19943.3422,
+            0.0,
+            -8.0
+          ]
+        },
+        {
+          "start": [
+            -19943.3422,
+            8.0,
+            -62.0
+          ],
+          "end": [
+            -19943.3422,
+            8.0,
+            -8.0
+          ]
+        }
+      ],
+      "max_hits": 0
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "ppsh-41": {
+    "status": "PASS",
+    "checks_total": 402,
+    "checks_failed": 0,
+    "errors": [],
+    "passages": [
+      {
+        "id": "barrel_bore_clear",
+        "hit_samples": 0,
+        "sample_count": 5
+      },
+      {
+        "id": "magazine_well_clear",
+        "hit_samples": 0,
+        "sample_count": 3
+      }
+    ]
+  },
+  "mosin-m91-30": {
+    "status": "PASS",
+    "checks_total": 263,
+    "checks_failed": 0,
+    "errors": [],
+    "passages": [
+      {
+        "id": "barrel_bore_clear",
+        "hit_samples": 0,
+        "sample_count": 5
+      },
+      {
+        "id": "magazine_well_clear",
+        "hit_samples": 0,
+        "sample_count": 3
+      }
+    ]
+  },
+  "mosin-m91-30-pu": {
+    "status": "PASS",
+    "checks_total": 458,
+    "checks_failed": 0,
+    "errors": [],
+    "passages": [
+      {
+        "id": "barrel_bore_clear",
+        "hit_samples": 0,
+        "sample_count": 5
+      },
+      {
+        "id": "magazine_well_clear",
+        "hit_samples": 0,
+        "sample_count": 3
+      },
+      {
+        "id": "scope_optical_path_clear",
+        "hit_samples": 0,
+        "sample_count": 5
+      }
+    ]
+  },
+  "nagant-m1895": {
+    "status": "PASS",
+    "checks_total": 234,
+    "checks_failed": 0,
+    "errors": [],
+    "passages": [
+      {
+        "id": "barrel_bore_clear",
+        "hit_samples": 0,
+        "sample_count": 5
+      },
+      {
+        "id": "cylinder_chambers_clear",
+        "hit_samples": 0,
+        "sample_count": 7
+      }
+    ]
+  }
+}

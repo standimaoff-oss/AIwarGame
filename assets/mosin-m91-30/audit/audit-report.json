@@ -1,0 +1,6461 @@
+{
+  "schema_version": 1,
+  "blend_file": "/home/user/AIwarGame/assets/mosin-m91-30/source/mosin-m91-30.blend",
+  "blender_version": "4.5.15 LTS",
+  "configured": true,
+  "unit_scale_length": 1.0,
+  "initial_frame": 1,
+  "targets": [
+    {
+      "id": "overall_model",
+      "frame": 1,
+      "bounds": {
+        "min_mm": [
+          -504.06795740127563,
+          -43.875351548194885,
+          -66.90225750207901
+        ],
+        "max_mm": [
+          727.9320359230042,
+          24.430593475699425,
+          31.90934658050537
+        ],
+        "dimensions_mm": [
+          1231.9999933242798,
+          68.30594502389431,
+          98.81160408258438
+        ],
+        "measurement": "evaluated world vertices; union over selected geometry"
+      },
+      "objects": [
+        {
+          "name": "CTRL_mosin-m91-30_Bolt",
+          "type": "EMPTY",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.03490084782242775
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -34.90084782242775,
+              0.0,
+              0.0
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "CTRL_mosin-m91-30_BoltHandle",
+          "type": "EMPTY",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.04786401987075806
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.01794900745153427
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.005983002483844757
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -47.86401987075806,
+              -17.94900745153427,
+              5.983002483844757
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "CTRL_mosin-m91-30_Trigger",
+          "type": "EMPTY",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.03190934658050537
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -0.02094050869345665
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -31.90934658050537,
+              0.0,
+              -20.94050869345665
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "SM_Mosin_BandScrew_01_Head",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.14458923041820526
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.01794900745153427
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -0.0019943343941122293
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              144.58923041820526,
+              -17.94900745153427,
+              -1.9943343941122293
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 48,
+            "edges": 72,
+            "faces": 26,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 192,
+            "edges": 360,
+            "faces": 170,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_BandScrew_01_Slot",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.14458923041820526
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.018786627799272537
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -0.0019943343941122293
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              144.58923041820526,
+              -18.786627799272537,
+              -1.9943343941122293
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_BandScrew_02_Head",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.5185268521308899
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.01794900745153427
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -0.0019943343941122293
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              518.5268521308899,
+              -17.94900745153427,
+              -1.9943343941122293
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 48,
+            "edges": 72,
+            "faces": 26,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 192,
+            "edges": 360,
+            "faces": 170,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_BandScrew_02_Slot",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.5185268521308899
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.018786627799272537
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -0.0019943343941122293
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              518.5268521308899,
+              -18.786627799272537,
+              -1.9943343941122293
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_BarrelBand_01",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 256,
+            "edges": 512,
+            "faces": 256,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 256,
+            "edges": 512,
+            "faces": 256,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_BarrelBand_02",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 256,
+            "edges": 512,
+            "faces": 256,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 256,
+            "edges": 512,
+            "faces": 256,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_Barrel_TrueBore",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 800,
+            "edges": 1600,
+            "faces": 800,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 800,
+            "edges": 1600,
+            "faces": 800,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_BoltHandle_Knob",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.04786401987075806
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.03789234906435013
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.005983002483844757
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -47.86401987075806,
+              -37.89234906435013,
+              5.983002483844757
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 266,
+            "edges": 552,
+            "faces": 288,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 266,
+            "edges": 552,
+            "faces": 288,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_BoltHandle_Stem",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.04786401987075806
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.02393200993537903
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.005983002483844757
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -47.86401987075806,
+              -23.93200993537903,
+              5.983002483844757
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 64,
+            "edges": 96,
+            "faces": 34,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 64,
+            "edges": 96,
+            "faces": 34,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_Bolt_Body",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.03490084782242775
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -34.90084782242775,
+              0.0,
+              0.0
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 128,
+            "edges": 192,
+            "faces": 66,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 128,
+            "edges": 192,
+            "faces": 66,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_Bolt_Head",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.019943341612815857
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              19.943341612815857,
+              0.0,
+              0.0
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 96,
+            "edges": 144,
+            "faces": 50,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 96,
+            "edges": 144,
+            "faces": 50,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_BoreLiner",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 192,
+            "edges": 384,
+            "faces": 192,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 192,
+            "edges": 384,
+            "faces": 192,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_BoreShadow",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 192,
+            "edges": 384,
+            "faces": 192,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 192,
+            "edges": 384,
+            "faces": 192,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_Buttplate",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.5015750527381897
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -0.007977337576448917
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -501.5750527381897,
+              0.0,
+              -7.977337576448917
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 96,
+            "edges": 192,
+            "faces": 98,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_Cartridge_01",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.01794900745153427
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.007977337576448917
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -0.019943341612815857
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -17.94900745153427,
+              -7.977337576448917,
+              -19.943341612815857
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 40,
+            "edges": 60,
+            "faces": 22,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 40,
+            "edges": 60,
+            "faces": 22,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_Cartridge_02",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.01794900745153427
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.003988668788224459
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -0.022934842854738235
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -17.94900745153427,
+              -3.9886687882244587,
+              -22.934842854738235
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 40,
+            "edges": 60,
+            "faces": 22,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 40,
+            "edges": 60,
+            "faces": 22,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_Cartridge_03",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.01794900745153427
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -0.019943341612815857
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -17.94900745153427,
+              0.0,
+              -19.943341612815857
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 40,
+            "edges": 60,
+            "faces": 22,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 40,
+            "edges": 60,
+            "faces": 22,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_Cartridge_04",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.01794900745153427
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.003988668788224459
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -0.022934842854738235
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -17.94900745153427,
+              3.9886687882244587,
+              -22.934842854738235
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 40,
+            "edges": 60,
+            "faces": 22,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 40,
+            "edges": 60,
+            "faces": 22,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_Cartridge_05",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.01794900745153427
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.007977337576448917
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -0.019943341612815857
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -17.94900745153427,
+              7.977337576448917,
+              -19.943341612815857
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 40,
+            "edges": 60,
+            "faces": 22,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 40,
+            "edges": 60,
+            "faces": 22,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_CleaningRod",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.39388102293014526
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.010968837887048721
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -0.006980170030146837
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              393.88102293014526,
+              10.968837887048721,
+              -6.980170030146837
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 48,
+            "edges": 72,
+            "faces": 26,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 48,
+            "edges": 72,
+            "faces": 26,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_CleaningRod_Tip",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.6900396347045898
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.010968837887048721
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -0.006980170030146837
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              690.0396347045898,
+              10.968837887048721,
+              -6.980170030146837
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 48,
+            "edges": 72,
+            "faces": 26,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 48,
+            "edges": 72,
+            "faces": 26,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_FrontSight_Base",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.68804532289505
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.009971670806407928
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              688.04532289505,
+              0.0,
+              9.971670806407928
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 96,
+            "edges": 192,
+            "faces": 98,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_FrontSight_Hood",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.68804532289505
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.01794900745153427
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              688.04532289505,
+              0.0,
+              17.94900745153427
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 480,
+            "edges": 960,
+            "faces": 480,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 480,
+            "edges": 960,
+            "faces": 480,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_FrontSight_Post",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.68804532289505
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.02094050869345665
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              688.04532289505,
+              0.0,
+              20.94050869345665
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 96,
+            "edges": 192,
+            "faces": 98,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_Handguard_Side_01",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.324079304933548
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.010968837887048721
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.008974503725767136
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              324.079304933548,
+              -10.968837887048721,
+              8.974503725767136
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 96,
+            "edges": 192,
+            "faces": 98,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_Handguard_Side_02",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.324079304933548
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.010968837887048721
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.008974503725767136
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              324.079304933548,
+              10.968837887048721,
+              8.974503725767136
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 96,
+            "edges": 192,
+            "faces": 98,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_Handguard_Top",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.324079304933548
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.018946174532175064
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              324.079304933548,
+              0.0,
+              18.946174532175064
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 96,
+            "edges": 192,
+            "faces": 98,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_Magazine_Wall_B",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.050855521112680435
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -0.02792068012058735
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -50.855521112680435,
+              0.0,
+              -27.92068012058735
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 96,
+            "edges": 192,
+            "faces": 98,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_Magazine_Wall_F",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.010968837887048721
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -0.02792068012058735
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              10.968837887048721,
+              0.0,
+              -27.92068012058735
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 96,
+            "edges": 192,
+            "faces": 98,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_Magazine_Wall_L",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.019943341612815857
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.012963172979652882
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -0.02792068012058735
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -19.943341612815857,
+              -12.963172979652882,
+              -27.92068012058735
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 96,
+            "edges": 192,
+            "faces": 98,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_Magazine_Wall_R",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.019943341612815857
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.012963172979652882
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -0.02792068012058735
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -19.943341612815857,
+              12.963172979652882,
+              -27.92068012058735
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 96,
+            "edges": 192,
+            "faces": 98,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_Marking_Caliber",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.039886683225631714
+              ],
+              [
+                0.0,
+                -4.371138828673793e-08,
+                -1.0,
+                -0.01814844273030758
+              ],
+              [
+                0.0,
+                1.0,
+                -4.371138828673793e-08,
+                -0.0019943343941122293
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              39.886683225631714,
+              -18.14844273030758,
+              -1.9943343941122293
+            ],
+            "rotation_deg": [
+              90.00000250447816,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 3704,
+            "edges": 6915,
+            "faces": 3221,
+            "boundary_edges": 1852,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 1852,
+            "loose_vertices": 0,
+            "zero_area_faces": 1810,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 3704,
+            "edges": 6915,
+            "faces": 3221,
+            "boundary_edges": 1852,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 1852,
+            "loose_vertices": 0,
+            "zero_area_faces": 1810,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_Marking_Serial",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                -4.371138828673793e-08,
+                -1.0,
+                -0.01814844273030758
+              ],
+              [
+                0.0,
+                1.0,
+                -4.371138828673793e-08,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              0.0,
+              -18.14844273030758,
+              0.0
+            ],
+            "rotation_deg": [
+              90.00000250447816,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 4024,
+            "edges": 7521,
+            "faces": 3505,
+            "boundary_edges": 2012,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 2012,
+            "loose_vertices": 0,
+            "zero_area_faces": 1974,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 4024,
+            "edges": 7521,
+            "faces": 3505,
+            "boundary_edges": 2012,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 2012,
+            "loose_vertices": 0,
+            "zero_area_faces": 1974,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_Marking_Year",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.039886683225631714
+              ],
+              [
+                0.0,
+                -4.371138828673793e-08,
+                -1.0,
+                -0.01814844273030758
+              ],
+              [
+                0.0,
+                1.0,
+                -4.371138828673793e-08,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -39.886683225631714,
+              -18.14844273030758,
+              0.0
+            ],
+            "rotation_deg": [
+              90.00000250447816,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 2392,
+            "edges": 4473,
+            "faces": 2085,
+            "boundary_edges": 1196,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 1196,
+            "loose_vertices": 0,
+            "zero_area_faces": 1196,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 2392,
+            "edges": 4473,
+            "faces": 2085,
+            "boundary_edges": 1196,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 1196,
+            "loose_vertices": 0,
+            "zero_area_faces": 1196,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_MuzzleCrown",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 256,
+            "edges": 512,
+            "faces": 256,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 256,
+            "edges": 512,
+            "faces": 256,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_RearSight_Base",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.07977336645126343
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.012963172979652882
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              79.77336645126343,
+              0.0,
+              12.963172979652882
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 96,
+            "edges": 192,
+            "faces": 98,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_RearSight_Leaf",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.08176770806312561
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.021937675774097443
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              81.76770806312561,
+              0.0,
+              21.937675774097443
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 96,
+            "edges": 192,
+            "faces": 98,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_Receiver_Shell",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 466,
+            "edges": 903,
+            "faces": 435,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 1066,
+            "edges": 2103,
+            "faces": 1035,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 600,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_Receiver_TopFlat",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.01794900745153427
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.017550140619277954
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -17.94900745153427,
+              0.0,
+              17.550140619277954
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 96,
+            "edges": 192,
+            "faces": 98,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_Screw_01_Head",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.06481585651636124
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.01794900745153427
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0029915012419223785
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -64.81585651636124,
+              -17.94900745153427,
+              2.9915012419223785
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 48,
+            "edges": 72,
+            "faces": 26,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 192,
+            "edges": 360,
+            "faces": 170,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_Screw_01_Slot",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.06481585651636124
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.018786627799272537
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0029915012419223785
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -64.81585651636124,
+              -18.786627799272537,
+              2.9915012419223785
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_Screw_02_Head",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.029915012419223785
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.01794900745153427
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.003988668788224459
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -29.915012419223785,
+              -17.94900745153427,
+              3.9886687882244587
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 48,
+            "edges": 72,
+            "faces": 26,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 192,
+            "edges": 360,
+            "faces": 170,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_Screw_02_Slot",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.029915012419223785
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.018786627799272537
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.003988668788224459
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -29.915012419223785,
+              -18.786627799272537,
+              3.9886687882244587
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_Screw_03_Head",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.011966004967689514
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.01794900745153427
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0029915012419223785
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              11.966004967689514,
+              -17.94900745153427,
+              2.9915012419223785
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 48,
+            "edges": 72,
+            "faces": 26,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 192,
+            "edges": 360,
+            "faces": 170,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_Screw_03_Slot",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.011966004967689514
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.018786627799272537
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0029915012419223785
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              11.966004967689514,
+              -18.786627799272537,
+              2.9915012419223785
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_Screw_04_Head",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.4836260676383972
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.02393200993537903
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -0.014957506209611893
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -483.6260676383972,
+              -23.93200993537903,
+              -14.957506209611893
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 48,
+            "edges": 72,
+            "faces": 26,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 192,
+            "edges": 360,
+            "faces": 170,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_Screw_04_Slot",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.4836260676383972
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.024769630283117294
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -0.014957506209611893
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -483.6260676383972,
+              -24.769630283117294,
+              -14.957506209611893
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_Screw_05_Head",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.29915013909339905
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.02393200993537903
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -0.03490084782242775
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -299.15013909339905,
+              -23.93200993537903,
+              -34.90084782242775
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 48,
+            "edges": 72,
+            "faces": 26,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 192,
+            "edges": 360,
+            "faces": 170,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_Screw_05_Slot",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.29915013909339905
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.024769630283117294
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -0.03490084782242775
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -299.15013909339905,
+              -24.769630283117294,
+              -34.90084782242775
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_Screw_06_Head",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.14957506954669952
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.02393200993537903
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -0.039886683225631714
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -149.57506954669952,
+              -23.93200993537903,
+              -39.886683225631714
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 48,
+            "edges": 72,
+            "faces": 26,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 192,
+            "edges": 360,
+            "faces": 170,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_Screw_06_Slot",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.14957506954669952
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.024769630283117294
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -0.039886683225631714
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -149.57506954669952,
+              -24.769630283117294,
+              -39.886683225631714
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_Screw_07_Head",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.14458923041820526
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.019943341612815857
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.009971670806407928
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              144.58923041820526,
+              -19.943341612815857,
+              9.971670806407928
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 48,
+            "edges": 72,
+            "faces": 26,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 192,
+            "edges": 360,
+            "faces": 170,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_Screw_07_Slot",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.14458923041820526
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.020780963823199272
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.009971670806407928
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              144.58923041820526,
+              -20.780963823199272,
+              9.971670806407928
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_Screw_08_Head",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.5185268521308899
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.019943341612815857
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.009971670806407928
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              518.5268521308899,
+              -19.943341612815857,
+              9.971670806407928
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 48,
+            "edges": 72,
+            "faces": 26,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 192,
+            "edges": 360,
+            "faces": 170,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_Screw_08_Slot",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.5185268521308899
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.020780963823199272
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.009971670806407928
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              518.5268521308899,
+              -20.780963823199272,
+              9.971670806407928
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_SlingSwivel_Front",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.5185268521308899
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.02492917887866497
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -0.02492917887866497
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              518.5268521308899,
+              -24.92917887866497,
+              -24.92917887866497
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 480,
+            "edges": 960,
+            "faces": 480,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 480,
+            "edges": 960,
+            "faces": 480,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_SlingSwivel_Rear",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.3988668620586395
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.025926345959305763
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -0.029915012419223785
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -398.8668620586395,
+              -25.926345959305763,
+              -29.915012419223785
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 480,
+            "edges": 960,
+            "faces": 480,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 480,
+            "edges": 960,
+            "faces": 480,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_Trigger",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 40,
+            "edges": 70,
+            "faces": 30,
+            "boundary_edges": 20,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 20,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 40,
+            "edges": 70,
+            "faces": 30,
+            "boundary_edges": 20,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 20,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_TriggerGuard",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 360,
+            "edges": 720,
+            "faces": 360,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 360,
+            "edges": 720,
+            "faces": 360,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Mosin_WoodenStock",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 54,
+            "edges": 81,
+            "faces": 29,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 410,
+            "edges": 793,
+            "faces": 385,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        }
+      ]
+    },
+    {
+      "id": "barrel_length",
+      "frame": 1,
+      "bounds": {
+        "min_mm": [
+          0.0,
+          -10.470254346728325,
+          -10.470254346728325
+        ],
+        "max_mm": [
+          727.9320359230042,
+          10.470254346728325,
+          10.470254346728325
+        ],
+        "dimensions_mm": [
+          727.9320359230042,
+          20.94050869345665,
+          20.94050869345665
+        ],
+        "measurement": "evaluated world vertices; union over selected geometry"
+      },
+      "objects": [
+        {
+          "name": "SM_Mosin_Barrel_TrueBore",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 800,
+            "edges": 1600,
+            "faces": 800,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 800,
+            "edges": 1600,
+            "faces": 800,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        }
+      ]
+    }
+  ],
+  "poses": [],
+  "passages": [
+    {
+      "id": "barrel_bore_clear",
+      "frame": 1,
+      "selected_objects": [
+        "SM_Mosin_Barrel_TrueBore",
+        "SM_Mosin_BoreLiner",
+        "SM_Mosin_MuzzleCrown"
+      ],
+      "hit_samples": 0,
+      "sample_count": 5,
+      "samples": [
+        {
+          "index": 0,
+          "start_world_mm": [
+            -12.000000104308128,
+            0.0,
+            0.0
+          ],
+          "end_world_mm": [
+            738.0000352859497,
+            0.0,
+            0.0
+          ],
+          "hit": false,
+          "first_hit": null,
+          "hits": []
+        },
+        {
+          "index": 1,
+          "start_world_mm": [
+            -12.000000104308128,
+            2.0000000949949026,
+            0.0
+          ],
+          "end_world_mm": [
+            738.0000352859497,
+            2.0000000949949026,
+            0.0
+          ],
+          "hit": false,
+          "first_hit": null,
+          "hits": []
+        },
+        {
+          "index": 2,
+          "start_world_mm": [
+            -12.000000104308128,
+            0.0,
+            2.0000000949949026
+          ],
+          "end_world_mm": [
+            738.0000352859497,
+            0.0,
+            2.0000000949949026
+          ],
+          "hit": false,
+          "first_hit": null,
+          "hits": []
+        },
+        {
+          "index": 3,
+          "start_world_mm": [
+            -12.000000104308128,
+            -2.0000000949949026,
+            0.0
+          ],
+          "end_world_mm": [
+            738.0000352859497,
+            -2.0000000949949026,
+            0.0
+          ],
+          "hit": false,
+          "first_hit": null,
+          "hits": []
+        },
+        {
+          "index": 4,
+          "start_world_mm": [
+            -12.000000104308128,
+            0.0,
+            -2.0000000949949026
+          ],
+          "end_world_mm": [
+            738.0000352859497,
+            0.0,
+            -2.0000000949949026
+          ],
+          "hit": false,
+          "first_hit": null,
+          "hits": []
+        }
+      ],
+      "visibility_filter": "none; selected evaluated geometry includes render-hidden objects",
+      "limitation": "Finite visual sample rays, first surface hit per selected object; not proof of continuous clearance or mechanical function."
+    },
+    {
+      "id": "magazine_well_clear",
+      "frame": 1,
+      "selected_objects": [
+        "SM_Mosin_Magazine_Wall_B",
+        "SM_Mosin_Magazine_Wall_F",
+        "SM_Mosin_Magazine_Wall_L",
+        "SM_Mosin_Magazine_Wall_R"
+      ],
+      "hit_samples": 0,
+      "sample_count": 3,
+      "samples": [
+        {
+          "index": 0,
+          "start_world_mm": [
+            -19943.342208862305,
+            -8.00000037997961,
+            -62.00000271201134
+          ],
+          "end_world_mm": [
+            -19943.342208862305,
+            -8.00000037997961,
+            -8.00000037997961
+          ],
+          "hit": false,
+          "first_hit": null,
+          "hits": []
+        },
+        {
+          "index": 1,
+          "start_world_mm": [
+            -19943.342208862305,
+            0.0,
+            -62.00000271201134
+          ],
+          "end_world_mm": [
+            -19943.342208862305,
+            0.0,
+            -8.00000037997961
+          ],
+          "hit": false,
+          "first_hit": null,
+          "hits": []
+        },
+        {
+          "index": 2,
+          "start_world_mm": [
+            -19943.342208862305,
+            8.00000037997961,
+            -62.00000271201134
+          ],
+          "end_world_mm": [
+            -19943.342208862305,
+            8.00000037997961,
+            -8.00000037997961
+          ],
+          "hit": false,
+          "first_hit": null,
+          "hits": []
+        }
+      ],
+      "visibility_filter": "none; selected evaluated geometry includes render-hidden objects",
+      "limitation": "Finite visual sample rays, first surface hit per selected object; not proof of continuous clearance or mechanical function."
+    }
+  ],
+  "errors": [],
+  "read_only": "No .blend is saved; only this JSON is written.",
+  "restored_frame": 1,
+  "restored_camera": "mosin-m91-30_Camera",
+  "checks": [
+    {
+      "criterion": "target/overall_model/collection_exists/mosin-m91-30_Model",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/scope_nonempty",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/topology_mesh_scope",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/CTRL_mosin-m91-30_Bolt",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/CTRL_mosin-m91-30_BoltHandle",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/CTRL_mosin-m91-30_Trigger",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_BandScrew_01_Head",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_BandScrew_01_Head/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_BandScrew_01_Head/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_BandScrew_01_Head/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_BandScrew_01_Slot",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_BandScrew_01_Slot/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_BandScrew_01_Slot/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_BandScrew_01_Slot/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_BandScrew_02_Head",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_BandScrew_02_Head/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_BandScrew_02_Head/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_BandScrew_02_Head/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_BandScrew_02_Slot",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_BandScrew_02_Slot/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_BandScrew_02_Slot/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_BandScrew_02_Slot/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_BarrelBand_01",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_BarrelBand_01/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_BarrelBand_01/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_BarrelBand_01/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_BarrelBand_02",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_BarrelBand_02/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_BarrelBand_02/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_BarrelBand_02/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_Barrel_TrueBore",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Barrel_TrueBore/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Barrel_TrueBore/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Barrel_TrueBore/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_BoltHandle_Knob",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_BoltHandle_Knob/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_BoltHandle_Knob/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_BoltHandle_Knob/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_BoltHandle_Stem",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_BoltHandle_Stem/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_BoltHandle_Stem/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_BoltHandle_Stem/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_Bolt_Body",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Bolt_Body/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Bolt_Body/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Bolt_Body/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_Bolt_Head",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Bolt_Head/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Bolt_Head/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Bolt_Head/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_BoreLiner",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_BoreLiner/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_BoreLiner/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_BoreLiner/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_BoreShadow",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_BoreShadow/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_BoreShadow/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_BoreShadow/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_Buttplate",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Buttplate/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Buttplate/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Buttplate/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_Cartridge_01",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Cartridge_01/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Cartridge_01/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Cartridge_01/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_Cartridge_02",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Cartridge_02/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Cartridge_02/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Cartridge_02/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_Cartridge_03",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Cartridge_03/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Cartridge_03/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Cartridge_03/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_Cartridge_04",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Cartridge_04/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Cartridge_04/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Cartridge_04/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_Cartridge_05",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Cartridge_05/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Cartridge_05/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Cartridge_05/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_CleaningRod",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_CleaningRod/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_CleaningRod/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_CleaningRod/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_CleaningRod_Tip",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_CleaningRod_Tip/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_CleaningRod_Tip/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_CleaningRod_Tip/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_FrontSight_Base",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_FrontSight_Base/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_FrontSight_Base/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_FrontSight_Base/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_FrontSight_Hood",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_FrontSight_Hood/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_FrontSight_Hood/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_FrontSight_Hood/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_FrontSight_Post",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_FrontSight_Post/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_FrontSight_Post/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_FrontSight_Post/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_Handguard_Side_01",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Handguard_Side_01/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Handguard_Side_01/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Handguard_Side_01/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_Handguard_Side_02",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Handguard_Side_02/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Handguard_Side_02/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Handguard_Side_02/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_Handguard_Top",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Handguard_Top/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Handguard_Top/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Handguard_Top/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_Magazine_Wall_B",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Magazine_Wall_B/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Magazine_Wall_B/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Magazine_Wall_B/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_Magazine_Wall_F",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Magazine_Wall_F/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Magazine_Wall_F/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Magazine_Wall_F/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_Magazine_Wall_L",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Magazine_Wall_L/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Magazine_Wall_L/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Magazine_Wall_L/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_Magazine_Wall_R",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Magazine_Wall_R/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Magazine_Wall_R/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Magazine_Wall_R/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_Marking_Caliber",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Marking_Caliber/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Marking_Caliber/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Marking_Caliber/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_Marking_Serial",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Marking_Serial/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Marking_Serial/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Marking_Serial/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_Marking_Year",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Marking_Year/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Marking_Year/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Marking_Year/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_MuzzleCrown",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_MuzzleCrown/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_MuzzleCrown/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_MuzzleCrown/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_RearSight_Base",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_RearSight_Base/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_RearSight_Base/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_RearSight_Base/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_RearSight_Leaf",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_RearSight_Leaf/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_RearSight_Leaf/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_RearSight_Leaf/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_Receiver_Shell",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Receiver_Shell/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Receiver_Shell/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Receiver_Shell/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_Receiver_TopFlat",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Receiver_TopFlat/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Receiver_TopFlat/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Receiver_TopFlat/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_Screw_01_Head",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Screw_01_Head/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Screw_01_Head/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Screw_01_Head/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_Screw_01_Slot",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Screw_01_Slot/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Screw_01_Slot/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Screw_01_Slot/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_Screw_02_Head",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Screw_02_Head/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Screw_02_Head/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Screw_02_Head/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_Screw_02_Slot",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Screw_02_Slot/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Screw_02_Slot/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Screw_02_Slot/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_Screw_03_Head",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Screw_03_Head/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Screw_03_Head/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Screw_03_Head/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_Screw_03_Slot",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Screw_03_Slot/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Screw_03_Slot/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Screw_03_Slot/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_Screw_04_Head",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Screw_04_Head/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Screw_04_Head/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Screw_04_Head/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_Screw_04_Slot",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Screw_04_Slot/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Screw_04_Slot/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Screw_04_Slot/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_Screw_05_Head",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Screw_05_Head/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Screw_05_Head/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Screw_05_Head/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_Screw_05_Slot",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Screw_05_Slot/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Screw_05_Slot/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Screw_05_Slot/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_Screw_06_Head",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Screw_06_Head/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Screw_06_Head/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Screw_06_Head/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_Screw_06_Slot",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Screw_06_Slot/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Screw_06_Slot/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Screw_06_Slot/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_Screw_07_Head",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Screw_07_Head/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Screw_07_Head/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Screw_07_Head/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_Screw_07_Slot",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Screw_07_Slot/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Screw_07_Slot/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Screw_07_Slot/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_Screw_08_Head",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Screw_08_Head/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Screw_08_Head/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Screw_08_Head/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_Screw_08_Slot",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Screw_08_Slot/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Screw_08_Slot/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Screw_08_Slot/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_SlingSwivel_Front",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_SlingSwivel_Front/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_SlingSwivel_Front/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_SlingSwivel_Front/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_SlingSwivel_Rear",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_SlingSwivel_Rear/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_SlingSwivel_Rear/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_SlingSwivel_Rear/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_Trigger",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Trigger/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Trigger/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_Trigger/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_TriggerGuard",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_TriggerGuard/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_TriggerGuard/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_TriggerGuard/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Mosin_WoodenStock",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_WoodenStock/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_WoodenStock/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Mosin_WoodenStock/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/dimensions_mm",
+      "status": "PASS",
+      "actual": [
+        1231.9999933242798,
+        68.30594502389431,
+        98.81160408258438
+      ],
+      "expected": {
+        "value": [
+          1232.0,
+          68.306,
+          98.812
+        ],
+        "tolerance": [
+          2.0,
+          3.0,
+          3.0
+        ]
+      }
+    },
+    {
+      "criterion": "target/overall_model/topology_interpretation",
+      "status": "INFO",
+      "detail": "Boundary or nonmanifold counts are observations. Only explicit maxima are acceptance criteria."
+    },
+    {
+      "criterion": "target/barrel_length/object_exists/SM_Mosin_Barrel_TrueBore",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/barrel_length/scope_nonempty",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/barrel_length/dimensions_mm",
+      "status": "PASS",
+      "actual": [
+        727.9320359230042,
+        20.94050869345665,
+        20.94050869345665
+      ],
+      "expected": {
+        "value": [
+          730.0,
+          0.0,
+          0.0
+        ],
+        "tolerance": [
+          3.0,
+          100.0,
+          100.0
+        ]
+      }
+    },
+    {
+      "criterion": "target/barrel_length/topology_interpretation",
+      "status": "INFO",
+      "detail": "Boundary or nonmanifold counts are observations. Only explicit maxima are acceptance criteria."
+    },
+    {
+      "criterion": "passage/barrel_bore_clear/object_exists/SM_Mosin_Barrel_TrueBore",
+      "status": "PASS"
+    },
+    {
+      "criterion": "passage/barrel_bore_clear/object_exists/SM_Mosin_MuzzleCrown",
+      "status": "PASS"
+    },
+    {
+      "criterion": "passage/barrel_bore_clear/object_exists/SM_Mosin_BoreLiner",
+      "status": "PASS"
+    },
+    {
+      "criterion": "passage/barrel_bore_clear/scope_nonempty",
+      "status": "PASS"
+    },
+    {
+      "criterion": "passage/barrel_bore_clear/max_hits",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "passage/magazine_well_clear/object_exists/SM_Mosin_Magazine_Wall_L",
+      "status": "PASS"
+    },
+    {
+      "criterion": "passage/magazine_well_clear/object_exists/SM_Mosin_Magazine_Wall_R",
+      "status": "PASS"
+    },
+    {
+      "criterion": "passage/magazine_well_clear/object_exists/SM_Mosin_Magazine_Wall_F",
+      "status": "PASS"
+    },
+    {
+      "criterion": "passage/magazine_well_clear/object_exists/SM_Mosin_Magazine_Wall_B",
+      "status": "PASS"
+    },
+    {
+      "criterion": "passage/magazine_well_clear/scope_nonempty",
+      "status": "PASS"
+    },
+    {
+      "criterion": "passage/magazine_well_clear/max_hits",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    }
+  ],
+  "acceptance_check_count": 261,
+  "scope_note": "Acceptance applies only to listed criteria, objects, frames and sampled rays; INFO observations are not acceptance checks.",
+  "status": "PASS"
+}

@@ -1,0 +1,1 @@
+validate_asset 1.0.0: 4 asset(s), 0 error(s), 0 warning(s) [strict]

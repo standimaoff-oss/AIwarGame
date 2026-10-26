@@ -1,0 +1,26 @@
+{
+  "slug": "nagant-m1895",
+  "engine": "CYCLES",
+  "samples_stills": 20,
+  "samples_turntable": 6,
+  "still_resolution": [
+    1280,
+    720
+  ],
+  "turntable_frames": 10,
+  "bbox_mm": [
+    235.0,
+    47.57,
+    155.742
+  ],
+  "proofs": {
+    "hero": "assets/nagant-m1895/renders/hero.png",
+    "right": "assets/nagant-m1895/renders/silhouette_right.png",
+    "left": "assets/nagant-m1895/renders/silhouette_left.png",
+    "top": "assets/nagant-m1895/renders/silhouette_top.png",
+    "muzzle": "assets/nagant-m1895/renders/muzzle_and_bore.png",
+    "macro_bore": "assets/nagant-m1895/renders/macro_true_bore.png",
+    "clay": "assets/nagant-m1895/renders/clay_hero.png",
+    "turntable": "assets/nagant-m1895/renders/turntable.gif"
+  }
+}

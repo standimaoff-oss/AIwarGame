@@ -1,0 +1,50 @@
+{
+  "ppsh-41": {
+    "bbox_mm": [
+      843.0,
+      65.27,
+      181.899
+    ],
+    "object_count": 94,
+    "triangle_count": 58228,
+    "textures_count": 30,
+    "pivot_controls": 6,
+    "blender_version": "4.5.15 LTS"
+  },
+  "mosin-m91-30": {
+    "bbox_mm": [
+      1232.0,
+      68.306,
+      98.812
+    ],
+    "object_count": 60,
+    "triangle_count": 33672,
+    "textures_count": 30,
+    "pivot_controls": 3,
+    "blender_version": "4.5.15 LTS"
+  },
+  "mosin-m91-30-pu": {
+    "bbox_mm": [
+      1232.0,
+      99.019,
+      168.115
+    ],
+    "object_count": 106,
+    "triangle_count": 43476,
+    "textures_count": 30,
+    "pivot_controls": 5,
+    "blender_version": "4.5.15 LTS"
+  },
+  "nagant-m1895": {
+    "bbox_mm": [
+      235.0,
+      47.57,
+      155.742
+    ],
+    "object_count": 53,
+    "triangle_count": 29960,
+    "textures_count": 30,
+    "pivot_controls": 5,
+    "blender_version": "4.5.15 LTS"
+  }
+}

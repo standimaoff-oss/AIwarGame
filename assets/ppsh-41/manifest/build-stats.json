@@ -1,0 +1,133 @@
+{
+  "slug": "ppsh-41",
+  "variant": "ППШ-41, поздний военный выпуск, деревянный приклад, 71-зарядный барабанный магазин, кожух ствола с вентиляционными окнами",
+  "source_file": "assets/ppsh-41/source/ppsh-41.blend",
+  "blender_version": "4.5.15 LTS",
+  "render_engine": "CYCLES",
+  "unit_scale_length": 1.0,
+  "up_axis": "Z",
+  "muzzle_axis": "+X",
+  "right_side": "-Y",
+  "target_length_mm": 843.0,
+  "normalization_factor": 0.99615953,
+  "bbox_mm": [
+    843.0,
+    65.27,
+    181.899
+  ],
+  "bbox_min_mm": [
+    -575.033,
+    -36.858,
+    -150.022
+  ],
+  "bbox_max_mm": [
+    267.967,
+    28.412,
+    31.877
+  ],
+  "triangle_count": 58228,
+  "object_count": 94,
+  "materials": [
+    "M_ppsh-41_Bakelite",
+    "M_ppsh-41_BluedSteel",
+    "M_ppsh-41_BoreShadow",
+    "M_ppsh-41_Brass",
+    "M_ppsh-41_BrightSteel",
+    "M_ppsh-41_CheckeredGrip",
+    "M_ppsh-41_DarkSteel",
+    "M_ppsh-41_Engraving",
+    "M_ppsh-41_Felt",
+    "M_ppsh-41_Glass",
+    "M_ppsh-41_ParkerizedSteel",
+    "M_ppsh-41_ScaleRef",
+    "M_ppsh-41_StudioFloor",
+    "M_ppsh-41_Wood"
+  ],
+  "texture_files": [
+    "assets/ppsh-41/textures/T_ppsh-41_Bakelite_AO_1k.png",
+    "assets/ppsh-41/textures/T_ppsh-41_Bakelite_BaseColor_1k.png",
+    "assets/ppsh-41/textures/T_ppsh-41_Bakelite_Metallic_1k.png",
+    "assets/ppsh-41/textures/T_ppsh-41_Bakelite_Normal_1k.png",
+    "assets/ppsh-41/textures/T_ppsh-41_Bakelite_Roughness_1k.png",
+    "assets/ppsh-41/textures/T_ppsh-41_BluedSteel_AO_1k.png",
+    "assets/ppsh-41/textures/T_ppsh-41_BluedSteel_BaseColor_1k.png",
+    "assets/ppsh-41/textures/T_ppsh-41_BluedSteel_Metallic_1k.png",
+    "assets/ppsh-41/textures/T_ppsh-41_BluedSteel_Normal_1k.png",
+    "assets/ppsh-41/textures/T_ppsh-41_BluedSteel_Roughness_1k.png",
+    "assets/ppsh-41/textures/T_ppsh-41_Brass_AO_1k.png",
+    "assets/ppsh-41/textures/T_ppsh-41_Brass_BaseColor_1k.png",
+    "assets/ppsh-41/textures/T_ppsh-41_Brass_Metallic_1k.png",
+    "assets/ppsh-41/textures/T_ppsh-41_Brass_Normal_1k.png",
+    "assets/ppsh-41/textures/T_ppsh-41_Brass_Roughness_1k.png",
+    "assets/ppsh-41/textures/T_ppsh-41_Glass_AO_1k.png",
+    "assets/ppsh-41/textures/T_ppsh-41_Glass_BaseColor_1k.png",
+    "assets/ppsh-41/textures/T_ppsh-41_Glass_Metallic_1k.png",
+    "assets/ppsh-41/textures/T_ppsh-41_Glass_Normal_1k.png",
+    "assets/ppsh-41/textures/T_ppsh-41_Glass_Roughness_1k.png",
+    "assets/ppsh-41/textures/T_ppsh-41_ParkerizedSteel_AO_1k.png",
+    "assets/ppsh-41/textures/T_ppsh-41_ParkerizedSteel_BaseColor_1k.png",
+    "assets/ppsh-41/textures/T_ppsh-41_ParkerizedSteel_Metallic_1k.png",
+    "assets/ppsh-41/textures/T_ppsh-41_ParkerizedSteel_Normal_1k.png",
+    "assets/ppsh-41/textures/T_ppsh-41_ParkerizedSteel_Roughness_1k.png",
+    "assets/ppsh-41/textures/T_ppsh-41_Wood_AO_1k.png",
+    "assets/ppsh-41/textures/T_ppsh-41_Wood_BaseColor_1k.png",
+    "assets/ppsh-41/textures/T_ppsh-41_Wood_Metallic_1k.png",
+    "assets/ppsh-41/textures/T_ppsh-41_Wood_Normal_1k.png",
+    "assets/ppsh-41/textures/T_ppsh-41_Wood_Roughness_1k.png"
+  ],
+  "textures_count": 30,
+  "uv_layer": "UVMap",
+  "pivot_controls": [
+    "CTRL_ppsh-41_Bolt",
+    "CTRL_ppsh-41_BoltHandle",
+    "CTRL_ppsh-41_DrumMagazine",
+    "CTRL_ppsh-41_MagazineCatch",
+    "CTRL_ppsh-41_Trigger",
+    "CTRL_ppsh-41_Selector"
+  ],
+  "collections": [
+    {
+      "name": "ppsh-41_Model",
+      "objects": 94
+    },
+    {
+      "name": "ppsh-41_Barrel",
+      "objects": 5
+    },
+    {
+      "name": "ppsh-41_Receiver",
+      "objects": 1
+    },
+    {
+      "name": "ppsh-41_Stock",
+      "objects": 4
+    },
+    {
+      "name": "ppsh-41_Sights",
+      "objects": 6
+    },
+    {
+      "name": "ppsh-41_Controls",
+      "objects": 7
+    },
+    {
+      "name": "ppsh-41_Magazine",
+      "objects": 41
+    },
+    {
+      "name": "ppsh-41_Internals",
+      "objects": 7
+    },
+    {
+      "name": "ppsh-41_Fasteners",
+      "objects": 20
+    },
+    {
+      "name": "ppsh-41_Markings",
+      "objects": 3
+    }
+  ],
+  "animation": "none",
+  "game_ready": false,
+  "notes": "Visual art asset; geometric passages are for inspection only, not manufacturing dimensions."
+}

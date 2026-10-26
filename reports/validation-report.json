@@ -1,0 +1,50 @@
+{
+  "tool": "validate_asset.py",
+  "version": "1.0.0",
+  "root": "/home/user/AIwarGame",
+  "strict": true,
+  "error_count": 0,
+  "warning_count": 0,
+  "errors": [],
+  "warnings": [],
+  "info": [
+    {
+      "where": ".github/workflows",
+      "message": "workflows: asset-ci.yml"
+    }
+  ],
+  "assets": [
+    {
+      "slug": "mosin-m91-30",
+      "path": "assets/mosin-m91-30",
+      "status": "review",
+      "archetype": "hard_surface",
+      "renders": 7,
+      "texture_files": 30
+    },
+    {
+      "slug": "mosin-m91-30-pu",
+      "path": "assets/mosin-m91-30-pu",
+      "status": "review",
+      "archetype": "hard_surface",
+      "renders": 7,
+      "texture_files": 30
+    },
+    {
+      "slug": "nagant-m1895",
+      "path": "assets/nagant-m1895",
+      "status": "review",
+      "archetype": "hard_surface",
+      "renders": 7,
+      "texture_files": 30
+    },
+    {
+      "slug": "ppsh-41",
+      "path": "assets/ppsh-41",
+      "status": "review",
+      "archetype": "hard_surface",
+      "renders": 7,
+      "texture_files": 30
+    }
+  ]
+}

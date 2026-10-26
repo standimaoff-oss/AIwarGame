@@ -1,0 +1,2512 @@
+{
+  "tool": "texture_report.py",
+  "version": "1.0.0",
+  "paths": [
+    "assets"
+  ],
+  "recursive": true,
+  "max_size": 8192,
+  "file_count": 120,
+  "sets": [
+    {
+      "slug": "mosin_m91_30",
+      "set": "bakelite",
+      "maps": [
+        "AO",
+        "BaseColor",
+        "Metallic",
+        "Normal",
+        "Roughness"
+      ],
+      "resolution": [
+        1024
+      ]
+    },
+    {
+      "slug": "mosin_m91_30",
+      "set": "bluedsteel",
+      "maps": [
+        "AO",
+        "BaseColor",
+        "Metallic",
+        "Normal",
+        "Roughness"
+      ],
+      "resolution": [
+        1024
+      ]
+    },
+    {
+      "slug": "mosin_m91_30",
+      "set": "brass",
+      "maps": [
+        "AO",
+        "BaseColor",
+        "Metallic",
+        "Normal",
+        "Roughness"
+      ],
+      "resolution": [
+        1024
+      ]
+    },
+    {
+      "slug": "mosin_m91_30",
+      "set": "glass",
+      "maps": [
+        "AO",
+        "BaseColor",
+        "Metallic",
+        "Normal",
+        "Roughness"
+      ],
+      "resolution": [
+        1024
+      ]
+    },
+    {
+      "slug": "mosin_m91_30",
+      "set": "parkerizedsteel",
+      "maps": [
+        "AO",
+        "BaseColor",
+        "Metallic",
+        "Normal",
+        "Roughness"
+      ],
+      "resolution": [
+        1024
+      ]
+    },
+    {
+      "slug": "mosin_m91_30",
+      "set": "wood",
+      "maps": [
+        "AO",
+        "BaseColor",
+        "Metallic",
+        "Normal",
+        "Roughness"
+      ],
+      "resolution": [
+        1024
+      ]
+    },
+    {
+      "slug": "mosin_m91_30_pu",
+      "set": "bakelite",
+      "maps": [
+        "AO",
+        "BaseColor",
+        "Metallic",
+        "Normal",
+        "Roughness"
+      ],
+      "resolution": [
+        1024
+      ]
+    },
+    {
+      "slug": "mosin_m91_30_pu",
+      "set": "bluedsteel",
+      "maps": [
+        "AO",
+        "BaseColor",
+        "Metallic",
+        "Normal",
+        "Roughness"
+      ],
+      "resolution": [
+        1024
+      ]
+    },
+    {
+      "slug": "mosin_m91_30_pu",
+      "set": "brass",
+      "maps": [
+        "AO",
+        "BaseColor",
+        "Metallic",
+        "Normal",
+        "Roughness"
+      ],
+      "resolution": [
+        1024
+      ]
+    },
+    {
+      "slug": "mosin_m91_30_pu",
+      "set": "glass",
+      "maps": [
+        "AO",
+        "BaseColor",
+        "Metallic",
+        "Normal",
+        "Roughness"
+      ],
+      "resolution": [
+        1024
+      ]
+    },
+    {
+      "slug": "mosin_m91_30_pu",
+      "set": "parkerizedsteel",
+      "maps": [
+        "AO",
+        "BaseColor",
+        "Metallic",
+        "Normal",
+        "Roughness"
+      ],
+      "resolution": [
+        1024
+      ]
+    },
+    {
+      "slug": "mosin_m91_30_pu",
+      "set": "wood",
+      "maps": [
+        "AO",
+        "BaseColor",
+        "Metallic",
+        "Normal",
+        "Roughness"
+      ],
+      "resolution": [
+        1024
+      ]
+    },
+    {
+      "slug": "nagant_m1895",
+      "set": "bakelite",
+      "maps": [
+        "AO",
+        "BaseColor",
+        "Metallic",
+        "Normal",
+        "Roughness"
+      ],
+      "resolution": [
+        1024
+      ]
+    },
+    {
+      "slug": "nagant_m1895",
+      "set": "bluedsteel",
+      "maps": [
+        "AO",
+        "BaseColor",
+        "Metallic",
+        "Normal",
+        "Roughness"
+      ],
+      "resolution": [
+        1024
+      ]
+    },
+    {
+      "slug": "nagant_m1895",
+      "set": "brass",
+      "maps": [
+        "AO",
+        "BaseColor",
+        "Metallic",
+        "Normal",
+        "Roughness"
+      ],
+      "resolution": [
+        1024
+      ]
+    },
+    {
+      "slug": "nagant_m1895",
+      "set": "glass",
+      "maps": [
+        "AO",
+        "BaseColor",
+        "Metallic",
+        "Normal",
+        "Roughness"
+      ],
+      "resolution": [
+        1024
+      ]
+    },
+    {
+      "slug": "nagant_m1895",
+      "set": "parkerizedsteel",
+      "maps": [
+        "AO",
+        "BaseColor",
+        "Metallic",
+        "Normal",
+        "Roughness"
+      ],
+      "resolution": [
+        1024
+      ]
+    },
+    {
+      "slug": "nagant_m1895",
+      "set": "wood",
+      "maps": [
+        "AO",
+        "BaseColor",
+        "Metallic",
+        "Normal",
+        "Roughness"
+      ],
+      "resolution": [
+        1024
+      ]
+    },
+    {
+      "slug": "ppsh_41",
+      "set": "bakelite",
+      "maps": [
+        "AO",
+        "BaseColor",
+        "Metallic",
+        "Normal",
+        "Roughness"
+      ],
+      "resolution": [
+        1024
+      ]
+    },
+    {
+      "slug": "ppsh_41",
+      "set": "bluedsteel",
+      "maps": [
+        "AO",
+        "BaseColor",
+        "Metallic",
+        "Normal",
+        "Roughness"
+      ],
+      "resolution": [
+        1024
+      ]
+    },
+    {
+      "slug": "ppsh_41",
+      "set": "brass",
+      "maps": [
+        "AO",
+        "BaseColor",
+        "Metallic",
+        "Normal",
+        "Roughness"
+      ],
+      "resolution": [
+        1024
+      ]
+    },
+    {
+      "slug": "ppsh_41",
+      "set": "glass",
+      "maps": [
+        "AO",
+        "BaseColor",
+        "Metallic",
+        "Normal",
+        "Roughness"
+      ],
+      "resolution": [
+        1024
+      ]
+    },
+    {
+      "slug": "ppsh_41",
+      "set": "parkerizedsteel",
+      "maps": [
+        "AO",
+        "BaseColor",
+        "Metallic",
+        "Normal",
+        "Roughness"
+      ],
+      "resolution": [
+        1024
+      ]
+    },
+    {
+      "slug": "ppsh_41",
+      "set": "wood",
+      "maps": [
+        "AO",
+        "BaseColor",
+        "Metallic",
+        "Normal",
+        "Roughness"
+      ],
+      "resolution": [
+        1024
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_Bakelite_AO_1k.png",
+      "name": "T_ppsh-41_Bakelite_AO_1k.png",
+      "bytes": 2515,
+      "slug": "ppsh_41",
+      "set": "bakelite",
+      "map": "AO",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_Bakelite_BaseColor_1k.png",
+      "name": "T_ppsh-41_Bakelite_BaseColor_1k.png",
+      "bytes": 364730,
+      "slug": "ppsh_41",
+      "set": "bakelite",
+      "map": "BaseColor",
+      "res_token": "1k",
+      "expected_colorspace": "sRGB",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 3,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_Bakelite_Metallic_1k.png",
+      "name": "T_ppsh-41_Bakelite_Metallic_1k.png",
+      "bytes": 1232,
+      "slug": "ppsh_41",
+      "set": "bakelite",
+      "map": "Metallic",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_Bakelite_Normal_1k.png",
+      "name": "T_ppsh-41_Bakelite_Normal_1k.png",
+      "bytes": 1391934,
+      "slug": "ppsh_41",
+      "set": "bakelite",
+      "map": "Normal",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 3,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_Bakelite_Roughness_1k.png",
+      "name": "T_ppsh-41_Bakelite_Roughness_1k.png",
+      "bytes": 50803,
+      "slug": "ppsh_41",
+      "set": "bakelite",
+      "map": "Roughness",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_BluedSteel_AO_1k.png",
+      "name": "T_ppsh-41_BluedSteel_AO_1k.png",
+      "bytes": 2667,
+      "slug": "ppsh_41",
+      "set": "bluedsteel",
+      "map": "AO",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_BluedSteel_BaseColor_1k.png",
+      "name": "T_ppsh-41_BluedSteel_BaseColor_1k.png",
+      "bytes": 137511,
+      "slug": "ppsh_41",
+      "set": "bluedsteel",
+      "map": "BaseColor",
+      "res_token": "1k",
+      "expected_colorspace": "sRGB",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 3,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_BluedSteel_Metallic_1k.png",
+      "name": "T_ppsh-41_BluedSteel_Metallic_1k.png",
+      "bytes": 2522,
+      "slug": "ppsh_41",
+      "set": "bluedsteel",
+      "map": "Metallic",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_BluedSteel_Normal_1k.png",
+      "name": "T_ppsh-41_BluedSteel_Normal_1k.png",
+      "bytes": 867100,
+      "slug": "ppsh_41",
+      "set": "bluedsteel",
+      "map": "Normal",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 3,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_BluedSteel_Roughness_1k.png",
+      "name": "T_ppsh-41_BluedSteel_Roughness_1k.png",
+      "bytes": 45405,
+      "slug": "ppsh_41",
+      "set": "bluedsteel",
+      "map": "Roughness",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_Brass_AO_1k.png",
+      "name": "T_ppsh-41_Brass_AO_1k.png",
+      "bytes": 2512,
+      "slug": "ppsh_41",
+      "set": "brass",
+      "map": "AO",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_Brass_BaseColor_1k.png",
+      "name": "T_ppsh-41_Brass_BaseColor_1k.png",
+      "bytes": 255466,
+      "slug": "ppsh_41",
+      "set": "brass",
+      "map": "BaseColor",
+      "res_token": "1k",
+      "expected_colorspace": "sRGB",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 3,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_Brass_Metallic_1k.png",
+      "name": "T_ppsh-41_Brass_Metallic_1k.png",
+      "bytes": 2517,
+      "slug": "ppsh_41",
+      "set": "brass",
+      "map": "Metallic",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_Brass_Normal_1k.png",
+      "name": "T_ppsh-41_Brass_Normal_1k.png",
+      "bytes": 863451,
+      "slug": "ppsh_41",
+      "set": "brass",
+      "map": "Normal",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 3,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_Brass_Roughness_1k.png",
+      "name": "T_ppsh-41_Brass_Roughness_1k.png",
+      "bytes": 2519,
+      "slug": "ppsh_41",
+      "set": "brass",
+      "map": "Roughness",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_Glass_AO_1k.png",
+      "name": "T_ppsh-41_Glass_AO_1k.png",
+      "bytes": 2511,
+      "slug": "ppsh_41",
+      "set": "glass",
+      "map": "AO",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_Glass_BaseColor_1k.png",
+      "name": "T_ppsh-41_Glass_BaseColor_1k.png",
+      "bytes": 46762,
+      "slug": "ppsh_41",
+      "set": "glass",
+      "map": "BaseColor",
+      "res_token": "1k",
+      "expected_colorspace": "sRGB",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 3,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_Glass_Metallic_1k.png",
+      "name": "T_ppsh-41_Glass_Metallic_1k.png",
+      "bytes": 1229,
+      "slug": "ppsh_41",
+      "set": "glass",
+      "map": "Metallic",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_Glass_Normal_1k.png",
+      "name": "T_ppsh-41_Glass_Normal_1k.png",
+      "bytes": 365196,
+      "slug": "ppsh_41",
+      "set": "glass",
+      "map": "Normal",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 3,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_Glass_Roughness_1k.png",
+      "name": "T_ppsh-41_Glass_Roughness_1k.png",
+      "bytes": 2519,
+      "slug": "ppsh_41",
+      "set": "glass",
+      "map": "Roughness",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_ParkerizedSteel_AO_1k.png",
+      "name": "T_ppsh-41_ParkerizedSteel_AO_1k.png",
+      "bytes": 19819,
+      "slug": "ppsh_41",
+      "set": "parkerizedsteel",
+      "map": "AO",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_ParkerizedSteel_BaseColor_1k.png",
+      "name": "T_ppsh-41_ParkerizedSteel_BaseColor_1k.png",
+      "bytes": 341574,
+      "slug": "ppsh_41",
+      "set": "parkerizedsteel",
+      "map": "BaseColor",
+      "res_token": "1k",
+      "expected_colorspace": "sRGB",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 3,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_ParkerizedSteel_Metallic_1k.png",
+      "name": "T_ppsh-41_ParkerizedSteel_Metallic_1k.png",
+      "bytes": 2527,
+      "slug": "ppsh_41",
+      "set": "parkerizedsteel",
+      "map": "Metallic",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_ParkerizedSteel_Normal_1k.png",
+      "name": "T_ppsh-41_ParkerizedSteel_Normal_1k.png",
+      "bytes": 1089687,
+      "slug": "ppsh_41",
+      "set": "parkerizedsteel",
+      "map": "Normal",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 3,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_ParkerizedSteel_Roughness_1k.png",
+      "name": "T_ppsh-41_ParkerizedSteel_Roughness_1k.png",
+      "bytes": 28018,
+      "slug": "ppsh_41",
+      "set": "parkerizedsteel",
+      "map": "Roughness",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_Wood_AO_1k.png",
+      "name": "T_ppsh-41_Wood_AO_1k.png",
+      "bytes": 15191,
+      "slug": "ppsh_41",
+      "set": "wood",
+      "map": "AO",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_Wood_BaseColor_1k.png",
+      "name": "T_ppsh-41_Wood_BaseColor_1k.png",
+      "bytes": 443370,
+      "slug": "ppsh_41",
+      "set": "wood",
+      "map": "BaseColor",
+      "res_token": "1k",
+      "expected_colorspace": "sRGB",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 3,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_Wood_Metallic_1k.png",
+      "name": "T_ppsh-41_Wood_Metallic_1k.png",
+      "bytes": 1228,
+      "slug": "ppsh_41",
+      "set": "wood",
+      "map": "Metallic",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_Wood_Normal_1k.png",
+      "name": "T_ppsh-41_Wood_Normal_1k.png",
+      "bytes": 526398,
+      "slug": "ppsh_41",
+      "set": "wood",
+      "map": "Normal",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 3,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_Wood_Roughness_1k.png",
+      "name": "T_ppsh-41_Wood_Roughness_1k.png",
+      "bytes": 23366,
+      "slug": "ppsh_41",
+      "set": "wood",
+      "map": "Roughness",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30/textures/T_mosin-m91-30_Bakelite_AO_1k.png",
+      "name": "T_mosin-m91-30_Bakelite_AO_1k.png",
+      "bytes": 2515,
+      "slug": "mosin_m91_30",
+      "set": "bakelite",
+      "map": "AO",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30/textures/T_mosin-m91-30_Bakelite_BaseColor_1k.png",
+      "name": "T_mosin-m91-30_Bakelite_BaseColor_1k.png",
+      "bytes": 364730,
+      "slug": "mosin_m91_30",
+      "set": "bakelite",
+      "map": "BaseColor",
+      "res_token": "1k",
+      "expected_colorspace": "sRGB",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 3,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30/textures/T_mosin-m91-30_Bakelite_Metallic_1k.png",
+      "name": "T_mosin-m91-30_Bakelite_Metallic_1k.png",
+      "bytes": 1232,
+      "slug": "mosin_m91_30",
+      "set": "bakelite",
+      "map": "Metallic",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30/textures/T_mosin-m91-30_Bakelite_Normal_1k.png",
+      "name": "T_mosin-m91-30_Bakelite_Normal_1k.png",
+      "bytes": 1391934,
+      "slug": "mosin_m91_30",
+      "set": "bakelite",
+      "map": "Normal",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 3,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30/textures/T_mosin-m91-30_Bakelite_Roughness_1k.png",
+      "name": "T_mosin-m91-30_Bakelite_Roughness_1k.png",
+      "bytes": 50803,
+      "slug": "mosin_m91_30",
+      "set": "bakelite",
+      "map": "Roughness",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30/textures/T_mosin-m91-30_BluedSteel_AO_1k.png",
+      "name": "T_mosin-m91-30_BluedSteel_AO_1k.png",
+      "bytes": 2667,
+      "slug": "mosin_m91_30",
+      "set": "bluedsteel",
+      "map": "AO",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30/textures/T_mosin-m91-30_BluedSteel_BaseColor_1k.png",
+      "name": "T_mosin-m91-30_BluedSteel_BaseColor_1k.png",
+      "bytes": 137511,
+      "slug": "mosin_m91_30",
+      "set": "bluedsteel",
+      "map": "BaseColor",
+      "res_token": "1k",
+      "expected_colorspace": "sRGB",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 3,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30/textures/T_mosin-m91-30_BluedSteel_Metallic_1k.png",
+      "name": "T_mosin-m91-30_BluedSteel_Metallic_1k.png",
+      "bytes": 2522,
+      "slug": "mosin_m91_30",
+      "set": "bluedsteel",
+      "map": "Metallic",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30/textures/T_mosin-m91-30_BluedSteel_Normal_1k.png",
+      "name": "T_mosin-m91-30_BluedSteel_Normal_1k.png",
+      "bytes": 867100,
+      "slug": "mosin_m91_30",
+      "set": "bluedsteel",
+      "map": "Normal",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 3,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30/textures/T_mosin-m91-30_BluedSteel_Roughness_1k.png",
+      "name": "T_mosin-m91-30_BluedSteel_Roughness_1k.png",
+      "bytes": 45405,
+      "slug": "mosin_m91_30",
+      "set": "bluedsteel",
+      "map": "Roughness",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30/textures/T_mosin-m91-30_Brass_AO_1k.png",
+      "name": "T_mosin-m91-30_Brass_AO_1k.png",
+      "bytes": 2512,
+      "slug": "mosin_m91_30",
+      "set": "brass",
+      "map": "AO",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30/textures/T_mosin-m91-30_Brass_BaseColor_1k.png",
+      "name": "T_mosin-m91-30_Brass_BaseColor_1k.png",
+      "bytes": 255466,
+      "slug": "mosin_m91_30",
+      "set": "brass",
+      "map": "BaseColor",
+      "res_token": "1k",
+      "expected_colorspace": "sRGB",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 3,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30/textures/T_mosin-m91-30_Brass_Metallic_1k.png",
+      "name": "T_mosin-m91-30_Brass_Metallic_1k.png",
+      "bytes": 2517,
+      "slug": "mosin_m91_30",
+      "set": "brass",
+      "map": "Metallic",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30/textures/T_mosin-m91-30_Brass_Normal_1k.png",
+      "name": "T_mosin-m91-30_Brass_Normal_1k.png",
+      "bytes": 863451,
+      "slug": "mosin_m91_30",
+      "set": "brass",
+      "map": "Normal",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 3,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30/textures/T_mosin-m91-30_Brass_Roughness_1k.png",
+      "name": "T_mosin-m91-30_Brass_Roughness_1k.png",
+      "bytes": 2519,
+      "slug": "mosin_m91_30",
+      "set": "brass",
+      "map": "Roughness",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30/textures/T_mosin-m91-30_Glass_AO_1k.png",
+      "name": "T_mosin-m91-30_Glass_AO_1k.png",
+      "bytes": 2511,
+      "slug": "mosin_m91_30",
+      "set": "glass",
+      "map": "AO",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30/textures/T_mosin-m91-30_Glass_BaseColor_1k.png",
+      "name": "T_mosin-m91-30_Glass_BaseColor_1k.png",
+      "bytes": 46762,
+      "slug": "mosin_m91_30",
+      "set": "glass",
+      "map": "BaseColor",
+      "res_token": "1k",
+      "expected_colorspace": "sRGB",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 3,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30/textures/T_mosin-m91-30_Glass_Metallic_1k.png",
+      "name": "T_mosin-m91-30_Glass_Metallic_1k.png",
+      "bytes": 1229,
+      "slug": "mosin_m91_30",
+      "set": "glass",
+      "map": "Metallic",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30/textures/T_mosin-m91-30_Glass_Normal_1k.png",
+      "name": "T_mosin-m91-30_Glass_Normal_1k.png",
+      "bytes": 365196,
+      "slug": "mosin_m91_30",
+      "set": "glass",
+      "map": "Normal",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 3,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30/textures/T_mosin-m91-30_Glass_Roughness_1k.png",
+      "name": "T_mosin-m91-30_Glass_Roughness_1k.png",
+      "bytes": 2519,
+      "slug": "mosin_m91_30",
+      "set": "glass",
+      "map": "Roughness",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30/textures/T_mosin-m91-30_ParkerizedSteel_AO_1k.png",
+      "name": "T_mosin-m91-30_ParkerizedSteel_AO_1k.png",
+      "bytes": 19819,
+      "slug": "mosin_m91_30",
+      "set": "parkerizedsteel",
+      "map": "AO",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30/textures/T_mosin-m91-30_ParkerizedSteel_BaseColor_1k.png",
+      "name": "T_mosin-m91-30_ParkerizedSteel_BaseColor_1k.png",
+      "bytes": 341574,
+      "slug": "mosin_m91_30",
+      "set": "parkerizedsteel",
+      "map": "BaseColor",
+      "res_token": "1k",
+      "expected_colorspace": "sRGB",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 3,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30/textures/T_mosin-m91-30_ParkerizedSteel_Metallic_1k.png",
+      "name": "T_mosin-m91-30_ParkerizedSteel_Metallic_1k.png",
+      "bytes": 2527,
+      "slug": "mosin_m91_30",
+      "set": "parkerizedsteel",
+      "map": "Metallic",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30/textures/T_mosin-m91-30_ParkerizedSteel_Normal_1k.png",
+      "name": "T_mosin-m91-30_ParkerizedSteel_Normal_1k.png",
+      "bytes": 1089687,
+      "slug": "mosin_m91_30",
+      "set": "parkerizedsteel",
+      "map": "Normal",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 3,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30/textures/T_mosin-m91-30_ParkerizedSteel_Roughness_1k.png",
+      "name": "T_mosin-m91-30_ParkerizedSteel_Roughness_1k.png",
+      "bytes": 28018,
+      "slug": "mosin_m91_30",
+      "set": "parkerizedsteel",
+      "map": "Roughness",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30/textures/T_mosin-m91-30_Wood_AO_1k.png",
+      "name": "T_mosin-m91-30_Wood_AO_1k.png",
+      "bytes": 15191,
+      "slug": "mosin_m91_30",
+      "set": "wood",
+      "map": "AO",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30/textures/T_mosin-m91-30_Wood_BaseColor_1k.png",
+      "name": "T_mosin-m91-30_Wood_BaseColor_1k.png",
+      "bytes": 443370,
+      "slug": "mosin_m91_30",
+      "set": "wood",
+      "map": "BaseColor",
+      "res_token": "1k",
+      "expected_colorspace": "sRGB",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 3,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30/textures/T_mosin-m91-30_Wood_Metallic_1k.png",
+      "name": "T_mosin-m91-30_Wood_Metallic_1k.png",
+      "bytes": 1228,
+      "slug": "mosin_m91_30",
+      "set": "wood",
+      "map": "Metallic",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30/textures/T_mosin-m91-30_Wood_Normal_1k.png",
+      "name": "T_mosin-m91-30_Wood_Normal_1k.png",
+      "bytes": 526398,
+      "slug": "mosin_m91_30",
+      "set": "wood",
+      "map": "Normal",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 3,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30/textures/T_mosin-m91-30_Wood_Roughness_1k.png",
+      "name": "T_mosin-m91-30_Wood_Roughness_1k.png",
+      "bytes": 23366,
+      "slug": "mosin_m91_30",
+      "set": "wood",
+      "map": "Roughness",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/nagant-m1895/textures/T_nagant-m1895_Bakelite_AO_1k.png",
+      "name": "T_nagant-m1895_Bakelite_AO_1k.png",
+      "bytes": 2515,
+      "slug": "nagant_m1895",
+      "set": "bakelite",
+      "map": "AO",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/nagant-m1895/textures/T_nagant-m1895_Bakelite_BaseColor_1k.png",
+      "name": "T_nagant-m1895_Bakelite_BaseColor_1k.png",
+      "bytes": 364730,
+      "slug": "nagant_m1895",
+      "set": "bakelite",
+      "map": "BaseColor",
+      "res_token": "1k",
+      "expected_colorspace": "sRGB",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 3,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/nagant-m1895/textures/T_nagant-m1895_Bakelite_Metallic_1k.png",
+      "name": "T_nagant-m1895_Bakelite_Metallic_1k.png",
+      "bytes": 1232,
+      "slug": "nagant_m1895",
+      "set": "bakelite",
+      "map": "Metallic",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/nagant-m1895/textures/T_nagant-m1895_Bakelite_Normal_1k.png",
+      "name": "T_nagant-m1895_Bakelite_Normal_1k.png",
+      "bytes": 1391934,
+      "slug": "nagant_m1895",
+      "set": "bakelite",
+      "map": "Normal",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 3,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/nagant-m1895/textures/T_nagant-m1895_Bakelite_Roughness_1k.png",
+      "name": "T_nagant-m1895_Bakelite_Roughness_1k.png",
+      "bytes": 50803,
+      "slug": "nagant_m1895",
+      "set": "bakelite",
+      "map": "Roughness",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/nagant-m1895/textures/T_nagant-m1895_BluedSteel_AO_1k.png",
+      "name": "T_nagant-m1895_BluedSteel_AO_1k.png",
+      "bytes": 2667,
+      "slug": "nagant_m1895",
+      "set": "bluedsteel",
+      "map": "AO",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/nagant-m1895/textures/T_nagant-m1895_BluedSteel_BaseColor_1k.png",
+      "name": "T_nagant-m1895_BluedSteel_BaseColor_1k.png",
+      "bytes": 137511,
+      "slug": "nagant_m1895",
+      "set": "bluedsteel",
+      "map": "BaseColor",
+      "res_token": "1k",
+      "expected_colorspace": "sRGB",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 3,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/nagant-m1895/textures/T_nagant-m1895_BluedSteel_Metallic_1k.png",
+      "name": "T_nagant-m1895_BluedSteel_Metallic_1k.png",
+      "bytes": 2522,
+      "slug": "nagant_m1895",
+      "set": "bluedsteel",
+      "map": "Metallic",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/nagant-m1895/textures/T_nagant-m1895_BluedSteel_Normal_1k.png",
+      "name": "T_nagant-m1895_BluedSteel_Normal_1k.png",
+      "bytes": 867100,
+      "slug": "nagant_m1895",
+      "set": "bluedsteel",
+      "map": "Normal",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 3,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/nagant-m1895/textures/T_nagant-m1895_BluedSteel_Roughness_1k.png",
+      "name": "T_nagant-m1895_BluedSteel_Roughness_1k.png",
+      "bytes": 45405,
+      "slug": "nagant_m1895",
+      "set": "bluedsteel",
+      "map": "Roughness",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/nagant-m1895/textures/T_nagant-m1895_Brass_AO_1k.png",
+      "name": "T_nagant-m1895_Brass_AO_1k.png",
+      "bytes": 2512,
+      "slug": "nagant_m1895",
+      "set": "brass",
+      "map": "AO",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/nagant-m1895/textures/T_nagant-m1895_Brass_BaseColor_1k.png",
+      "name": "T_nagant-m1895_Brass_BaseColor_1k.png",
+      "bytes": 255466,
+      "slug": "nagant_m1895",
+      "set": "brass",
+      "map": "BaseColor",
+      "res_token": "1k",
+      "expected_colorspace": "sRGB",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 3,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/nagant-m1895/textures/T_nagant-m1895_Brass_Metallic_1k.png",
+      "name": "T_nagant-m1895_Brass_Metallic_1k.png",
+      "bytes": 2517,
+      "slug": "nagant_m1895",
+      "set": "brass",
+      "map": "Metallic",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/nagant-m1895/textures/T_nagant-m1895_Brass_Normal_1k.png",
+      "name": "T_nagant-m1895_Brass_Normal_1k.png",
+      "bytes": 863451,
+      "slug": "nagant_m1895",
+      "set": "brass",
+      "map": "Normal",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 3,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/nagant-m1895/textures/T_nagant-m1895_Brass_Roughness_1k.png",
+      "name": "T_nagant-m1895_Brass_Roughness_1k.png",
+      "bytes": 2519,
+      "slug": "nagant_m1895",
+      "set": "brass",
+      "map": "Roughness",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/nagant-m1895/textures/T_nagant-m1895_Glass_AO_1k.png",
+      "name": "T_nagant-m1895_Glass_AO_1k.png",
+      "bytes": 2511,
+      "slug": "nagant_m1895",
+      "set": "glass",
+      "map": "AO",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/nagant-m1895/textures/T_nagant-m1895_Glass_BaseColor_1k.png",
+      "name": "T_nagant-m1895_Glass_BaseColor_1k.png",
+      "bytes": 46762,
+      "slug": "nagant_m1895",
+      "set": "glass",
+      "map": "BaseColor",
+      "res_token": "1k",
+      "expected_colorspace": "sRGB",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 3,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/nagant-m1895/textures/T_nagant-m1895_Glass_Metallic_1k.png",
+      "name": "T_nagant-m1895_Glass_Metallic_1k.png",
+      "bytes": 1229,
+      "slug": "nagant_m1895",
+      "set": "glass",
+      "map": "Metallic",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/nagant-m1895/textures/T_nagant-m1895_Glass_Normal_1k.png",
+      "name": "T_nagant-m1895_Glass_Normal_1k.png",
+      "bytes": 365196,
+      "slug": "nagant_m1895",
+      "set": "glass",
+      "map": "Normal",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 3,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/nagant-m1895/textures/T_nagant-m1895_Glass_Roughness_1k.png",
+      "name": "T_nagant-m1895_Glass_Roughness_1k.png",
+      "bytes": 2519,
+      "slug": "nagant_m1895",
+      "set": "glass",
+      "map": "Roughness",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/nagant-m1895/textures/T_nagant-m1895_ParkerizedSteel_AO_1k.png",
+      "name": "T_nagant-m1895_ParkerizedSteel_AO_1k.png",
+      "bytes": 19819,
+      "slug": "nagant_m1895",
+      "set": "parkerizedsteel",
+      "map": "AO",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/nagant-m1895/textures/T_nagant-m1895_ParkerizedSteel_BaseColor_1k.png",
+      "name": "T_nagant-m1895_ParkerizedSteel_BaseColor_1k.png",
+      "bytes": 341574,
+      "slug": "nagant_m1895",
+      "set": "parkerizedsteel",
+      "map": "BaseColor",
+      "res_token": "1k",
+      "expected_colorspace": "sRGB",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 3,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/nagant-m1895/textures/T_nagant-m1895_ParkerizedSteel_Metallic_1k.png",
+      "name": "T_nagant-m1895_ParkerizedSteel_Metallic_1k.png",
+      "bytes": 2527,
+      "slug": "nagant_m1895",
+      "set": "parkerizedsteel",
+      "map": "Metallic",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/nagant-m1895/textures/T_nagant-m1895_ParkerizedSteel_Normal_1k.png",
+      "name": "T_nagant-m1895_ParkerizedSteel_Normal_1k.png",
+      "bytes": 1089687,
+      "slug": "nagant_m1895",
+      "set": "parkerizedsteel",
+      "map": "Normal",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 3,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/nagant-m1895/textures/T_nagant-m1895_ParkerizedSteel_Roughness_1k.png",
+      "name": "T_nagant-m1895_ParkerizedSteel_Roughness_1k.png",
+      "bytes": 28018,
+      "slug": "nagant_m1895",
+      "set": "parkerizedsteel",
+      "map": "Roughness",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/nagant-m1895/textures/T_nagant-m1895_Wood_AO_1k.png",
+      "name": "T_nagant-m1895_Wood_AO_1k.png",
+      "bytes": 15191,
+      "slug": "nagant_m1895",
+      "set": "wood",
+      "map": "AO",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/nagant-m1895/textures/T_nagant-m1895_Wood_BaseColor_1k.png",
+      "name": "T_nagant-m1895_Wood_BaseColor_1k.png",
+      "bytes": 443370,
+      "slug": "nagant_m1895",
+      "set": "wood",
+      "map": "BaseColor",
+      "res_token": "1k",
+      "expected_colorspace": "sRGB",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 3,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/nagant-m1895/textures/T_nagant-m1895_Wood_Metallic_1k.png",
+      "name": "T_nagant-m1895_Wood_Metallic_1k.png",
+      "bytes": 1228,
+      "slug": "nagant_m1895",
+      "set": "wood",
+      "map": "Metallic",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/nagant-m1895/textures/T_nagant-m1895_Wood_Normal_1k.png",
+      "name": "T_nagant-m1895_Wood_Normal_1k.png",
+      "bytes": 526398,
+      "slug": "nagant_m1895",
+      "set": "wood",
+      "map": "Normal",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 3,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/nagant-m1895/textures/T_nagant-m1895_Wood_Roughness_1k.png",
+      "name": "T_nagant-m1895_Wood_Roughness_1k.png",
+      "bytes": 23366,
+      "slug": "nagant_m1895",
+      "set": "wood",
+      "map": "Roughness",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Bakelite_AO_1k.png",
+      "name": "T_mosin-m91-30-pu_Bakelite_AO_1k.png",
+      "bytes": 2515,
+      "slug": "mosin_m91_30_pu",
+      "set": "bakelite",
+      "map": "AO",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Bakelite_BaseColor_1k.png",
+      "name": "T_mosin-m91-30-pu_Bakelite_BaseColor_1k.png",
+      "bytes": 364730,
+      "slug": "mosin_m91_30_pu",
+      "set": "bakelite",
+      "map": "BaseColor",
+      "res_token": "1k",
+      "expected_colorspace": "sRGB",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 3,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Bakelite_Metallic_1k.png",
+      "name": "T_mosin-m91-30-pu_Bakelite_Metallic_1k.png",
+      "bytes": 1232,
+      "slug": "mosin_m91_30_pu",
+      "set": "bakelite",
+      "map": "Metallic",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Bakelite_Normal_1k.png",
+      "name": "T_mosin-m91-30-pu_Bakelite_Normal_1k.png",
+      "bytes": 1391934,
+      "slug": "mosin_m91_30_pu",
+      "set": "bakelite",
+      "map": "Normal",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 3,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Bakelite_Roughness_1k.png",
+      "name": "T_mosin-m91-30-pu_Bakelite_Roughness_1k.png",
+      "bytes": 50803,
+      "slug": "mosin_m91_30_pu",
+      "set": "bakelite",
+      "map": "Roughness",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_BluedSteel_AO_1k.png",
+      "name": "T_mosin-m91-30-pu_BluedSteel_AO_1k.png",
+      "bytes": 2667,
+      "slug": "mosin_m91_30_pu",
+      "set": "bluedsteel",
+      "map": "AO",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_BluedSteel_BaseColor_1k.png",
+      "name": "T_mosin-m91-30-pu_BluedSteel_BaseColor_1k.png",
+      "bytes": 137511,
+      "slug": "mosin_m91_30_pu",
+      "set": "bluedsteel",
+      "map": "BaseColor",
+      "res_token": "1k",
+      "expected_colorspace": "sRGB",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 3,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_BluedSteel_Metallic_1k.png",
+      "name": "T_mosin-m91-30-pu_BluedSteel_Metallic_1k.png",
+      "bytes": 2522,
+      "slug": "mosin_m91_30_pu",
+      "set": "bluedsteel",
+      "map": "Metallic",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_BluedSteel_Normal_1k.png",
+      "name": "T_mosin-m91-30-pu_BluedSteel_Normal_1k.png",
+      "bytes": 867100,
+      "slug": "mosin_m91_30_pu",
+      "set": "bluedsteel",
+      "map": "Normal",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 3,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_BluedSteel_Roughness_1k.png",
+      "name": "T_mosin-m91-30-pu_BluedSteel_Roughness_1k.png",
+      "bytes": 45405,
+      "slug": "mosin_m91_30_pu",
+      "set": "bluedsteel",
+      "map": "Roughness",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Brass_AO_1k.png",
+      "name": "T_mosin-m91-30-pu_Brass_AO_1k.png",
+      "bytes": 2512,
+      "slug": "mosin_m91_30_pu",
+      "set": "brass",
+      "map": "AO",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Brass_BaseColor_1k.png",
+      "name": "T_mosin-m91-30-pu_Brass_BaseColor_1k.png",
+      "bytes": 255466,
+      "slug": "mosin_m91_30_pu",
+      "set": "brass",
+      "map": "BaseColor",
+      "res_token": "1k",
+      "expected_colorspace": "sRGB",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 3,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Brass_Metallic_1k.png",
+      "name": "T_mosin-m91-30-pu_Brass_Metallic_1k.png",
+      "bytes": 2517,
+      "slug": "mosin_m91_30_pu",
+      "set": "brass",
+      "map": "Metallic",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Brass_Normal_1k.png",
+      "name": "T_mosin-m91-30-pu_Brass_Normal_1k.png",
+      "bytes": 863451,
+      "slug": "mosin_m91_30_pu",
+      "set": "brass",
+      "map": "Normal",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 3,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Brass_Roughness_1k.png",
+      "name": "T_mosin-m91-30-pu_Brass_Roughness_1k.png",
+      "bytes": 2519,
+      "slug": "mosin_m91_30_pu",
+      "set": "brass",
+      "map": "Roughness",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Glass_AO_1k.png",
+      "name": "T_mosin-m91-30-pu_Glass_AO_1k.png",
+      "bytes": 2511,
+      "slug": "mosin_m91_30_pu",
+      "set": "glass",
+      "map": "AO",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Glass_BaseColor_1k.png",
+      "name": "T_mosin-m91-30-pu_Glass_BaseColor_1k.png",
+      "bytes": 46762,
+      "slug": "mosin_m91_30_pu",
+      "set": "glass",
+      "map": "BaseColor",
+      "res_token": "1k",
+      "expected_colorspace": "sRGB",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 3,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Glass_Metallic_1k.png",
+      "name": "T_mosin-m91-30-pu_Glass_Metallic_1k.png",
+      "bytes": 1229,
+      "slug": "mosin_m91_30_pu",
+      "set": "glass",
+      "map": "Metallic",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Glass_Normal_1k.png",
+      "name": "T_mosin-m91-30-pu_Glass_Normal_1k.png",
+      "bytes": 365196,
+      "slug": "mosin_m91_30_pu",
+      "set": "glass",
+      "map": "Normal",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 3,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Glass_Roughness_1k.png",
+      "name": "T_mosin-m91-30-pu_Glass_Roughness_1k.png",
+      "bytes": 2519,
+      "slug": "mosin_m91_30_pu",
+      "set": "glass",
+      "map": "Roughness",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_ParkerizedSteel_AO_1k.png",
+      "name": "T_mosin-m91-30-pu_ParkerizedSteel_AO_1k.png",
+      "bytes": 19819,
+      "slug": "mosin_m91_30_pu",
+      "set": "parkerizedsteel",
+      "map": "AO",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_ParkerizedSteel_BaseColor_1k.png",
+      "name": "T_mosin-m91-30-pu_ParkerizedSteel_BaseColor_1k.png",
+      "bytes": 341574,
+      "slug": "mosin_m91_30_pu",
+      "set": "parkerizedsteel",
+      "map": "BaseColor",
+      "res_token": "1k",
+      "expected_colorspace": "sRGB",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 3,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_ParkerizedSteel_Metallic_1k.png",
+      "name": "T_mosin-m91-30-pu_ParkerizedSteel_Metallic_1k.png",
+      "bytes": 2527,
+      "slug": "mosin_m91_30_pu",
+      "set": "parkerizedsteel",
+      "map": "Metallic",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_ParkerizedSteel_Normal_1k.png",
+      "name": "T_mosin-m91-30-pu_ParkerizedSteel_Normal_1k.png",
+      "bytes": 1089687,
+      "slug": "mosin_m91_30_pu",
+      "set": "parkerizedsteel",
+      "map": "Normal",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 3,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_ParkerizedSteel_Roughness_1k.png",
+      "name": "T_mosin-m91-30-pu_ParkerizedSteel_Roughness_1k.png",
+      "bytes": 28018,
+      "slug": "mosin_m91_30_pu",
+      "set": "parkerizedsteel",
+      "map": "Roughness",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Wood_AO_1k.png",
+      "name": "T_mosin-m91-30-pu_Wood_AO_1k.png",
+      "bytes": 15191,
+      "slug": "mosin_m91_30_pu",
+      "set": "wood",
+      "map": "AO",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Wood_BaseColor_1k.png",
+      "name": "T_mosin-m91-30-pu_Wood_BaseColor_1k.png",
+      "bytes": 443370,
+      "slug": "mosin_m91_30_pu",
+      "set": "wood",
+      "map": "BaseColor",
+      "res_token": "1k",
+      "expected_colorspace": "sRGB",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 3,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Wood_Metallic_1k.png",
+      "name": "T_mosin-m91-30-pu_Wood_Metallic_1k.png",
+      "bytes": 1228,
+      "slug": "mosin_m91_30_pu",
+      "set": "wood",
+      "map": "Metallic",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Wood_Normal_1k.png",
+      "name": "T_mosin-m91-30-pu_Wood_Normal_1k.png",
+      "bytes": 526398,
+      "slug": "mosin_m91_30_pu",
+      "set": "wood",
+      "map": "Normal",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 3,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Wood_Roughness_1k.png",
+      "name": "T_mosin-m91-30-pu_Wood_Roughness_1k.png",
+      "bytes": 23366,
+      "slug": "mosin_m91_30_pu",
+      "set": "wood",
+      "map": "Roughness",
+      "res_token": "1k",
+      "expected_colorspace": "Non-Color",
+      "header": {
+        "width": 1024,
+        "height": 1024,
+        "channels": 1,
+        "bit_depth": 8,
+        "format": "png",
+        "note": null
+      }
+    }
+  ],
+  "errors": [],
+  "warnings": []
+}

@@ -1,0 +1,94 @@
+name: Asset request
+description: Задача на создание или доработку 3D-ассета
+title: "Asset: <название>"
+labels: ["asset", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Заполните максимально конкретно: чем точнее вариант и критерии, тем меньше итераций.
+  - type: input
+    id: subject
+    attributes:
+      label: Предмет и точный вариант
+      description: Модель/модификация/эпоха/регион/комплектация
+      placeholder: "Например: деревенский сруб 6×8 м, четырёхскатная кровля, жилое состояние"
+    validations:
+      required: true
+  - type: dropdown
+    id: archetype
+    attributes:
+      label: Архетип
+      options:
+        - architecture
+        - character
+        - hard_surface
+        - prop
+        - vehicle
+        - environment
+        - texture_set
+        - scene
+        - other
+    validations:
+      required: true
+  - type: dropdown
+    id: purpose
+    attributes:
+      label: Назначение результата
+      multiple: true
+      options:
+        - Рендер / иллюстрация
+        - Игра (нужен game-ready)
+        - Анимация / ролик
+        - Превью препродакшна
+        - Декоративная печать
+  - type: input
+    id: engine
+    attributes:
+      label: Целевой движок и формат экспорта
+      placeholder: "Unreal 5.4 / glb+fbx, или 'не требуется'"
+  - type: input
+    id: dimensions
+    attributes:
+      label: Размеры и единицы
+      placeholder: "8.2 × 6.1 × 5.3 м, включает кровлю и крыльцо"
+  - type: input
+    id: budget
+    attributes:
+      label: Бюджет
+      placeholder: "до 250k tri, 9 material sets, 4K"
+  - type: dropdown
+    id: style
+    attributes:
+      label: Стиль
+      options:
+        - Фотореализм
+        - Стилизация / арт-дирекция
+  - type: textarea
+    id: subobjects
+    attributes:
+      label: Отдельные подобъекты
+      description: Что должно быть самостоятельными ассетами/коллекциями со своим origin
+      placeholder: "дверь, ставни, труба, крыльцо, мебель интерьера"
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Критерии приёмки
+      description: Проверяемые утверждения с допуском и нужным ракурсом
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: Референсы
+      description: Приложите изображения и укажите источники, вариант и лицензию для каждого
+  - type: checkboxes
+    id: policy
+    attributes:
+      label: Подтверждения
+      options:
+        - label: Референсы можно использовать в этом репозитории (права подтверждены)
+          required: true
+        - label: Задача не требует чертежей/файлов производства функционального оружия
+          required: true
+        - label: Портретное сходство с реальным человеком не требуется либо есть согласие

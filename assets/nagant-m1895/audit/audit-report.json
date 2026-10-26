@@ -1,0 +1,5928 @@
+{
+  "schema_version": 1,
+  "blend_file": "/home/user/AIwarGame/assets/nagant-m1895/source/nagant-m1895.blend",
+  "blender_version": "4.5.15 LTS",
+  "configured": true,
+  "unit_scale_length": 1.0,
+  "initial_frame": 1,
+  "targets": [
+    {
+      "id": "overall_model",
+      "frame": 1,
+      "bounds": {
+        "min_mm": [
+          -122.05733358860016,
+          -23.792264983057976,
+          -126.02022290229797
+        ],
+        "max_mm": [
+          112.9426583647728,
+          23.777402937412262,
+          29.721751809120178
+        ],
+        "dimensions_mm": [
+          234.99999195337296,
+          47.56966792047024,
+          155.74197471141815
+        ],
+        "measurement": "evaluated world vertices; union over selected geometry"
+      },
+      "objects": [
+        {
+          "name": "CTRL_nagant-m1895_Cylinder",
+          "type": "EMPTY",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.02278667874634266
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -0.011888701468706131
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -22.78667874634266,
+              0.0,
+              -11.888701468706131
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "CTRL_nagant-m1895_EjectorRod",
+          "type": "EMPTY",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.07430438697338104
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.011888701468706131
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -0.011888701468706131
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              74.30438697338104,
+              11.888701468706131,
+              -11.888701468706131
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "CTRL_nagant-m1895_Hammer",
+          "type": "EMPTY",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.0792580097913742
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.011888701468706131
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -79.2580097913742,
+              0.0,
+              11.888701468706131
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "CTRL_nagant-m1895_LoadingGate",
+          "type": "EMPTY",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.017833052203059196
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.021795952692627907
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -17.833052203059196,
+              -21.795952692627907,
+              0.0
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "CTRL_nagant-m1895_Trigger",
+          "type": "EMPTY",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.05448988080024719
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -0.024768128991127014
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -54.48988080024719,
+              0.0,
+              -24.768128991127014
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "SM_Nagant_BarrelRib",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.059443503618240356
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0074304379522800446
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              59.443503618240356,
+              0.0,
+              7.4304379522800446
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 96,
+            "edges": 192,
+            "faces": 98,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Nagant_Barrel_TrueBore",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 640,
+            "edges": 1280,
+            "faces": 640,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 640,
+            "edges": 1280,
+            "faces": 640,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Nagant_BoreLiner",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 192,
+            "edges": 384,
+            "faces": 192,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 192,
+            "edges": 384,
+            "faces": 192,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Nagant_BoreShadow",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 192,
+            "edges": 384,
+            "faces": 192,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 192,
+            "edges": 384,
+            "faces": 192,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Nagant_BottomFrame",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.024768127128481865
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -0.04557335376739502
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -24.768127128481865,
+              0.0,
+              -45.57335376739502
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 96,
+            "edges": 192,
+            "faces": 98,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Nagant_ChamberRim_01",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.0480501689016819
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                7.279729642804217e-19
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -48.0501689016819,
+              7.279729642804217e-16,
+              0.0
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 256,
+            "edges": 512,
+            "faces": 256,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 256,
+            "edges": 512,
+            "faces": 256,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Nagant_ChamberRim_02",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.0480501689016819
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.009294960647821426
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -0.004476217087358236
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -48.0501689016819,
+              -9.294960647821426,
+              -4.476217087358236
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 256,
+            "edges": 512,
+            "faces": 256,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 256,
+            "edges": 512,
+            "faces": 256,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Nagant_ChamberRim_03",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.0480501689016819
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.011590626090765
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -0.014534185640513897
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -48.0501689016819,
+              -11.590626090765,
+              -14.534185640513897
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 256,
+            "edges": 512,
+            "faces": 256,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 256,
+            "edges": 512,
+            "faces": 256,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Nagant_ChamberRim_04",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.0480501689016819
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.005158314015716314
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -0.022600051015615463
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -48.0501689016819,
+              -5.158314015716314,
+              -22.600051015615463
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 256,
+            "edges": 512,
+            "faces": 256,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 256,
+            "edges": 512,
+            "faces": 256,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Nagant_ChamberRim_05",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.0480501689016819
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.005158314015716314
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -0.022600051015615463
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -48.0501689016819,
+              5.158314015716314,
+              -22.600051015615463
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 256,
+            "edges": 512,
+            "faces": 256,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 256,
+            "edges": 512,
+            "faces": 256,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Nagant_ChamberRim_06",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.0480501689016819
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.011590626090765
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -0.014534185640513897
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -48.0501689016819,
+              11.590626090765,
+              -14.534185640513897
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 256,
+            "edges": 512,
+            "faces": 256,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 256,
+            "edges": 512,
+            "faces": 256,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Nagant_ChamberRim_07",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.0480501689016819
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.009294960647821426
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -0.004476217087358236
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -48.0501689016819,
+              9.294960647821426,
+              -4.476217087358236
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 256,
+            "edges": 512,
+            "faces": 256,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 256,
+            "edges": 512,
+            "faces": 256,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Nagant_CheckeredGrip_01",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.021795952692627907
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              0.0,
+              -21.795952692627907,
+              0.0
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 24,
+            "edges": 36,
+            "faces": 14,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 176,
+            "edges": 345,
+            "faces": 171,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Nagant_CheckeredGrip_02",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.021795952692627907
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              0.0,
+              21.795952692627907,
+              0.0
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 24,
+            "edges": 36,
+            "faces": 14,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 176,
+            "edges": 345,
+            "faces": 171,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Nagant_Cylinder_7Chambers",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.02278667688369751
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -0.011888701468706131
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -22.78667688369751,
+              0.0,
+              -11.888701468706131
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 650,
+            "edges": 986,
+            "faces": 324,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 1950,
+            "edges": 3586,
+            "faces": 1624,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Nagant_Cylinder_Arbor",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.02278667688369751
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -0.011888701468706131
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -22.78667688369751,
+              0.0,
+              -11.888701468706131
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 64,
+            "edges": 96,
+            "faces": 34,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 64,
+            "edges": 96,
+            "faces": 34,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Nagant_Cylinder_Flute_01",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.02278667688369751
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                1.231487677610012e-18
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.008223018608987331
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -22.78667688369751,
+              1.231487677610012e-15,
+              8.223018608987331
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 40,
+            "edges": 60,
+            "faces": 22,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 40,
+            "edges": 60,
+            "faces": 22,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Nagant_Cylinder_Flute_02",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.02278667688369751
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.015723975375294685
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0006507508223876357
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -22.78667688369751,
+              -15.723975375294685,
+              0.6507508223876357
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 40,
+            "edges": 60,
+            "faces": 22,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 40,
+            "edges": 60,
+            "faces": 22,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Nagant_Cylinder_Flute_03",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.02278667688369751
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.019607476890087128
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -0.016363980248570442
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -22.78667688369751,
+              -19.607476890087128,
+              -16.363980248570442
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 40,
+            "edges": 60,
+            "faces": 22,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 40,
+            "edges": 60,
+            "faces": 22,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Nagant_Cylinder_Flute_04",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.02278667688369751
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.008726147934794426
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -0.03000873513519764
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -22.78667688369751,
+              -8.726147934794426,
+              -30.00873513519764
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 40,
+            "edges": 60,
+            "faces": 22,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 40,
+            "edges": 60,
+            "faces": 22,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Nagant_Cylinder_Flute_05",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.02278667688369751
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.008726147934794426
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -0.03000873513519764
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -22.78667688369751,
+              8.726147934794426,
+              -30.00873513519764
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 40,
+            "edges": 60,
+            "faces": 22,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 40,
+            "edges": 60,
+            "faces": 22,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Nagant_Cylinder_Flute_06",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.02278667688369751
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.019607476890087128
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -0.016363980248570442
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -22.78667688369751,
+              19.607476890087128,
+              -16.363980248570442
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 40,
+            "edges": 60,
+            "faces": 22,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 40,
+            "edges": 60,
+            "faces": 22,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Nagant_Cylinder_Flute_07",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.02278667688369751
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.015723975375294685
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0006507508223876357
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -22.78667688369751,
+              15.723975375294685,
+              0.6507508223876357
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 40,
+            "edges": 60,
+            "faces": 22,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 40,
+            "edges": 60,
+            "faces": 22,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Nagant_EjectorHead",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.08024873584508896
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.011888701468706131
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -0.011888701468706131
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              80.24873584508896,
+              11.888701468706131,
+              -11.888701468706131
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 64,
+            "edges": 96,
+            "faces": 34,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 256,
+            "edges": 480,
+            "faces": 226,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Nagant_EjectorHousing",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.010897976346313953
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.011888701468706131
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -0.011888701468706131
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              10.897976346313953,
+              11.888701468706131,
+              -11.888701468706131
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 64,
+            "edges": 96,
+            "faces": 34,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 64,
+            "edges": 96,
+            "faces": 34,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Nagant_EjectorRod",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.04260117933154106
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.011888701468706131
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -0.011888701468706131
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              42.60117933154106,
+              11.888701468706131,
+              -11.888701468706131
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 48,
+            "edges": 72,
+            "faces": 26,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 48,
+            "edges": 72,
+            "faces": 26,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Nagant_Frame_SidePlate_01",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.0188237763941288
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              0.0,
+              -18.8237763941288,
+              0.0
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 148,
+            "edges": 222,
+            "faces": 76,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 524,
+            "edges": 974,
+            "faces": 452,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 2,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Nagant_Frame_SidePlate_02",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0188237763941288
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              0.0,
+              18.8237763941288,
+              0.0
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 148,
+            "edges": 222,
+            "faces": 76,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 524,
+            "edges": 974,
+            "faces": 452,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 2,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Nagant_FrontSight",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.10501685738563538
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.011888701468706131
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              105.01685738563538,
+              0.0,
+              11.888701468706131
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 96,
+            "edges": 192,
+            "faces": 98,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Nagant_GripScrew_01_Head",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.09907250851392746
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.02278667688369751
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -0.05448988080024719
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -99.07250851392746,
+              -22.78667688369751,
+              -54.48988080024719
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 48,
+            "edges": 72,
+            "faces": 26,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 192,
+            "edges": 360,
+            "faces": 170,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Nagant_GripScrew_01_Slot",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.09907250851392746
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.02361888810992241
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -0.05448988080024719
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -99.07250851392746,
+              -23.61888810992241,
+              -54.48988080024719
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Nagant_GripScrew_02_Head",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.09907250851392746
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.02278667688369751
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -0.05448988080024719
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -99.07250851392746,
+              22.78667688369751,
+              -54.48988080024719
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 48,
+            "edges": 72,
+            "faces": 26,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 192,
+            "edges": 360,
+            "faces": 170,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Nagant_GripScrew_02_Slot",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.09907250851392746
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.02195446752011776
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -0.05448988080024719
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -99.07250851392746,
+              21.95446752011776,
+              -54.48988080024719
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Nagant_Hammer",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 16,
+            "edges": 24,
+            "faces": 10,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 176,
+            "edges": 351,
+            "faces": 177,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Nagant_LanyardRing",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.1149241104722023
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -0.11888700723648071
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -114.9241104722023,
+              0.0,
+              -118.88700723648071
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 480,
+            "edges": 960,
+            "faces": 480,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 480,
+            "edges": 960,
+            "faces": 480,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Nagant_LoadingGate",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.021795952692627907
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              0.0,
+              -21.795952692627907,
+              0.0
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 96,
+            "edges": 192,
+            "faces": 98,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Nagant_Marking_Serial",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.06935075670480728
+              ],
+              [
+                0.0,
+                -4.371138828673793e-08,
+                -1.0,
+                -0.020607082173228264
+              ],
+              [
+                0.0,
+                1.0,
+                -4.371138828673793e-08,
+                -0.010897976346313953
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -69.35075670480728,
+              -20.607082173228264,
+              -10.897976346313953
+            ],
+            "rotation_deg": [
+              90.00000250447816,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 5280,
+            "edges": 9876,
+            "faces": 4604,
+            "boundary_edges": 2640,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 2640,
+            "loose_vertices": 0,
+            "zero_area_faces": 2636,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 5280,
+            "edges": 9876,
+            "faces": 4604,
+            "boundary_edges": 2640,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 2640,
+            "loose_vertices": 0,
+            "zero_area_faces": 2636,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Nagant_Marking_Year",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.08916526287794113
+              ],
+              [
+                0.0,
+                -4.371138828673793e-08,
+                -1.0,
+                -0.020607082173228264
+              ],
+              [
+                0.0,
+                1.0,
+                -4.371138828673793e-08,
+                0.0059443507343530655
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -89.16526287794113,
+              -20.607082173228264,
+              5.9443507343530655
+            ],
+            "rotation_deg": [
+              90.00000250447816,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 1248,
+            "edges": 2328,
+            "faces": 1084,
+            "boundary_edges": 624,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 624,
+            "loose_vertices": 0,
+            "zero_area_faces": 640,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 1248,
+            "edges": 2328,
+            "faces": 1084,
+            "boundary_edges": 624,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 624,
+            "loose_vertices": 0,
+            "zero_area_faces": 640,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Nagant_MuzzleCrown",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 256,
+            "edges": 512,
+            "faces": 256,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 256,
+            "edges": 512,
+            "faces": 256,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Nagant_RearSight_Notch",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.055480606853961945
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0188237763941288
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -55.480606853961945,
+              0.0,
+              18.8237763941288
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 96,
+            "edges": 192,
+            "faces": 98,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Nagant_Screw_01_Head",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.10699831694364548
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.020805226638913155
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.013870151713490486
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -106.99831694364548,
+              -20.805226638913155,
+              13.870151713490486
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 48,
+            "edges": 72,
+            "faces": 26,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 192,
+            "edges": 360,
+            "faces": 170,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Nagant_Screw_01_Slot",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.10699831694364548
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.02158195525407791
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.013870151713490486
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -106.99831694364548,
+              -21.58195525407791,
+              13.870151713490486
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Nagant_Screw_02_Head",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.059443503618240356
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.020805226638913155
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.01585160195827484
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -59.443503618240356,
+              -20.805226638913155,
+              15.851601958274841
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 48,
+            "edges": 72,
+            "faces": 26,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 192,
+            "edges": 360,
+            "faces": 170,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Nagant_Screw_02_Slot",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.059443503618240356
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.02158195525407791
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.01585160195827484
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -59.443503618240356,
+              -21.58195525407791,
+              15.851601958274841
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Nagant_Screw_03_Head",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.029721751809120178
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.020805226638913155
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -0.036656830459833145
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -29.721751809120178,
+              -20.805226638913155,
+              -36.656830459833145
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 48,
+            "edges": 72,
+            "faces": 26,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 192,
+            "edges": 360,
+            "faces": 170,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Nagant_Screw_03_Slot",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.029721751809120178
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.02158195525407791
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -0.036656830459833145
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -29.721751809120178,
+              -21.58195525407791,
+              -36.656830459833145
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Nagant_Screw_04_Head",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.0941188856959343
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.02278667688369751
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -0.029721751809120178
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -94.1188856959343,
+              -22.78667688369751,
+              -29.721751809120178
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 48,
+            "edges": 72,
+            "faces": 26,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 192,
+            "edges": 360,
+            "faces": 170,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Nagant_Screw_04_Slot",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.0941188856959343
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.023563405498862267
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -0.029721751809120178
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -94.1188856959343,
+              -23.563405498862267,
+              -29.721751809120178
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Nagant_Screw_05_Head",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.11393339186906815
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.02278667688369751
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -0.09907250851392746
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -113.93339186906815,
+              -22.78667688369751,
+              -99.07250851392746
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 48,
+            "edges": 72,
+            "faces": 26,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 192,
+            "edges": 360,
+            "faces": 170,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Nagant_Screw_05_Slot",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.11393339186906815
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -0.023563405498862267
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -0.09907250851392746
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -113.93339186906815,
+              -23.563405498862267,
+              -99.07250851392746
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Nagant_TopStrap",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                -0.044582631438970566
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.01981450244784355
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              -44.582631438970566,
+              0.0,
+              19.81450244784355
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 96,
+            "edges": 192,
+            "faces": 98,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Nagant_Trigger",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 40,
+            "edges": 70,
+            "faces": 30,
+            "boundary_edges": 20,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 20,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 40,
+            "edges": 70,
+            "faces": 30,
+            "boundary_edges": 20,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 20,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        },
+        {
+          "name": "SM_Nagant_TriggerGuard",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 360,
+            "edges": 720,
+            "faces": 360,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 360,
+            "edges": 720,
+            "faces": 360,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        }
+      ]
+    },
+    {
+      "id": "barrel_length",
+      "frame": 1,
+      "bounds": {
+        "min_mm": [
+          0.0,
+          -6.935075856745243,
+          -6.935075856745243
+        ],
+        "max_mm": [
+          112.9426583647728,
+          6.935075856745243,
+          6.935075856745243
+        ],
+        "dimensions_mm": [
+          112.9426583647728,
+          13.870151713490486,
+          13.870151713490486
+        ],
+        "measurement": "evaluated world vertices; union over selected geometry"
+      },
+      "objects": [
+        {
+          "name": "SM_Nagant_Barrel_TrueBore",
+          "type": "MESH",
+          "transform": {
+            "finite": true,
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "location_mm": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation_deg": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "base_topology": {
+            "vertices": 640,
+            "edges": 1280,
+            "faces": 640,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          },
+          "evaluated_topology": {
+            "vertices": 640,
+            "edges": 1280,
+            "faces": 640,
+            "boundary_edges": 0,
+            "overfull_edges": 0,
+            "wire_edges": 0,
+            "nonmanifold_edges": 0,
+            "loose_vertices": 0,
+            "zero_area_faces": 0,
+            "nonfinite_vertices": 0,
+            "zero_area_epsilon_mm2": 1e-10,
+            "area_measurement": "world-space tessellated polygon area"
+          }
+        }
+      ]
+    }
+  ],
+  "poses": [],
+  "passages": [
+    {
+      "id": "barrel_bore_clear",
+      "frame": 1,
+      "selected_objects": [
+        "SM_Nagant_Barrel_TrueBore",
+        "SM_Nagant_BoreLiner",
+        "SM_Nagant_MuzzleCrown"
+      ],
+      "hit_samples": 0,
+      "sample_count": 5,
+      "samples": [
+        {
+          "index": 0,
+          "start_world_mm": [
+            -12.000000104308128,
+            0.0,
+            0.0
+          ],
+          "end_world_mm": [
+            122.00000882148743,
+            0.0,
+            0.0
+          ],
+          "hit": false,
+          "first_hit": null,
+          "hits": []
+        },
+        {
+          "index": 1,
+          "start_world_mm": [
+            -12.000000104308128,
+            2.0000000949949026,
+            0.0
+          ],
+          "end_world_mm": [
+            122.00000882148743,
+            2.0000000949949026,
+            0.0
+          ],
+          "hit": false,
+          "first_hit": null,
+          "hits": []
+        },
+        {
+          "index": 2,
+          "start_world_mm": [
+            -12.000000104308128,
+            0.0,
+            2.0000000949949026
+          ],
+          "end_world_mm": [
+            122.00000882148743,
+            0.0,
+            2.0000000949949026
+          ],
+          "hit": false,
+          "first_hit": null,
+          "hits": []
+        },
+        {
+          "index": 3,
+          "start_world_mm": [
+            -12.000000104308128,
+            -2.0000000949949026,
+            0.0
+          ],
+          "end_world_mm": [
+            122.00000882148743,
+            -2.0000000949949026,
+            0.0
+          ],
+          "hit": false,
+          "first_hit": null,
+          "hits": []
+        },
+        {
+          "index": 4,
+          "start_world_mm": [
+            -12.000000104308128,
+            0.0,
+            -2.0000000949949026
+          ],
+          "end_world_mm": [
+            122.00000882148743,
+            0.0,
+            -2.0000000949949026
+          ],
+          "hit": false,
+          "first_hit": null,
+          "hits": []
+        }
+      ],
+      "visibility_filter": "none; selected evaluated geometry includes render-hidden objects",
+      "limitation": "Finite visual sample rays, first surface hit per selected object; not proof of continuous clearance or mechanical function."
+    },
+    {
+      "id": "cylinder_chambers_clear",
+      "frame": 1,
+      "selected_objects": [
+        "SM_Nagant_Cylinder_7Chambers"
+      ],
+      "hit_samples": 0,
+      "sample_count": 7,
+      "samples": [
+        {
+          "index": 0,
+          "start_world_mm": [
+            -55.000003427267075,
+            0.0,
+            0.0
+          ],
+          "end_world_mm": [
+            8.00000037997961,
+            0.0,
+            0.0
+          ],
+          "hit": false,
+          "first_hit": null,
+          "hits": []
+        },
+        {
+          "index": 1,
+          "start_world_mm": [
+            -55.000003427267075,
+            -9.295000694692135,
+            -4.476200323551893
+          ],
+          "end_world_mm": [
+            8.00000037997961,
+            -9.295000694692135,
+            -4.476200323551893
+          ],
+          "hit": false,
+          "first_hit": null,
+          "hits": []
+        },
+        {
+          "index": 2,
+          "start_world_mm": [
+            -55.000003427267075,
+            -11.590600945055485,
+            -14.53420054167509
+          ],
+          "end_world_mm": [
+            8.00000037997961,
+            -11.590600945055485,
+            -14.53420054167509
+          ],
+          "hit": false,
+          "first_hit": null,
+          "hits": []
+        },
+        {
+          "index": 3,
+          "start_world_mm": [
+            -55.000003427267075,
+            -5.158300045877695,
+            -22.600101307034492
+          ],
+          "end_world_mm": [
+            8.00000037997961,
+            -5.158300045877695,
+            -22.600101307034492
+          ],
+          "hit": false,
+          "first_hit": null,
+          "hits": []
+        },
+        {
+          "index": 4,
+          "start_world_mm": [
+            -55.000003427267075,
+            5.158300045877695,
+            -22.600101307034492
+          ],
+          "end_world_mm": [
+            8.00000037997961,
+            5.158300045877695,
+            -22.600101307034492
+          ],
+          "hit": false,
+          "first_hit": null,
+          "hits": []
+        },
+        {
+          "index": 5,
+          "start_world_mm": [
+            -55.000003427267075,
+            11.590600945055485,
+            -14.53420054167509
+          ],
+          "end_world_mm": [
+            8.00000037997961,
+            11.590600945055485,
+            -14.53420054167509
+          ],
+          "hit": false,
+          "first_hit": null,
+          "hits": []
+        },
+        {
+          "index": 6,
+          "start_world_mm": [
+            -55.000003427267075,
+            9.295000694692135,
+            -4.476200323551893
+          ],
+          "end_world_mm": [
+            8.00000037997961,
+            9.295000694692135,
+            -4.476200323551893
+          ],
+          "hit": false,
+          "first_hit": null,
+          "hits": []
+        }
+      ],
+      "visibility_filter": "none; selected evaluated geometry includes render-hidden objects",
+      "limitation": "Finite visual sample rays, first surface hit per selected object; not proof of continuous clearance or mechanical function."
+    }
+  ],
+  "errors": [],
+  "read_only": "No .blend is saved; only this JSON is written.",
+  "restored_frame": 1,
+  "restored_camera": "nagant-m1895_Camera",
+  "checks": [
+    {
+      "criterion": "target/overall_model/collection_exists/nagant-m1895_Model",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/scope_nonempty",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/topology_mesh_scope",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/CTRL_nagant-m1895_Cylinder",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/CTRL_nagant-m1895_EjectorRod",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/CTRL_nagant-m1895_Hammer",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/CTRL_nagant-m1895_LoadingGate",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/CTRL_nagant-m1895_Trigger",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Nagant_BarrelRib",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_BarrelRib/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_BarrelRib/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_BarrelRib/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Nagant_Barrel_TrueBore",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Barrel_TrueBore/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Barrel_TrueBore/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Barrel_TrueBore/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Nagant_BoreLiner",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_BoreLiner/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_BoreLiner/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_BoreLiner/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Nagant_BoreShadow",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_BoreShadow/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_BoreShadow/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_BoreShadow/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Nagant_BottomFrame",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_BottomFrame/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_BottomFrame/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_BottomFrame/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Nagant_ChamberRim_01",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_ChamberRim_01/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_ChamberRim_01/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_ChamberRim_01/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Nagant_ChamberRim_02",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_ChamberRim_02/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_ChamberRim_02/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_ChamberRim_02/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Nagant_ChamberRim_03",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_ChamberRim_03/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_ChamberRim_03/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_ChamberRim_03/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Nagant_ChamberRim_04",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_ChamberRim_04/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_ChamberRim_04/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_ChamberRim_04/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Nagant_ChamberRim_05",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_ChamberRim_05/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_ChamberRim_05/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_ChamberRim_05/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Nagant_ChamberRim_06",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_ChamberRim_06/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_ChamberRim_06/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_ChamberRim_06/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Nagant_ChamberRim_07",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_ChamberRim_07/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_ChamberRim_07/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_ChamberRim_07/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Nagant_CheckeredGrip_01",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_CheckeredGrip_01/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_CheckeredGrip_01/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_CheckeredGrip_01/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Nagant_CheckeredGrip_02",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_CheckeredGrip_02/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_CheckeredGrip_02/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_CheckeredGrip_02/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Nagant_Cylinder_7Chambers",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Cylinder_7Chambers/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Cylinder_7Chambers/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Cylinder_7Chambers/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Nagant_Cylinder_Arbor",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Cylinder_Arbor/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Cylinder_Arbor/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Cylinder_Arbor/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Nagant_Cylinder_Flute_01",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Cylinder_Flute_01/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Cylinder_Flute_01/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Cylinder_Flute_01/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Nagant_Cylinder_Flute_02",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Cylinder_Flute_02/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Cylinder_Flute_02/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Cylinder_Flute_02/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Nagant_Cylinder_Flute_03",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Cylinder_Flute_03/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Cylinder_Flute_03/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Cylinder_Flute_03/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Nagant_Cylinder_Flute_04",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Cylinder_Flute_04/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Cylinder_Flute_04/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Cylinder_Flute_04/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Nagant_Cylinder_Flute_05",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Cylinder_Flute_05/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Cylinder_Flute_05/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Cylinder_Flute_05/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Nagant_Cylinder_Flute_06",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Cylinder_Flute_06/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Cylinder_Flute_06/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Cylinder_Flute_06/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Nagant_Cylinder_Flute_07",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Cylinder_Flute_07/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Cylinder_Flute_07/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Cylinder_Flute_07/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Nagant_EjectorHead",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_EjectorHead/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_EjectorHead/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_EjectorHead/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Nagant_EjectorHousing",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_EjectorHousing/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_EjectorHousing/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_EjectorHousing/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Nagant_EjectorRod",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_EjectorRod/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_EjectorRod/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_EjectorRod/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Nagant_Frame_SidePlate_01",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Frame_SidePlate_01/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Frame_SidePlate_01/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Frame_SidePlate_01/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Nagant_Frame_SidePlate_02",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Frame_SidePlate_02/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Frame_SidePlate_02/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Frame_SidePlate_02/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Nagant_FrontSight",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_FrontSight/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_FrontSight/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_FrontSight/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Nagant_GripScrew_01_Head",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_GripScrew_01_Head/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_GripScrew_01_Head/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_GripScrew_01_Head/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Nagant_GripScrew_01_Slot",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_GripScrew_01_Slot/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_GripScrew_01_Slot/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_GripScrew_01_Slot/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Nagant_GripScrew_02_Head",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_GripScrew_02_Head/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_GripScrew_02_Head/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_GripScrew_02_Head/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Nagant_GripScrew_02_Slot",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_GripScrew_02_Slot/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_GripScrew_02_Slot/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_GripScrew_02_Slot/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Nagant_Hammer",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Hammer/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Hammer/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Hammer/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Nagant_LanyardRing",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_LanyardRing/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_LanyardRing/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_LanyardRing/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Nagant_LoadingGate",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_LoadingGate/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_LoadingGate/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_LoadingGate/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Nagant_Marking_Serial",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Marking_Serial/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Marking_Serial/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Marking_Serial/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Nagant_Marking_Year",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Marking_Year/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Marking_Year/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Marking_Year/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Nagant_MuzzleCrown",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_MuzzleCrown/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_MuzzleCrown/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_MuzzleCrown/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Nagant_RearSight_Notch",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_RearSight_Notch/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_RearSight_Notch/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_RearSight_Notch/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Nagant_Screw_01_Head",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Screw_01_Head/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Screw_01_Head/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Screw_01_Head/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Nagant_Screw_01_Slot",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Screw_01_Slot/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Screw_01_Slot/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Screw_01_Slot/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Nagant_Screw_02_Head",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Screw_02_Head/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Screw_02_Head/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Screw_02_Head/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Nagant_Screw_02_Slot",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Screw_02_Slot/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Screw_02_Slot/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Screw_02_Slot/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Nagant_Screw_03_Head",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Screw_03_Head/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Screw_03_Head/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Screw_03_Head/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Nagant_Screw_03_Slot",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Screw_03_Slot/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Screw_03_Slot/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Screw_03_Slot/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Nagant_Screw_04_Head",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Screw_04_Head/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Screw_04_Head/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Screw_04_Head/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Nagant_Screw_04_Slot",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Screw_04_Slot/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Screw_04_Slot/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Screw_04_Slot/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Nagant_Screw_05_Head",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Screw_05_Head/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Screw_05_Head/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Screw_05_Head/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Nagant_Screw_05_Slot",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Screw_05_Slot/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Screw_05_Slot/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Screw_05_Slot/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Nagant_TopStrap",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_TopStrap/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_TopStrap/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_TopStrap/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Nagant_Trigger",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Trigger/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Trigger/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_Trigger/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/finite_transform/SM_Nagant_TriggerGuard",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_TriggerGuard/evaluated/max_nonfinite_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_TriggerGuard/evaluated/max_wire_edges",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/SM_Nagant_TriggerGuard/evaluated/max_loose_vertices",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "target/overall_model/dimensions_mm",
+      "status": "PASS",
+      "actual": [
+        234.99999195337296,
+        47.56966792047024,
+        155.74197471141815
+      ],
+      "expected": {
+        "value": [
+          235.0,
+          47.57,
+          155.742
+        ],
+        "tolerance": [
+          2.0,
+          3.0,
+          3.0
+        ]
+      }
+    },
+    {
+      "criterion": "target/overall_model/topology_interpretation",
+      "status": "INFO",
+      "detail": "Boundary or nonmanifold counts are observations. Only explicit maxima are acceptance criteria."
+    },
+    {
+      "criterion": "target/barrel_length/object_exists/SM_Nagant_Barrel_TrueBore",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/barrel_length/scope_nonempty",
+      "status": "PASS"
+    },
+    {
+      "criterion": "target/barrel_length/dimensions_mm",
+      "status": "PASS",
+      "actual": [
+        112.9426583647728,
+        13.870151713490486,
+        13.870151713490486
+      ],
+      "expected": {
+        "value": [
+          114.0,
+          0.0,
+          0.0
+        ],
+        "tolerance": [
+          3.0,
+          100.0,
+          100.0
+        ]
+      }
+    },
+    {
+      "criterion": "target/barrel_length/topology_interpretation",
+      "status": "INFO",
+      "detail": "Boundary or nonmanifold counts are observations. Only explicit maxima are acceptance criteria."
+    },
+    {
+      "criterion": "passage/barrel_bore_clear/object_exists/SM_Nagant_Barrel_TrueBore",
+      "status": "PASS"
+    },
+    {
+      "criterion": "passage/barrel_bore_clear/object_exists/SM_Nagant_MuzzleCrown",
+      "status": "PASS"
+    },
+    {
+      "criterion": "passage/barrel_bore_clear/object_exists/SM_Nagant_BoreLiner",
+      "status": "PASS"
+    },
+    {
+      "criterion": "passage/barrel_bore_clear/scope_nonempty",
+      "status": "PASS"
+    },
+    {
+      "criterion": "passage/barrel_bore_clear/max_hits",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "criterion": "passage/cylinder_chambers_clear/object_exists/SM_Nagant_Cylinder_7Chambers",
+      "status": "PASS"
+    },
+    {
+      "criterion": "passage/cylinder_chambers_clear/scope_nonempty",
+      "status": "PASS"
+    },
+    {
+      "criterion": "passage/cylinder_chambers_clear/max_hits",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    }
+  ],
+  "acceptance_check_count": 232,
+  "scope_note": "Acceptance applies only to listed criteria, objects, frames and sampled rays; INFO observations are not acceptance checks.",
+  "status": "PASS"
+}

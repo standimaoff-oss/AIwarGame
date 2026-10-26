@@ -1,0 +1,136 @@
+{
+  "slug": "mosin-m91-30-pu",
+  "variant": "Винтовка Мосина обр. 1891/30, снайперский вариант с боковым кронштейном и оптическим прицелом ПУ 3,5×",
+  "source_file": "assets/mosin-m91-30-pu/source/mosin-m91-30-pu.blend",
+  "blender_version": "4.5.15 LTS",
+  "render_engine": "CYCLES",
+  "unit_scale_length": 1.0,
+  "up_axis": "Z",
+  "muzzle_axis": "+X",
+  "right_side": "-Y",
+  "target_length_mm": 1232.0,
+  "normalization_factor": 0.99716711,
+  "bbox_mm": [
+    1232.0,
+    99.019,
+    168.115
+  ],
+  "bbox_min_mm": [
+    -504.068,
+    -33.704,
+    -66.902
+  ],
+  "bbox_max_mm": [
+    727.932,
+    65.314,
+    101.212
+  ],
+  "triangle_count": 43476,
+  "object_count": 106,
+  "materials": [
+    "M_mosin-m91-30-pu_Bakelite",
+    "M_mosin-m91-30-pu_BluedSteel",
+    "M_mosin-m91-30-pu_BoreShadow",
+    "M_mosin-m91-30-pu_Brass",
+    "M_mosin-m91-30-pu_BrightSteel",
+    "M_mosin-m91-30-pu_CheckeredGrip",
+    "M_mosin-m91-30-pu_DarkSteel",
+    "M_mosin-m91-30-pu_Engraving",
+    "M_mosin-m91-30-pu_Felt",
+    "M_mosin-m91-30-pu_Glass",
+    "M_mosin-m91-30-pu_ParkerizedSteel",
+    "M_mosin-m91-30-pu_ScaleRef",
+    "M_mosin-m91-30-pu_StudioFloor",
+    "M_mosin-m91-30-pu_Wood"
+  ],
+  "texture_files": [
+    "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Bakelite_AO_1k.png",
+    "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Bakelite_BaseColor_1k.png",
+    "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Bakelite_Metallic_1k.png",
+    "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Bakelite_Normal_1k.png",
+    "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Bakelite_Roughness_1k.png",
+    "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_BluedSteel_AO_1k.png",
+    "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_BluedSteel_BaseColor_1k.png",
+    "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_BluedSteel_Metallic_1k.png",
+    "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_BluedSteel_Normal_1k.png",
+    "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_BluedSteel_Roughness_1k.png",
+    "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Brass_AO_1k.png",
+    "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Brass_BaseColor_1k.png",
+    "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Brass_Metallic_1k.png",
+    "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Brass_Normal_1k.png",
+    "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Brass_Roughness_1k.png",
+    "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Glass_AO_1k.png",
+    "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Glass_BaseColor_1k.png",
+    "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Glass_Metallic_1k.png",
+    "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Glass_Normal_1k.png",
+    "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Glass_Roughness_1k.png",
+    "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_ParkerizedSteel_AO_1k.png",
+    "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_ParkerizedSteel_BaseColor_1k.png",
+    "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_ParkerizedSteel_Metallic_1k.png",
+    "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_ParkerizedSteel_Normal_1k.png",
+    "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_ParkerizedSteel_Roughness_1k.png",
+    "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Wood_AO_1k.png",
+    "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Wood_BaseColor_1k.png",
+    "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Wood_Metallic_1k.png",
+    "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Wood_Normal_1k.png",
+    "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Wood_Roughness_1k.png"
+  ],
+  "textures_count": 30,
+  "uv_layer": "UVMap",
+  "pivot_controls": [
+    "CTRL_mosin-m91-30-pu_Bolt",
+    "CTRL_mosin-m91-30-pu_BoltHandle",
+    "CTRL_mosin-m91-30-pu_Trigger",
+    "CTRL_mosin-m91-30-pu_PU_ElevationTurret",
+    "CTRL_mosin-m91-30-pu_PU_WindageTurret"
+  ],
+  "collections": [
+    {
+      "name": "mosin-m91-30-pu_Model",
+      "objects": 106
+    },
+    {
+      "name": "mosin-m91-30-pu_Barrel",
+      "objects": 7
+    },
+    {
+      "name": "mosin-m91-30-pu_Receiver",
+      "objects": 2
+    },
+    {
+      "name": "mosin-m91-30-pu_Stock",
+      "objects": 5
+    },
+    {
+      "name": "mosin-m91-30-pu_Sights",
+      "objects": 5
+    },
+    {
+      "name": "mosin-m91-30-pu_Controls",
+      "objects": 9
+    },
+    {
+      "name": "mosin-m91-30-pu_Magazine",
+      "objects": 9
+    },
+    {
+      "name": "mosin-m91-30-pu_Internals",
+      "objects": 3
+    },
+    {
+      "name": "mosin-m91-30-pu_Fasteners",
+      "objects": 30
+    },
+    {
+      "name": "mosin-m91-30-pu_Markings",
+      "objects": 3
+    },
+    {
+      "name": "mosin-m91-30-pu_Optics",
+      "objects": 33
+    }
+  ],
+  "animation": "none",
+  "game_ready": false,
+  "notes": "Visual art asset; geometric passages are for inspection only, not manufacturing dimensions."
+}
