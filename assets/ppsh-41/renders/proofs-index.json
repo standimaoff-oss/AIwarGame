@@ -1,0 +1,26 @@
+{
+  "slug": "ppsh-41",
+  "engine": "CYCLES",
+  "samples_stills": 20,
+  "samples_turntable": 6,
+  "still_resolution": [
+    1280,
+    720
+  ],
+  "turntable_frames": 10,
+  "bbox_mm": [
+    843.0,
+    65.27,
+    181.899
+  ],
+  "proofs": {
+    "hero": "assets/ppsh-41/renders/hero.png",
+    "right": "assets/ppsh-41/renders/silhouette_right.png",
+    "left": "assets/ppsh-41/renders/silhouette_left.png",
+    "top": "assets/ppsh-41/renders/silhouette_top.png",
+    "muzzle": "assets/ppsh-41/renders/muzzle_and_bore.png",
+    "macro_bore": "assets/ppsh-41/renders/macro_true_bore.png",
+    "clay": "assets/ppsh-41/renders/clay_hero.png",
+    "turntable": "assets/ppsh-41/renders/turntable.gif"
+  }
+}

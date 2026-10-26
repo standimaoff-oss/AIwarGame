@@ -1,0 +1,26 @@
+{
+  "slug": "mosin-m91-30-pu",
+  "engine": "CYCLES",
+  "samples_stills": 20,
+  "samples_turntable": 6,
+  "still_resolution": [
+    1280,
+    720
+  ],
+  "turntable_frames": 10,
+  "bbox_mm": [
+    1232.0,
+    99.019,
+    168.115
+  ],
+  "proofs": {
+    "hero": "assets/mosin-m91-30-pu/renders/hero.png",
+    "right": "assets/mosin-m91-30-pu/renders/silhouette_right.png",
+    "left": "assets/mosin-m91-30-pu/renders/silhouette_left.png",
+    "top": "assets/mosin-m91-30-pu/renders/silhouette_top.png",
+    "muzzle": "assets/mosin-m91-30-pu/renders/muzzle_and_bore.png",
+    "macro_bore": "assets/mosin-m91-30-pu/renders/macro_true_bore.png",
+    "clay": "assets/mosin-m91-30-pu/renders/clay_hero.png",
+    "turntable": "assets/mosin-m91-30-pu/renders/turntable.gif"
+  }
+}

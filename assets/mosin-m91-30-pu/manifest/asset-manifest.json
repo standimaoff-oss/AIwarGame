@@ -1,0 +1,609 @@
+{
+  "schema_version": 2,
+  "generated_by": "scripts/write_wwii_manifests.py + manifest/build-stats.json",
+  "source_file": "assets/mosin-m91-30-pu/source/mosin-m91-30-pu.blend",
+  "identity": {
+    "slug": "mosin-m91-30-pu",
+    "name": "Винтовка Мосина обр. 1891/30 с оптическим прицелом ПУ",
+    "archetype": "hard_surface",
+    "variant": "Винтовка Мосина обр. 1891/30, снайперский вариант с боковым кронштейном и оптическим прицелом ПУ 3,5×",
+    "version": "v001_procedural",
+    "status": "review",
+    "branch": "arena/64d1db80-aiwargame"
+  },
+  "units": {
+    "unit": "m",
+    "scale_length": 1.0,
+    "up_axis": "Z",
+    "export_up_axis": "Y",
+    "unit_system": "metric"
+  },
+  "dimensions_mm": {
+    "bbox": [
+      1232.0,
+      99.019,
+      168.115
+    ],
+    "frame": 1,
+    "includes": "все видимые детали модели, включая прицел/магазин; студийный пол, камеры и света исключены",
+    "scope": "collection: mosin-m91-30-pu_Model",
+    "axis_convention": "дуло +X, верх +Z, правая сторона −Y, начало координат на оси канала у казённого среза"
+  },
+  "budget": {
+    "triangles": 43476,
+    "triangles_limit": 120000,
+    "vertices": null,
+    "objects": 106,
+    "material_sets": 6,
+    "texture_resolution": "1K",
+    "lods": 0,
+    "udim_tiles": 0
+  },
+  "collections": [
+    {
+      "name": "mosin-m91-30-pu_Model",
+      "objects": 106
+    },
+    {
+      "name": "mosin-m91-30-pu_Barrel",
+      "objects": 7
+    },
+    {
+      "name": "mosin-m91-30-pu_Receiver",
+      "objects": 2
+    },
+    {
+      "name": "mosin-m91-30-pu_Stock",
+      "objects": 5
+    },
+    {
+      "name": "mosin-m91-30-pu_Sights",
+      "objects": 5
+    },
+    {
+      "name": "mosin-m91-30-pu_Controls",
+      "objects": 9
+    },
+    {
+      "name": "mosin-m91-30-pu_Magazine",
+      "objects": 9
+    },
+    {
+      "name": "mosin-m91-30-pu_Internals",
+      "objects": 3
+    },
+    {
+      "name": "mosin-m91-30-pu_Fasteners",
+      "objects": 30
+    },
+    {
+      "name": "mosin-m91-30-pu_Markings",
+      "objects": 3
+    },
+    {
+      "name": "mosin-m91-30-pu_Optics",
+      "objects": 33
+    }
+  ],
+  "materials": [
+    {
+      "name": "M_mosin-m91-30-pu_Bakelite",
+      "procedural": false
+    },
+    {
+      "name": "M_mosin-m91-30-pu_BluedSteel",
+      "procedural": false
+    },
+    {
+      "name": "M_mosin-m91-30-pu_BoreShadow",
+      "procedural": true
+    },
+    {
+      "name": "M_mosin-m91-30-pu_Brass",
+      "procedural": false
+    },
+    {
+      "name": "M_mosin-m91-30-pu_BrightSteel",
+      "procedural": true
+    },
+    {
+      "name": "M_mosin-m91-30-pu_CheckeredGrip",
+      "procedural": true
+    },
+    {
+      "name": "M_mosin-m91-30-pu_DarkSteel",
+      "procedural": true
+    },
+    {
+      "name": "M_mosin-m91-30-pu_Engraving",
+      "procedural": true
+    },
+    {
+      "name": "M_mosin-m91-30-pu_Felt",
+      "procedural": true
+    },
+    {
+      "name": "M_mosin-m91-30-pu_Glass",
+      "procedural": false
+    },
+    {
+      "name": "M_mosin-m91-30-pu_ParkerizedSteel",
+      "procedural": false
+    },
+    {
+      "name": "M_mosin-m91-30-pu_ScaleRef",
+      "procedural": true
+    },
+    {
+      "name": "M_mosin-m91-30-pu_StudioFloor",
+      "procedural": true
+    },
+    {
+      "name": "M_mosin-m91-30-pu_Wood",
+      "procedural": false
+    }
+  ],
+  "textures": [
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Bakelite_AO_1k.png",
+      "map": "AO",
+      "set": "Bakelite",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "Non-Color",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Bakelite_BaseColor_1k.png",
+      "map": "BaseColor",
+      "set": "Bakelite",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "sRGB",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Bakelite_Metallic_1k.png",
+      "map": "Metallic",
+      "set": "Bakelite",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "Non-Color",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Bakelite_Normal_1k.png",
+      "map": "Normal",
+      "set": "Bakelite",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "Non-Color",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Bakelite_Roughness_1k.png",
+      "map": "Roughness",
+      "set": "Bakelite",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "Non-Color",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_BluedSteel_AO_1k.png",
+      "map": "AO",
+      "set": "BluedSteel",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "Non-Color",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_BluedSteel_BaseColor_1k.png",
+      "map": "BaseColor",
+      "set": "BluedSteel",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "sRGB",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_BluedSteel_Metallic_1k.png",
+      "map": "Metallic",
+      "set": "BluedSteel",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "Non-Color",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_BluedSteel_Normal_1k.png",
+      "map": "Normal",
+      "set": "BluedSteel",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "Non-Color",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_BluedSteel_Roughness_1k.png",
+      "map": "Roughness",
+      "set": "BluedSteel",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "Non-Color",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Brass_AO_1k.png",
+      "map": "AO",
+      "set": "Brass",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "Non-Color",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Brass_BaseColor_1k.png",
+      "map": "BaseColor",
+      "set": "Brass",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "sRGB",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Brass_Metallic_1k.png",
+      "map": "Metallic",
+      "set": "Brass",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "Non-Color",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Brass_Normal_1k.png",
+      "map": "Normal",
+      "set": "Brass",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "Non-Color",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Brass_Roughness_1k.png",
+      "map": "Roughness",
+      "set": "Brass",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "Non-Color",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Glass_AO_1k.png",
+      "map": "AO",
+      "set": "Glass",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "Non-Color",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Glass_BaseColor_1k.png",
+      "map": "BaseColor",
+      "set": "Glass",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "sRGB",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Glass_Metallic_1k.png",
+      "map": "Metallic",
+      "set": "Glass",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "Non-Color",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Glass_Normal_1k.png",
+      "map": "Normal",
+      "set": "Glass",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "Non-Color",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Glass_Roughness_1k.png",
+      "map": "Roughness",
+      "set": "Glass",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "Non-Color",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_ParkerizedSteel_AO_1k.png",
+      "map": "AO",
+      "set": "ParkerizedSteel",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "Non-Color",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_ParkerizedSteel_BaseColor_1k.png",
+      "map": "BaseColor",
+      "set": "ParkerizedSteel",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "sRGB",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_ParkerizedSteel_Metallic_1k.png",
+      "map": "Metallic",
+      "set": "ParkerizedSteel",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "Non-Color",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_ParkerizedSteel_Normal_1k.png",
+      "map": "Normal",
+      "set": "ParkerizedSteel",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "Non-Color",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_ParkerizedSteel_Roughness_1k.png",
+      "map": "Roughness",
+      "set": "ParkerizedSteel",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "Non-Color",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Wood_AO_1k.png",
+      "map": "AO",
+      "set": "Wood",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "Non-Color",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Wood_BaseColor_1k.png",
+      "map": "BaseColor",
+      "set": "Wood",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "sRGB",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Wood_Metallic_1k.png",
+      "map": "Metallic",
+      "set": "Wood",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "Non-Color",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Wood_Normal_1k.png",
+      "map": "Normal",
+      "set": "Wood",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "Non-Color",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/textures/T_mosin-m91-30-pu_Wood_Roughness_1k.png",
+      "map": "Roughness",
+      "set": "Wood",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "Non-Color",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    }
+  ],
+  "rig": {
+    "type": "pivots",
+    "controls": [
+      "CTRL_mosin-m91-30-pu_Bolt",
+      "CTRL_mosin-m91-30-pu_BoltHandle",
+      "CTRL_mosin-m91-30-pu_Trigger",
+      "CTRL_mosin-m91-30-pu_PU_ElevationTurret",
+      "CTRL_mosin-m91-30-pu_PU_WindageTurret"
+    ],
+    "frame_start": 1,
+    "frame_end": 1,
+    "animation_kind": "none",
+    "notes": "подвижные детали имеют empties-контролы с реальными pivot-точками; анимации нет"
+  },
+  "exports": [],
+  "proofs": [
+    {
+      "path": "assets/mosin-m91-30-pu/renders/hero.png",
+      "criterion": "общий вид, пропорции и материалы",
+      "kind": "hero",
+      "engine": "CYCLES"
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/renders/silhouette_right.png",
+      "criterion": "правый ортографический силуэт",
+      "kind": "silhouette",
+      "engine": "CYCLES"
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/renders/silhouette_left.png",
+      "criterion": "левый ортографический силуэт",
+      "kind": "silhouette",
+      "engine": "CYCLES"
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/renders/silhouette_top.png",
+      "criterion": "вид сверху и симметрия",
+      "kind": "silhouette",
+      "engine": "CYCLES"
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/renders/muzzle_and_bore.png",
+      "criterion": "дульный срез и переднее прицельное приспособление",
+      "kind": "macro",
+      "engine": "CYCLES"
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/renders/macro_true_bore.png",
+      "criterion": "настоящий сквозной канал ствола и внутренняя стенка",
+      "kind": "macro",
+      "engine": "CYCLES"
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/renders/clay_hero.png",
+      "criterion": "clay-проходка формы без влияния текстур",
+      "kind": "clay",
+      "engine": "CYCLES"
+    },
+    {
+      "path": "assets/mosin-m91-30-pu/renders/turntable.gif",
+      "criterion": "круговой осмотр со всех сторон",
+      "kind": "turntable",
+      "engine": "CYCLES"
+    }
+  ],
+  "audit": {
+    "config": "assets/mosin-m91-30-pu/audit/audit-config.json",
+    "report": "assets/mosin-m91-30-pu/audit/audit-report.json",
+    "status": "PASS",
+    "checks_total": 458,
+    "checks_failed": 0
+  },
+  "provenance": [
+    {
+      "source": "Wikipedia — PPSh-41",
+      "url": "https://en.wikipedia.org/wiki/PPSh-41",
+      "license": "CC BY-SA",
+      "used_for": "габариты ППШ-41, калибр и тип магазинов"
+    },
+    {
+      "source": "MuseumOfWeapon — PPSh-41",
+      "url": "https://sites.google.com/view/museumofweapon/collections/submachine-guns/ppsh-41-eng",
+      "license": "визуально-справочный источник",
+      "used_for": "независимое подтверждение 843/269 мм"
+    },
+    {
+      "source": "Wikipedia — Mosin–Nagant",
+      "url": "https://en.wikipedia.org/wiki/Mosin%E2%80%93Nagant",
+      "license": "CC BY-SA",
+      "used_for": "длина M91/30, ствол 730 мм, вариант с ПУ 3,5×"
+    },
+    {
+      "source": "Sniper Central — M1891/30 Sniper",
+      "url": "https://snipercentral.com/mosin-nagant-189130-sniper/",
+      "license": "визуально-справочный источник",
+      "used_for": "подтверждение 1232 мм / 729 мм и снайперской комплектации"
+    },
+    {
+      "source": "Russian Mosin Nagant — PU scope",
+      "url": "https://boydhouse.com/darryl/russianmosinnagant/sniper_section.html",
+      "license": "визуально-справочный источник",
+      "used_for": "длина прицела ПУ около 169 мм"
+    },
+    {
+      "source": "Guns & Ammo — PU scope diameter",
+      "url": "https://www.gunsandammo.com/editorial/best-world-war-ii-sniper-rifle-3-mosin-nagant/527411",
+      "license": "визуально-справочный источник",
+      "used_for": "диаметр и кратность прицела ПУ"
+    },
+    {
+      "source": "Wikipedia — Nagant M1895",
+      "url": "https://en.wikipedia.org/wiki/Nagant_M1895",
+      "license": "CC BY-SA",
+      "used_for": "длина 235 мм, ствол 114 мм, 7-зарядный барабан"
+    },
+    {
+      "source": "Modern Firearms — Nagant m.1895",
+      "url": "https://modernfirearms.net/en/handguns/double-action-revolvers/russia-double-action-revolvers/nagan-obr-1895-eng/",
+      "license": "визуально-справочный источник",
+      "used_for": "независимое подтверждение длины и ёмкости барабана"
+    }
+  ],
+  "open_items": [
+    "Game-ready оптимизация, LOD, collision и экспорт в движок не заказаны и не выполнялись.",
+    "Риг и анимация не заказаны; для подвижных деталей созданы только pivot-контролы.",
+    "Текстуры 1K процедурные; внешние HDRI и чужие 3D-модели не импортировались.",
+    "Габариты по осям Y/Z и мелкие детали — визуальная оценка, а не обмер конкретного музейного экземпляра.",
+    "Маркировки вымышленные; модель не является чертежом или производственной документацией.",
+    "Длина 1232 мм и ствол 730 мм: Wikipedia и Sniper Central.",
+    "Прицел ПУ 3,5× длиной около 169 мм: Russian Mosin Nagant и Guns & Ammo."
+  ]
+}

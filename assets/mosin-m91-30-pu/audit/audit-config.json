@@ -1,0 +1,276 @@
+{
+  "schema_version": 1,
+  "description": "Визуальный аудит mosin-m91-30-pu: габариты, конечные трансформации, невырожденные вершины/рёбра и многолучевые проверки полостей. Нулевые грани от Bevel/Text не являются критерием приёмки.",
+  "targets": [
+    {
+      "id": "overall_model",
+      "description": "Полный габарит модели; X сверен с исторической длиной, Y/Z — оценка по построенной геометрии.",
+      "frame": 1,
+      "collections": [
+        "mosin-m91-30-pu_Model"
+      ],
+      "finite_transforms": true,
+      "dimensions_mm": {
+        "expected": [
+          1232.0,
+          99.019,
+          168.115
+        ],
+        "tolerance_mm": [
+          2.0,
+          3.0,
+          3.0
+        ]
+      },
+      "topology": {
+        "evaluated": {
+          "max_nonfinite_vertices": 0,
+          "max_wire_edges": 0,
+          "max_loose_vertices": 0
+        }
+      }
+    },
+    {
+      "id": "barrel_length",
+      "description": "Длина ствола от казённого среза до дульного среза по оси X.",
+      "frame": 1,
+      "objects": [
+        "SM_MosinPU_Barrel_TrueBore"
+      ],
+      "dimensions_mm": {
+        "expected": [
+          730.0,
+          0.0,
+          0.0
+        ],
+        "tolerance_mm": [
+          3.0,
+          100.0,
+          100.0
+        ]
+      }
+    },
+    {
+      "id": "pu_scope_length",
+      "description": "Корпус прицела ПУ; длина 169 мм по источнику, Y/Z — оценка.",
+      "frame": 1,
+      "objects": [
+        "SM_MosinPU_PU_Scope_Body"
+      ],
+      "dimensions_mm": {
+        "expected": [
+          169.0,
+          0.0,
+          0.0
+        ],
+        "tolerance_mm": [
+          4.0,
+          100.0,
+          100.0
+        ]
+      }
+    }
+  ],
+  "poses": [],
+  "passages": [
+    {
+      "id": "barrel_bore_clear",
+      "description": "Пять лучей внутри канала ствола не встречают стенок: отверстие настоящее, а не чёрный диск.",
+      "frame": 1,
+      "objects": [
+        "SM_MosinPU_Barrel_TrueBore",
+        "SM_MosinPU_MuzzleCrown",
+        "SM_MosinPU_BoreLiner"
+      ],
+      "unit": "mm",
+      "samples": [
+        {
+          "start": [
+            -12.0,
+            0.0,
+            0.0
+          ],
+          "end": [
+            738.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "start": [
+            -12.0,
+            2.0,
+            0.0
+          ],
+          "end": [
+            738.0,
+            2.0,
+            0.0
+          ]
+        },
+        {
+          "start": [
+            -12.0,
+            0.0,
+            2.0
+          ],
+          "end": [
+            738.0,
+            0.0,
+            2.0
+          ]
+        },
+        {
+          "start": [
+            -12.0,
+            -2.0,
+            0.0
+          ],
+          "end": [
+            738.0,
+            -2.0,
+            0.0
+          ]
+        },
+        {
+          "start": [
+            -12.0,
+            0.0,
+            -2.0
+          ],
+          "end": [
+            738.0,
+            0.0,
+            -2.0
+          ]
+        }
+      ],
+      "max_hits": 0
+    },
+    {
+      "id": "magazine_well_clear",
+      "description": "Вертикальные лучи проходят через открытую шахту внутреннего магазина.",
+      "frame": 1,
+      "objects": [
+        "SM_MosinPU_Magazine_Wall_L",
+        "SM_MosinPU_Magazine_Wall_R",
+        "SM_MosinPU_Magazine_Wall_F",
+        "SM_MosinPU_Magazine_Wall_B"
+      ],
+      "unit": "mm",
+      "samples": [
+        {
+          "start": [
+            -19943.3422,
+            -8.0,
+            -62.0
+          ],
+          "end": [
+            -19943.3422,
+            -8.0,
+            -8.0
+          ]
+        },
+        {
+          "start": [
+            -19943.3422,
+            0.0,
+            -62.0
+          ],
+          "end": [
+            -19943.3422,
+            0.0,
+            -8.0
+          ]
+        },
+        {
+          "start": [
+            -19943.3422,
+            8.0,
+            -62.0
+          ],
+          "end": [
+            -19943.3422,
+            8.0,
+            -8.0
+          ]
+        }
+      ],
+      "max_hits": 0
+    },
+    {
+      "id": "scope_optical_path_clear",
+      "description": "Центральные лучи проходят внутри полой трубы прицела; стёкла в выборку не входят.",
+      "frame": 1,
+      "objects": [
+        "SM_MosinPU_PU_Scope_Body",
+        "SM_MosinPU_PU_ScopeRing_01",
+        "SM_MosinPU_PU_ScopeRing_02"
+      ],
+      "unit": "mm",
+      "samples": [
+        {
+          "start": [
+            -80.0,
+            41.88101862,
+            75.78470036
+          ],
+          "end": [
+            130.0,
+            41.88101862,
+            75.78470036
+          ]
+        },
+        {
+          "start": [
+            -80.0,
+            44.88101862,
+            75.78470036
+          ],
+          "end": [
+            130.0,
+            44.88101862,
+            75.78470036
+          ]
+        },
+        {
+          "start": [
+            -80.0,
+            38.88101862,
+            75.78470036
+          ],
+          "end": [
+            130.0,
+            38.88101862,
+            75.78470036
+          ]
+        },
+        {
+          "start": [
+            -80.0,
+            41.88101862,
+            78.78470036
+          ],
+          "end": [
+            130.0,
+            41.88101862,
+            78.78470036
+          ]
+        },
+        {
+          "start": [
+            -80.0,
+            41.88101862,
+            72.78470036
+          ],
+          "end": [
+            130.0,
+            41.88101862,
+            72.78470036
+          ]
+        }
+      ],
+      "max_hits": 0
+    }
+  ]
+}

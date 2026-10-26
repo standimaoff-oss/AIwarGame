@@ -1,0 +1,132 @@
+{
+  "slug": "nagant-m1895",
+  "variant": "Револьвер Нагана обр. 1895, 7-зарядный барабан, ствол 114 мм, тёмные щёчки рукояти",
+  "source_file": "assets/nagant-m1895/source/nagant-m1895.blend",
+  "blender_version": "4.5.15 LTS",
+  "render_engine": "CYCLES",
+  "unit_scale_length": 1.0,
+  "up_axis": "Z",
+  "muzzle_axis": "+X",
+  "right_side": "-Y",
+  "target_length_mm": 235.0,
+  "normalization_factor": 0.99072513,
+  "bbox_mm": [
+    235.0,
+    47.57,
+    155.742
+  ],
+  "bbox_min_mm": [
+    -122.057,
+    -23.792,
+    -126.02
+  ],
+  "bbox_max_mm": [
+    112.943,
+    23.777,
+    29.722
+  ],
+  "triangle_count": 29960,
+  "object_count": 53,
+  "materials": [
+    "M_nagant-m1895_Bakelite",
+    "M_nagant-m1895_BluedSteel",
+    "M_nagant-m1895_BoreShadow",
+    "M_nagant-m1895_Brass",
+    "M_nagant-m1895_BrightSteel",
+    "M_nagant-m1895_CheckeredGrip",
+    "M_nagant-m1895_DarkSteel",
+    "M_nagant-m1895_Engraving",
+    "M_nagant-m1895_Felt",
+    "M_nagant-m1895_Glass",
+    "M_nagant-m1895_ParkerizedSteel",
+    "M_nagant-m1895_ScaleRef",
+    "M_nagant-m1895_StudioFloor",
+    "M_nagant-m1895_Wood"
+  ],
+  "texture_files": [
+    "assets/nagant-m1895/textures/T_nagant-m1895_Bakelite_AO_1k.png",
+    "assets/nagant-m1895/textures/T_nagant-m1895_Bakelite_BaseColor_1k.png",
+    "assets/nagant-m1895/textures/T_nagant-m1895_Bakelite_Metallic_1k.png",
+    "assets/nagant-m1895/textures/T_nagant-m1895_Bakelite_Normal_1k.png",
+    "assets/nagant-m1895/textures/T_nagant-m1895_Bakelite_Roughness_1k.png",
+    "assets/nagant-m1895/textures/T_nagant-m1895_BluedSteel_AO_1k.png",
+    "assets/nagant-m1895/textures/T_nagant-m1895_BluedSteel_BaseColor_1k.png",
+    "assets/nagant-m1895/textures/T_nagant-m1895_BluedSteel_Metallic_1k.png",
+    "assets/nagant-m1895/textures/T_nagant-m1895_BluedSteel_Normal_1k.png",
+    "assets/nagant-m1895/textures/T_nagant-m1895_BluedSteel_Roughness_1k.png",
+    "assets/nagant-m1895/textures/T_nagant-m1895_Brass_AO_1k.png",
+    "assets/nagant-m1895/textures/T_nagant-m1895_Brass_BaseColor_1k.png",
+    "assets/nagant-m1895/textures/T_nagant-m1895_Brass_Metallic_1k.png",
+    "assets/nagant-m1895/textures/T_nagant-m1895_Brass_Normal_1k.png",
+    "assets/nagant-m1895/textures/T_nagant-m1895_Brass_Roughness_1k.png",
+    "assets/nagant-m1895/textures/T_nagant-m1895_Glass_AO_1k.png",
+    "assets/nagant-m1895/textures/T_nagant-m1895_Glass_BaseColor_1k.png",
+    "assets/nagant-m1895/textures/T_nagant-m1895_Glass_Metallic_1k.png",
+    "assets/nagant-m1895/textures/T_nagant-m1895_Glass_Normal_1k.png",
+    "assets/nagant-m1895/textures/T_nagant-m1895_Glass_Roughness_1k.png",
+    "assets/nagant-m1895/textures/T_nagant-m1895_ParkerizedSteel_AO_1k.png",
+    "assets/nagant-m1895/textures/T_nagant-m1895_ParkerizedSteel_BaseColor_1k.png",
+    "assets/nagant-m1895/textures/T_nagant-m1895_ParkerizedSteel_Metallic_1k.png",
+    "assets/nagant-m1895/textures/T_nagant-m1895_ParkerizedSteel_Normal_1k.png",
+    "assets/nagant-m1895/textures/T_nagant-m1895_ParkerizedSteel_Roughness_1k.png",
+    "assets/nagant-m1895/textures/T_nagant-m1895_Wood_AO_1k.png",
+    "assets/nagant-m1895/textures/T_nagant-m1895_Wood_BaseColor_1k.png",
+    "assets/nagant-m1895/textures/T_nagant-m1895_Wood_Metallic_1k.png",
+    "assets/nagant-m1895/textures/T_nagant-m1895_Wood_Normal_1k.png",
+    "assets/nagant-m1895/textures/T_nagant-m1895_Wood_Roughness_1k.png"
+  ],
+  "textures_count": 30,
+  "uv_layer": "UVMap",
+  "pivot_controls": [
+    "CTRL_nagant-m1895_Cylinder",
+    "CTRL_nagant-m1895_LoadingGate",
+    "CTRL_nagant-m1895_Hammer",
+    "CTRL_nagant-m1895_Trigger",
+    "CTRL_nagant-m1895_EjectorRod"
+  ],
+  "collections": [
+    {
+      "name": "nagant-m1895_Model",
+      "objects": 53
+    },
+    {
+      "name": "nagant-m1895_Barrel",
+      "objects": 6
+    },
+    {
+      "name": "nagant-m1895_Receiver",
+      "objects": 4
+    },
+    {
+      "name": "nagant-m1895_Stock",
+      "objects": 2
+    },
+    {
+      "name": "nagant-m1895_Sights",
+      "objects": 2
+    },
+    {
+      "name": "nagant-m1895_Controls",
+      "objects": 5
+    },
+    {
+      "name": "nagant-m1895_Internals",
+      "objects": 2
+    },
+    {
+      "name": "nagant-m1895_Fasteners",
+      "objects": 15
+    },
+    {
+      "name": "nagant-m1895_Markings",
+      "objects": 2
+    },
+    {
+      "name": "nagant-m1895_Cylinder",
+      "objects": 15
+    }
+  ],
+  "animation": "none",
+  "game_ready": false,
+  "notes": "Visual art asset; geometric passages are for inspection only, not manufacturing dimensions."
+}

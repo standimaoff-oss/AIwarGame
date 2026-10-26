@@ -1,0 +1,606 @@
+{
+  "schema_version": 2,
+  "generated_by": "scripts/write_wwii_manifests.py + manifest/build-stats.json",
+  "source_file": "assets/ppsh-41/source/ppsh-41.blend",
+  "identity": {
+    "slug": "ppsh-41",
+    "name": "ППШ-41 с барабанным магазином",
+    "archetype": "hard_surface",
+    "variant": "ППШ-41, поздний военный выпуск, деревянный приклад, 71-зарядный барабанный магазин, кожух ствола с вентиляционными окнами",
+    "version": "v001_procedural",
+    "status": "review",
+    "branch": "arena/64d1db80-aiwargame"
+  },
+  "units": {
+    "unit": "m",
+    "scale_length": 1.0,
+    "up_axis": "Z",
+    "export_up_axis": "Y",
+    "unit_system": "metric"
+  },
+  "dimensions_mm": {
+    "bbox": [
+      843.0,
+      65.27,
+      181.899
+    ],
+    "frame": 1,
+    "includes": "все видимые детали модели, включая прицел/магазин; студийный пол, камеры и света исключены",
+    "scope": "collection: ppsh-41_Model",
+    "axis_convention": "дуло +X, верх +Z, правая сторона −Y, начало координат на оси канала у казённого среза"
+  },
+  "budget": {
+    "triangles": 58228,
+    "triangles_limit": 120000,
+    "vertices": null,
+    "objects": 94,
+    "material_sets": 6,
+    "texture_resolution": "1K",
+    "lods": 0,
+    "udim_tiles": 0
+  },
+  "collections": [
+    {
+      "name": "ppsh-41_Model",
+      "objects": 94
+    },
+    {
+      "name": "ppsh-41_Barrel",
+      "objects": 5
+    },
+    {
+      "name": "ppsh-41_Receiver",
+      "objects": 1
+    },
+    {
+      "name": "ppsh-41_Stock",
+      "objects": 4
+    },
+    {
+      "name": "ppsh-41_Sights",
+      "objects": 6
+    },
+    {
+      "name": "ppsh-41_Controls",
+      "objects": 7
+    },
+    {
+      "name": "ppsh-41_Magazine",
+      "objects": 41
+    },
+    {
+      "name": "ppsh-41_Internals",
+      "objects": 7
+    },
+    {
+      "name": "ppsh-41_Fasteners",
+      "objects": 20
+    },
+    {
+      "name": "ppsh-41_Markings",
+      "objects": 3
+    }
+  ],
+  "materials": [
+    {
+      "name": "M_ppsh-41_Bakelite",
+      "procedural": false
+    },
+    {
+      "name": "M_ppsh-41_BluedSteel",
+      "procedural": false
+    },
+    {
+      "name": "M_ppsh-41_BoreShadow",
+      "procedural": true
+    },
+    {
+      "name": "M_ppsh-41_Brass",
+      "procedural": false
+    },
+    {
+      "name": "M_ppsh-41_BrightSteel",
+      "procedural": true
+    },
+    {
+      "name": "M_ppsh-41_CheckeredGrip",
+      "procedural": true
+    },
+    {
+      "name": "M_ppsh-41_DarkSteel",
+      "procedural": true
+    },
+    {
+      "name": "M_ppsh-41_Engraving",
+      "procedural": true
+    },
+    {
+      "name": "M_ppsh-41_Felt",
+      "procedural": true
+    },
+    {
+      "name": "M_ppsh-41_Glass",
+      "procedural": false
+    },
+    {
+      "name": "M_ppsh-41_ParkerizedSteel",
+      "procedural": false
+    },
+    {
+      "name": "M_ppsh-41_ScaleRef",
+      "procedural": true
+    },
+    {
+      "name": "M_ppsh-41_StudioFloor",
+      "procedural": true
+    },
+    {
+      "name": "M_ppsh-41_Wood",
+      "procedural": false
+    }
+  ],
+  "textures": [
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_Bakelite_AO_1k.png",
+      "map": "AO",
+      "set": "Bakelite",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "Non-Color",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    },
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_Bakelite_BaseColor_1k.png",
+      "map": "BaseColor",
+      "set": "Bakelite",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "sRGB",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    },
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_Bakelite_Metallic_1k.png",
+      "map": "Metallic",
+      "set": "Bakelite",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "Non-Color",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    },
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_Bakelite_Normal_1k.png",
+      "map": "Normal",
+      "set": "Bakelite",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "Non-Color",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    },
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_Bakelite_Roughness_1k.png",
+      "map": "Roughness",
+      "set": "Bakelite",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "Non-Color",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    },
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_BluedSteel_AO_1k.png",
+      "map": "AO",
+      "set": "BluedSteel",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "Non-Color",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    },
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_BluedSteel_BaseColor_1k.png",
+      "map": "BaseColor",
+      "set": "BluedSteel",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "sRGB",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    },
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_BluedSteel_Metallic_1k.png",
+      "map": "Metallic",
+      "set": "BluedSteel",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "Non-Color",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    },
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_BluedSteel_Normal_1k.png",
+      "map": "Normal",
+      "set": "BluedSteel",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "Non-Color",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    },
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_BluedSteel_Roughness_1k.png",
+      "map": "Roughness",
+      "set": "BluedSteel",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "Non-Color",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    },
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_Brass_AO_1k.png",
+      "map": "AO",
+      "set": "Brass",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "Non-Color",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    },
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_Brass_BaseColor_1k.png",
+      "map": "BaseColor",
+      "set": "Brass",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "sRGB",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    },
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_Brass_Metallic_1k.png",
+      "map": "Metallic",
+      "set": "Brass",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "Non-Color",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    },
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_Brass_Normal_1k.png",
+      "map": "Normal",
+      "set": "Brass",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "Non-Color",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    },
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_Brass_Roughness_1k.png",
+      "map": "Roughness",
+      "set": "Brass",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "Non-Color",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    },
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_Glass_AO_1k.png",
+      "map": "AO",
+      "set": "Glass",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "Non-Color",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    },
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_Glass_BaseColor_1k.png",
+      "map": "BaseColor",
+      "set": "Glass",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "sRGB",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    },
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_Glass_Metallic_1k.png",
+      "map": "Metallic",
+      "set": "Glass",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "Non-Color",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    },
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_Glass_Normal_1k.png",
+      "map": "Normal",
+      "set": "Glass",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "Non-Color",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    },
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_Glass_Roughness_1k.png",
+      "map": "Roughness",
+      "set": "Glass",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "Non-Color",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    },
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_ParkerizedSteel_AO_1k.png",
+      "map": "AO",
+      "set": "ParkerizedSteel",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "Non-Color",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    },
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_ParkerizedSteel_BaseColor_1k.png",
+      "map": "BaseColor",
+      "set": "ParkerizedSteel",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "sRGB",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    },
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_ParkerizedSteel_Metallic_1k.png",
+      "map": "Metallic",
+      "set": "ParkerizedSteel",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "Non-Color",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    },
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_ParkerizedSteel_Normal_1k.png",
+      "map": "Normal",
+      "set": "ParkerizedSteel",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "Non-Color",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    },
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_ParkerizedSteel_Roughness_1k.png",
+      "map": "Roughness",
+      "set": "ParkerizedSteel",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "Non-Color",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    },
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_Wood_AO_1k.png",
+      "map": "AO",
+      "set": "Wood",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "Non-Color",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    },
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_Wood_BaseColor_1k.png",
+      "map": "BaseColor",
+      "set": "Wood",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "sRGB",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    },
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_Wood_Metallic_1k.png",
+      "map": "Metallic",
+      "set": "Wood",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "Non-Color",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    },
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_Wood_Normal_1k.png",
+      "map": "Normal",
+      "set": "Wood",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "Non-Color",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    },
+    {
+      "path": "assets/ppsh-41/textures/T_ppsh-41_Wood_Roughness_1k.png",
+      "map": "Roughness",
+      "set": "Wood",
+      "width": 1024,
+      "height": 1024,
+      "colorspace": "Non-Color",
+      "packed": false,
+      "tilable": true,
+      "provenance": "оригинальная процедурная генерация scripts/generate_wwii_textures.py"
+    }
+  ],
+  "rig": {
+    "type": "pivots",
+    "controls": [
+      "CTRL_ppsh-41_Bolt",
+      "CTRL_ppsh-41_BoltHandle",
+      "CTRL_ppsh-41_DrumMagazine",
+      "CTRL_ppsh-41_MagazineCatch",
+      "CTRL_ppsh-41_Trigger",
+      "CTRL_ppsh-41_Selector"
+    ],
+    "frame_start": 1,
+    "frame_end": 1,
+    "animation_kind": "none",
+    "notes": "подвижные детали имеют empties-контролы с реальными pivot-точками; анимации нет"
+  },
+  "exports": [],
+  "proofs": [
+    {
+      "path": "assets/ppsh-41/renders/hero.png",
+      "criterion": "общий вид, пропорции и материалы",
+      "kind": "hero",
+      "engine": "CYCLES"
+    },
+    {
+      "path": "assets/ppsh-41/renders/silhouette_right.png",
+      "criterion": "правый ортографический силуэт",
+      "kind": "silhouette",
+      "engine": "CYCLES"
+    },
+    {
+      "path": "assets/ppsh-41/renders/silhouette_left.png",
+      "criterion": "левый ортографический силуэт",
+      "kind": "silhouette",
+      "engine": "CYCLES"
+    },
+    {
+      "path": "assets/ppsh-41/renders/silhouette_top.png",
+      "criterion": "вид сверху и симметрия",
+      "kind": "silhouette",
+      "engine": "CYCLES"
+    },
+    {
+      "path": "assets/ppsh-41/renders/muzzle_and_bore.png",
+      "criterion": "дульный срез и переднее прицельное приспособление",
+      "kind": "macro",
+      "engine": "CYCLES"
+    },
+    {
+      "path": "assets/ppsh-41/renders/macro_true_bore.png",
+      "criterion": "настоящий сквозной канал ствола и внутренняя стенка",
+      "kind": "macro",
+      "engine": "CYCLES"
+    },
+    {
+      "path": "assets/ppsh-41/renders/clay_hero.png",
+      "criterion": "clay-проходка формы без влияния текстур",
+      "kind": "clay",
+      "engine": "CYCLES"
+    },
+    {
+      "path": "assets/ppsh-41/renders/turntable.gif",
+      "criterion": "круговой осмотр со всех сторон",
+      "kind": "turntable",
+      "engine": "CYCLES"
+    }
+  ],
+  "audit": {
+    "config": "assets/ppsh-41/audit/audit-config.json",
+    "report": "assets/ppsh-41/audit/audit-report.json",
+    "status": "PASS",
+    "checks_total": 402,
+    "checks_failed": 0
+  },
+  "provenance": [
+    {
+      "source": "Wikipedia — PPSh-41",
+      "url": "https://en.wikipedia.org/wiki/PPSh-41",
+      "license": "CC BY-SA",
+      "used_for": "габариты ППШ-41, калибр и тип магазинов"
+    },
+    {
+      "source": "MuseumOfWeapon — PPSh-41",
+      "url": "https://sites.google.com/view/museumofweapon/collections/submachine-guns/ppsh-41-eng",
+      "license": "визуально-справочный источник",
+      "used_for": "независимое подтверждение 843/269 мм"
+    },
+    {
+      "source": "Wikipedia — Mosin–Nagant",
+      "url": "https://en.wikipedia.org/wiki/Mosin%E2%80%93Nagant",
+      "license": "CC BY-SA",
+      "used_for": "длина M91/30, ствол 730 мм, вариант с ПУ 3,5×"
+    },
+    {
+      "source": "Sniper Central — M1891/30 Sniper",
+      "url": "https://snipercentral.com/mosin-nagant-189130-sniper/",
+      "license": "визуально-справочный источник",
+      "used_for": "подтверждение 1232 мм / 729 мм и снайперской комплектации"
+    },
+    {
+      "source": "Russian Mosin Nagant — PU scope",
+      "url": "https://boydhouse.com/darryl/russianmosinnagant/sniper_section.html",
+      "license": "визуально-справочный источник",
+      "used_for": "длина прицела ПУ около 169 мм"
+    },
+    {
+      "source": "Guns & Ammo — PU scope diameter",
+      "url": "https://www.gunsandammo.com/editorial/best-world-war-ii-sniper-rifle-3-mosin-nagant/527411",
+      "license": "визуально-справочный источник",
+      "used_for": "диаметр и кратность прицела ПУ"
+    },
+    {
+      "source": "Wikipedia — Nagant M1895",
+      "url": "https://en.wikipedia.org/wiki/Nagant_M1895",
+      "license": "CC BY-SA",
+      "used_for": "длина 235 мм, ствол 114 мм, 7-зарядный барабан"
+    },
+    {
+      "source": "Modern Firearms — Nagant m.1895",
+      "url": "https://modernfirearms.net/en/handguns/double-action-revolvers/russia-double-action-revolvers/nagan-obr-1895-eng/",
+      "license": "визуально-справочный источник",
+      "used_for": "независимое подтверждение длины и ёмкости барабана"
+    }
+  ],
+  "open_items": [
+    "Game-ready оптимизация, LOD, collision и экспорт в движок не заказаны и не выполнялись.",
+    "Риг и анимация не заказаны; для подвижных деталей созданы только pivot-контролы.",
+    "Текстуры 1K процедурные; внешние HDRI и чужие 3D-модели не импортировались.",
+    "Габариты по осям Y/Z и мелкие детали — визуальная оценка, а не обмер конкретного музейного экземпляра.",
+    "Маркировки вымышленные; модель не является чертежом или производственной документацией.",
+    "Длина 843 мм и ствол 269 мм: Wikipedia и MuseumOfWeapon.",
+    "Выбран 71-зарядный барабанный магазин и поздний деревянный приклад."
+  ]
+}
