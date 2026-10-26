@@ -55,3 +55,22 @@ Visible не означает, что объект виден в кадре: п�
 - ERROR — неправильная конфигурация или ошибка вычисления; это не положительная проверка модели.
 
 Читай `status`, `checks`, `errors`, `acceptance_check_count`, выбранные scope и кадры. Успешное завершение Blender или exit code 0 не означает PASS: скрипт записывает и отрицательные результаты без аварийного завершения процесса. Визуально осмотри сохранённую модель независимо от отчёта.
+
+## Остальные скрипты скилла
+
+Blender не требуется для `validate_asset.py`, `texture_report.py`, `gltf_report.py`, `init_asset_repo.py` — они работают на Python 3.9+ без внешних пакетов и годятся для CI. Blender нужен для `audit_blend.py`, `make_manifest.py`, `render_proofs.py`, `export_asset.py`.
+
+| Скрипт | Назначение | Пример |
+|---|---|---|
+| `audit_blend.py` | read-only аудит геометрии, размеров, поз, проходов | см. раздел «Запуск» выше |
+| `make_manifest.py` | генерация `asset-manifest.json` из `.blend` (read-only) | `blender --background a.blend --python scripts/make_manifest.py -- --output manifest/asset-manifest.json --slug village-house --archetype architecture` |
+| `render_proofs.py` | стандартный набор доказательств (clay, силуэты, макро, turntable) без сохранения файла | `blender --background a.blend --python scripts/render_proofs.py -- --output renders --collections House --turntable 24 --clay --wireframe` |
+| `export_asset.py` | экспорт выбранных коллекций в glb/gltf/fbx/obj/usd/stl с логом | `blender --background a.blend --python scripts/export_asset.py -- --collections House --format glb --output exports/house.glb` |
+| `init_asset_repo.py` | создание структуры папки ассета, LFS, CI, шаблонов | `python scripts/init_asset_repo.py --root . --asset village-house --kind architecture` |
+| `validate_asset.py` | структура, manifest, имена, размеры, LFS, секреты; `--strict` для CI | `python scripts/validate_asset.py --root . --asset assets/village-house --strict` |
+| `texture_report.py` | разрешения, POT, полнота наборов карт, цветовое пространство | `python scripts/texture_report.py assets/village-house/textures --check --json texture-report.json` |
+| `gltf_report.py` | валидность glTF/GLB, материалы, тангенты, единицы, расширения | `python scripts/gltf_report.py assets/village-house/exports/house.glb` |
+
+Все скрипты возвращают ненулевой exit code при ошибках и пишут JSON-отчёт, если запрошен. Отчёт скрипта дополняет визуальный осмотр: ни один из них не подтверждает сходство с референсом, художественное качество или корректность выбранного варианта предмета.
+
+Примеры конфигураций аудита под архетипы: [audit-example.json](audit-example.json) (базовый), [templates/audit-example-architecture.json](templates/audit-example-architecture.json), [templates/audit-example-character.json](templates/audit-example-character.json).

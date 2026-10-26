@@ -1,0 +1,60 @@
+# Шаблон CI для репозитория 3D-ассетов.
+# Положить в .github/workflows/asset-ci.yml. Скрипты-валидаторы копируются в tools/
+# командой scripts/init_asset_repo.py, поэтому CI не зависит от репозитория скилла.
+
+name: asset-ci
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout with LFS
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: LFS files are real binaries, not pointers
+        run: |
+          set -euo pipefail
+          git lfs install --local
+          git lfs pull || true
+          python tools/validate_asset.py --root . --check-lfs --strict
+
+      - name: Repo structure, manifests, secrets
+        run: python tools/validate_asset.py --root . --strict --json validation-report.json
+
+      - name: Texture sets
+        run: python tools/texture_report.py assets --recursive --check --json texture-report.json
+
+      - name: glTF exports
+        run: |
+          set -euo pipefail
+          shopt -s nullglob globstar
+          files=(assets/**/exports/*.glb assets/**/exports/*.gltf)
+          if [ "${#files[@]}" -eq 0 ]; then
+            echo "no glTF exports found"
+            exit 0
+          fi
+          python tools/gltf_report.py "${files[@]}" --check --json gltf-report.json
+
+      - name: Upload reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: validation-reports
+          path: |
+            validation-report.json
+            texture-report.json
+            gltf-report.json
+          if-no-files-found: ignore

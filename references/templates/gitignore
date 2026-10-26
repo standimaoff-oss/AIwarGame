@@ -1,0 +1,33 @@
+# Шаблон .gitignore для репозитория 3D-ассетов
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Blender и редакторы
+*.blend[0-9]
+*.blend1
+*.kra~
+*.autosave
+*.tmp
+
+# Кэши симуляций и bake (тяжёлые, воспроизводимые)
+bake/
+cache/
+*_cache/
+
+# Локальные снапшоты — пушить только по запросу
+assets/*/versions/
+
+# Логи и временные рендеры
+*.log
+tmp/
+work/
+
+# Секреты
+.env
+.env.*
+*.pem
+id_rsa*
+credentials.json

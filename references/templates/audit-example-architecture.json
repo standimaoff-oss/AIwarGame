@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "description": "Пример конфигурации аудита для архитектуры. Имена коллекций, размеры и лучи замените на фактические для своего ассета.",
+  "targets": [
+    {
+      "id": "house_shell",
+      "frame": 1,
+      "collections": ["House_Walls", "House_Roof"],
+      "finite_transforms": true,
+      "dimensions_mm": {"expected": [8240, 6120, 5310], "tolerance_mm": 20},
+      "topology": {
+        "evaluated": {
+          "max_overfull_edges": 0,
+          "max_wire_edges": 0,
+          "max_loose_vertices": 0,
+          "max_nonfinite_vertices": 0,
+          "max_zero_area_faces": 0
+        }
+      }
+    },
+    {
+      "id": "floor_level_1",
+      "collections": ["House_Interior"],
+      "dimensions_mm": {"expected": [6000, 8000, 2700], "tolerance_mm": [50, 50, 30]}
+    },
+    {
+      "id": "stair_flight",
+      "objects": ["SM_House_Stair"],
+      "dimensions_mm": {"expected": [1000, 3200, 2700], "tolerance_mm": 30}
+    }
+  ],
+  "poses": [
+    {
+      "id": "front_door_open",
+      "frame": 30,
+      "collections": ["House_DoorFront"],
+      "camera": "InspectionCamera",
+      "criteria": [
+        {"object": "SM_House_DoorFront", "visible": true, "finite_transform": true},
+        {"object": "SM_House_DoorFront", "rotation_deg": {"expected": [0, 0, -95], "tolerance_deg": 2}}
+      ]
+    }
+  ],
+  "passages": [
+    {
+      "id": "front_doorway_clear",
+      "frame": 1,
+      "collections": ["House_Walls"],
+      "unit": "mm",
+      "samples": [
+        {"start": [-2000, 0, 200], "end": [-2000, 0, 1900]},
+        {"start": [-1600, 0, 200], "end": [-1600, 0, 1900]},
+        {"start": [-1600, -400, 1000], "end": [-1600, 400, 1000]},
+        {"start": [-1600, -400, 300], "end": [-1600, 400, 300]}
+      ],
+      "max_hits": 0
+    },
+    {
+      "id": "window_opening_clear",
+      "frame": 1,
+      "collections": ["House_Walls"],
+      "unit": "mm",
+      "samples": [
+        {"start": [3060, -600, 1400], "end": [3060, 600, 1400]},
+        {"start": [3060, -600, 900], "end": [3060, 600, 900]}
+      ],
+      "max_hits": 0
+    },
+    {
+      "id": "chimney_flue_clear",
+      "frame": 1,
+      "collections": ["House_Chimney"],
+      "unit": "mm",
+      "samples": [
+        {"start": [1200, 1200, 500], "end": [1200, 1200, 5400]},
+        {"start": [1260, 1260, 500], "end": [1260, 1260, 5400]}
+      ],
+      "max_hits": 0
+    }
+  ]
+}
